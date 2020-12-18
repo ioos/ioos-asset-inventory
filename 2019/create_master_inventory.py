@@ -69,3 +69,5 @@ df_all.drop(
 
 # TODO find non-numeric latitude/longitude rows. Need to adjust to only search specific columns
 df_all[~df_all.applymap(np.isreal).all(1)]
+
+df_all.to_csv('2019_Combined_asset_Inventory.csv', index=False)
