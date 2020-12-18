@@ -67,7 +67,13 @@ df_all.drop(
         (df_all['RA'] == 'AOOS') & (df_all['Station ID'].str.contains('Removed'))].index,
     inplace=True)
 
+df_all.drop(
+    df_all.loc[
+        (df_all['Platform Type'] == 'surface_current_radar')
+    ].index,
+    inplace=True)
 # TODO find non-numeric latitude/longitude rows. Need to adjust to only search specific columns
+
 df_all[~df_all.applymap(np.isreal).all(1)]
 
 df_all.to_csv('2019_Combined_asset_Inventory.csv', index=False)
