@@ -107,14 +107,23 @@ print('final count:', df_all.shape[0])
 # Write all data to csv file
 #df_all.to_csv('2019_Combined_asset_Inventory.csv', index=False)
 
+# saving dates as strings
 df_all['Station Deployment (mm/yyyy, yyyy, < 5 yr, > 5 yr)'] = \
     df_all['Station Deployment (mm/yyyy, yyyy, < 5 yr, > 5 yr)'].astype(str)
+
+# rename columns
+df_all.rename(columns=
+{'Variable Names + water column depth of measurement in meters [CF_name (# m, # m) or CF_name (mult) or CF_name (# depths)].':
+     'Variable Names',
+ 'Longitude (dec deg)': 'Longitude',
+ 'Latitude (dec deg)': 'Latitude'},
+              inplace=True)
 
 import geopandas
 import matplotlib.pyplot as plt
 
 gdf = geopandas.GeoDataFrame(
-    df_all, geometry=geopandas.points_from_xy(df_all['Longitude (dec deg)'], df_all['Latitude (dec deg)']))
+    df_all, geometry=geopandas.points_from_xy(df_all['Longitude'], df_all['Latitude']))
 
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
 
@@ -127,4 +136,4 @@ gdf.plot(ax=ax, color='red')
 
 plt.show()
 
-gdf.to_file("assets.geojson", driver='GeoJSON')
+gdf.to_file("compiled_assets.geojson", driver='GeoJSON')
