@@ -85,17 +85,21 @@ df_all.drop(
         (df_all['Platform Type'] == 'surface_current_radar')
     ].index,
     inplace=True)
-print('row_count:', df_all.shape[0])
+print('row count:', df_all.shape[0])
 
-# find non-numeric latitude/longitude rows. Need to adjust to only search specific columns
-# this finds all non-numerics. Need to search lat/lon columns.
-print('Dropping non-numeric lat/lons...')
+# Write all data to csv file
+print('Saving to csv..')
+df_all.to_csv('2019_Combined_asset_Inventory.csv', index=False)
+
+## clean data for geojson
+# find and remove non-numeric and invalid latitude/longitude rows for geojson.
+print('Dropping non-numeric lat/lons for geojson...')
 df_all.drop(
     df_all.loc[
         (~df_all['Latitude (dec deg)'].apply(np.isreal)) | (~df_all['Longitude (dec deg)'].apply(np.isreal))
     ].index,
     inplace=True)
-print('count:', df_all.shape[0])
+print('row count:', df_all.shape[0])
 
 print('Dropping invalid lat/lons...')
 df_all.drop(
@@ -104,8 +108,6 @@ df_all.drop(
     ].index,
     inplace=True)
 print('final count:', df_all.shape[0])
-# Write all data to csv file
-#df_all.to_csv('2019_Combined_asset_Inventory.csv', index=False)
 
 # saving dates as strings
 df_all['Station Deployment (mm/yyyy, yyyy, < 5 yr, > 5 yr)'] = \
@@ -115,6 +117,7 @@ df_all['Station Deployment (mm/yyyy, yyyy, < 5 yr, > 5 yr)'] = \
 df_all.rename(columns=
 {'Variable Names + water column depth of measurement in meters [CF_name (# m, # m) or CF_name (mult) or CF_name (# depths)].':
      'Variable Names',
+ 'Station Deployment (mm/yyyy, yyyy, < 5 yr, > 5 yr)': 'Station Deployment',
  'Longitude (dec deg)': 'Longitude',
  'Latitude (dec deg)': 'Latitude'},
               inplace=True)
