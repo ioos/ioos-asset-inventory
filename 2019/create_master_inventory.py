@@ -119,6 +119,8 @@ df_all.rename(columns=
  'Latitude (dec deg)': 'Latitude'},
               inplace=True)
 
+
+## Make a plot and write the geojson file
 import geopandas
 import matplotlib.pyplot as plt
 
