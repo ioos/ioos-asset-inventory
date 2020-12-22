@@ -79,10 +79,11 @@ df_all.drop(
     inplace=True)
 print('row count:', df_all.shape[0])
 
-print('Removing platform type = \'surface_current_meter\'.')
+print('Removing platform type = \'surface_current_meter\' | \'glider\'.')
 df_all.drop(
     df_all.loc[
-        (df_all['Platform Type'] == 'surface_current_radar')
+        (df_all['Platform Type'] == 'surface_current_radar') |
+        (df_all['Platform Type'] == 'glider')
     ].index,
     inplace=True)
 print('row count:', df_all.shape[0])
