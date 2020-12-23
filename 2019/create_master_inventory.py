@@ -8,7 +8,7 @@ print('Found %i Excel workbooks' % len(files))
 print('Dropping %s' % files[4])
 files.pop(4)  # remove the initial AOOS submission
 
-df_all = pd.DataFrame(
+df_raw = pd.DataFrame(
     columns=['RA', 'Station ID', 'WMO ID or NWS/CMAN ID', 'Station Long Name',
        'Station Description', 'Latitude (dec deg)', 'Longitude (dec deg)',
        'Platform Type', 'Station Deployment (mm/yyyy, yyyy, < 5 yr, > 5 yr)',
@@ -38,26 +38,26 @@ for file in files:
     df['file'] = file
 
     # concatenate data frames into one mongo DF.
-    df_all = pd.concat([df_all, df],ignore_index=True)
+    df_raw = pd.concat([df_raw, df],ignore_index=True)
 
     # print some information out
     print('Ingested %s with %i columns' % (file, len(df.columns)))
     #print(df.columns)
 
-print('Initial row count: %i' % df_all.shape[0])
+print('Initial row count: %i' % df_raw.shape[0])
 # drop superfluous headers buried during concatenation
 print('Dropping extra headers...')
-df_all.drop(df_all.loc[df_all['Latitude (dec deg)'] == '(Required) '].index, inplace=True)
-print('row count:', df_all.shape[0])
+df_raw.drop(df_raw.loc[df_raw['Latitude (dec deg)'] == '(Required) '].index, inplace=True)
+print('row count:', df_raw.shape[0])
 
 # find rows missing RA name
 print('Dropping rows missing RA name.')
-idx = df_all[df_all['RA'].isin([np.nan, ''])].index
-print('row count:', df_all.shape[0])
+idx = df_raw[df_raw['RA'].isin([np.nan, ''])].index
+print('row count:', df_raw.shape[0])
 # insert RA name, when missing, by extracting from the file name
 
 print('Inserting RA name from file name...')
-df_all.loc[idx, 'RA'] = df_all.loc[idx, 'file'].str.replace(
+df_raw.loc[idx, 'RA'] = df_raw.loc[idx, 'file'].str.replace(
     'Observing_Asset_Inventory_', '').str.replace(
     '_Dec2019.xlsx', '').str.replace(
     '_Asset_Inventory_2019.xlsx', '').str.replace(
@@ -65,33 +65,30 @@ df_all.loc[idx, 'RA'] = df_all.loc[idx, 'file'].str.replace(
     ' Asset Inventory_2019-2nd submission.xlsx', '').replace(' ', '')
 
 ## Remove the useless rows
-print('Removing rows where AOOS has the srting \'Something\'.')
-df_all.drop(
-    df_all.loc[
-        (df_all['RA'] == 'AOOS') & (df_all['Station ID'].str.contains('Something'))].index,
+print('Removing rows where AOOS has the string \'Something\'|\'Removed\'.')
+df_raw.drop(
+    df_raw.loc[
+        (df_raw['RA'] == 'AOOS') & (df_raw['Station ID'].str.contains('Something|Removed'))].index,
     inplace=True)
-print('row count:', df_all.shape[0])
-
-print('Removing rows where AOOS has the string \'Removed\'.')
-df_all.drop(
-    df_all.loc[
-        (df_all['RA'] == 'AOOS') & (df_all['Station ID'].str.contains('Removed'))].index,
-    inplace=True)
-print('row count:', df_all.shape[0])
+print('row count:', df_raw.shape[0])
 
 print('Removing platform type = \'surface_current_meter\' | \'glider\'.')
-df_all.drop(
-    df_all.loc[
-        (df_all['Platform Type'] == 'surface_current_radar') |
-        (df_all['Platform Type'] == 'glider')
+df_raw.drop(
+    df_raw.loc[
+        (df_raw['Platform Type'] == 'surface_current_radar') |
+        (df_raw['Platform Type'] == 'glider')
     ].index,
     inplace=True)
-print('row count:', df_all.shape[0])
+print('row count:', df_raw.shape[0])
 
 # Write all data to csv file
 print('Saving to csv..')
-df_all.to_csv('2019_Combined_raw_asset_Inventory.csv', index=False)
+#df_raw.to_csv('2019_Combined_raw_asset_Inventory.csv', index=False)
 
+## bad coords
+# df_raw[(~df_raw['Latitude (dec deg)'].apply(np.isreal)) | ~df_raw['Longitude (dec deg)'].apply(np.isreal)][['Latitude (dec deg)','Longitude (dec deg)']]
+
+df_all = df_raw.copy()
 ## clean data for geojson
 # find and remove non-numeric and invalid latitude/longitude rows for geojson.
 print('Dropping non-numeric lat/lons for geojson...')
@@ -141,7 +138,7 @@ gdf.plot(ax=ax, color='red')
 
 plt.show()
 
-gdf.to_file("compiled_raw_assets.geojson", driver='GeoJSON')
+#gdf.to_file("compiled_raw_assets.geojson", driver='GeoJSON')
 
 # Create a final data frame
 df_final = pd.DataFrame(columns=
@@ -200,7 +197,7 @@ df_final.replace(True, 'X', inplace=True)
 # Create a geopandas dataframe and save as geojson
 gdf_final = geopandas.GeoDataFrame(
     df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
-gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
+#gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
 
 # export final data frame as csv
-df_final.to_csv('2019_Combined_asset_Inventory_forArcGIS.csv', index=False)
+#df_final.to_csv('2019_Combined_asset_Inventory_forArcGIS.csv', index=False)
