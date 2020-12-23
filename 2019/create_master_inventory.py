@@ -90,7 +90,7 @@ print('row count:', df_all.shape[0])
 
 # Write all data to csv file
 print('Saving to csv..')
-df_all.to_csv('2019_Combined_asset_Inventory.csv', index=False)
+df_all.to_csv('2019_Combined_raw_asset_Inventory.csv', index=False)
 
 ## clean data for geojson
 # find and remove non-numeric and invalid latitude/longitude rows for geojson.
@@ -123,8 +123,7 @@ df_all.rename(columns=
  'Latitude (dec deg)': 'Latitude'},
               inplace=True)
 
-
-## Make a plot and write the geojson file
+## Make a plot and write the raw geojson file
 import geopandas
 import matplotlib.pyplot as plt
 
@@ -133,7 +132,7 @@ gdf = geopandas.GeoDataFrame(
 
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
 
-# We restrict to South America.
+# create world map
 ax = world.plot(
     color='white', edgecolor='black')
 
@@ -142,4 +141,66 @@ gdf.plot(ax=ax, color='red')
 
 plt.show()
 
-gdf.to_file("compiled_assets.geojson", driver='GeoJSON')
+gdf.to_file("compiled_raw_assets.geojson", driver='GeoJSON')
+
+# Create a final data frame
+df_final = pd.DataFrame(columns=
+                        ['RA','Latitude','Longitude','Platform','Operational',
+                         'RA_Funded','Water_temp','Salinity','Wtr_press',
+                         'Dew_pt','Rel_hum','Air_temp','Winds','Air_press',
+                         'Precip','Solar_radn','Visibility','Water_level','Waves',
+                         'Currents','Turbidity','DO','pCO2_water','pCO2_air','TCO2',
+                         'pH','OmgArag_st','Chl','Nitrate','CDOM','Alkalinity','Acoustics'])
+
+df_final['RA'] = df_all['RA']
+df_final['Latitude'] = df_all['Latitude']
+df_final['Longitude'] = df_all['Longitude']
+df_final['Platform'] = df_all['Platform Type']
+df_final['Operational'] = df_all['Currently Operational? (Y, N, O, U)']
+df_final['RA_Funded'] = df_all['RA Funding Involvement (Yf, Yp, N)']
+df_final['Raw_Vars'] = df_all['Variable Names']
+# Unique list of variable names
+vars = pd.DataFrame(data=sorted(set(sum(df_all['Variable Names'].fillna('').str.replace('\(.*\)','').str.replace(' ','').str.replace('\\n','').str.split(',').tolist(),[]))))
+# map provided text to standard vars
+mapping = {
+    'Water_temp': 'sea_water_temperature',
+    'Salinity': 'sea_water_salinity',
+    'Wtr_press': 'water_pressure|sea_water_pressure|sea_water_depth',
+    'Dew_pt': 'dew_point_temperature|dew_point_temperaure',
+    'Rel_hum': 'RelativeHumidity|relative_humidity',
+    'Air_temp': 'air_temperature|air_temperatue|atmospheric_temperature',
+    'Winds': 'wind|gust',
+    'Air_press': 'air_pressure|barometric|surface_air_pressure',
+    'Precip': 'precipitation|rainfall_amount',
+    'Solar_radn': 'shortwave_flux_in_air|downwelling_photosynthetic_radiance_in_sea_water|photosynthetically_active_radiation|solar|photon',
+    'Visibility': 'visibility',
+    'Water_level': 'river_level|sea_floor_depth_below_sea_surface|sea_surface_height|water_level|water_surface_height',
+    'Waves': 'wave',
+    'Currents': 'sea_water_velocity|current|sea_water_speed|sea_water_to_direction',
+    'Turbidity': 'turbidity',
+    'DO': 'oxygen',
+    'pCO2_water': 'mole_fraction_of_carbon_dioxide_in_sea_water|pCO2|partial_pressure_of_carbon_dioxide_in_sea_water|pco2',
+    'pCO2_air': 'mole_fraction_of_carbon_dioxide_in_air|partial_pressure_of_carbon_dioxide_in_atmosphere|surface_partial_pressure_of_carbon_dioxide_in_air',
+    'TCO2': 'dissolved_carbon_dioxide',
+    'pH': 'pH',
+    'OmgArag_st': 'aragonite',
+    'Chl': 'chlorophyll',
+    'Nitrate': 'nitrate',
+    'CDOM': 'blue_green_algae|colored_dissolved_organic_matter',
+    'Alkalinity': 'alkalinity',
+    'Acoustics': 'acoustic',
+    }
+# Insert True for assets that have text in 'Variable Names' from mapping above
+for key in mapping:
+    df_final[key] = df_all['Variable Names'].str.contains(mapping[key], na=False)
+
+df_final.replace(False, '', inplace=True)
+df_final.replace(True, 'X', inplace=True)
+
+# Create a geopandas dataframe and save as geojson
+gdf_final = geopandas.GeoDataFrame(
+    df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
+gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
+
+# export final data frame as csv
+df_final.to_csv('2019_Combined_asset_Inventory_forArcGIS.csv', index=False)
