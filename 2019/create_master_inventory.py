@@ -29,6 +29,8 @@ for file in files:
 
     # Drop empty rows
     df.dropna(axis='index', how='all', inplace=True)
+    # Removing special chars
+    df.replace('\xa0', '', regex=True, inplace=True)
 
     # create RA column if missing
     if 'RA' not in df.columns:
@@ -38,7 +40,7 @@ for file in files:
     df['file'] = file
 
     # concatenate data frames into one mongo DF.
-    df_raw = pd.concat([df_raw, df],ignore_index=True)
+    df_raw = pd.concat([df_raw, df], ignore_index=True)
 
     # print some information out
     print('Ingested %s with %i columns' % (file, len(df.columns)))
@@ -47,7 +49,13 @@ for file in files:
 print('Initial row count: %i' % df_raw.shape[0])
 # drop superfluous headers buried during concatenation
 print('Dropping extra headers...')
-df_raw.drop(df_raw.loc[df_raw['Latitude (dec deg)'] == '(Required) '].index, inplace=True)
+df_raw.drop(
+    df_raw.loc[
+        (df_raw['Latitude (dec deg)'] == '(Required) ') |
+        (df_raw['Latitude (dec deg)'].str.contains('These lat/long')) |
+        (df_raw['Latitude (dec deg)'].str.contains('TBD')) |
+        (df_raw['Latitude (dec deg)'].str.contains('(ASLC)'))
+    ].index, inplace=True)
 print('row count:', df_raw.shape[0])
 
 # find rows missing RA name
@@ -72,23 +80,27 @@ df_raw.drop(
     inplace=True)
 print('row count:', df_raw.shape[0])
 
-print('Removing platform type = \'surface_current_meter\' | \'glider\'.')
-df_raw.drop(
-    df_raw.loc[
-        (df_raw['Platform Type'] == 'surface_current_radar') |
-        (df_raw['Platform Type'] == 'glider')
-    ].index,
-    inplace=True)
-print('row count:', df_raw.shape[0])
-
+df_all = df_raw.copy()
 # Write all data to csv file
 print('Saving to csv..')
-#df_raw.to_csv('2019_Combined_raw_asset_Inventory.csv', index=False)
+df_raw.to_csv('2019_Combined_raw_asset_Inventory.csv', index=False)
+
+print('Removing platform type = \'surface_current_meter\' | \'glider\'.')
+df_all.drop(
+    df_all.loc[
+        (df_all['Platform Type'] == 'surface_current_radar') |
+        (df_all['Platform Type'] == 'glider')
+    ].index,
+    inplace=True)
+print('row count:', df_all.shape[0])
 
 ## bad coords
-# df_raw[(~df_raw['Latitude (dec deg)'].apply(np.isreal)) | ~df_raw['Longitude (dec deg)'].apply(np.isreal)][['Latitude (dec deg)','Longitude (dec deg)']]
+#df_raw[(~df_raw['Latitude (dec deg)'].apply(np.isreal)) | ~df_raw['Longitude (dec deg)'].apply(np.isreal)][['Latitude (dec deg)','Longitude (dec deg)']]
 
-df_all = df_raw.copy()
+#df_raw.replace(' (ASLC), 60.0983 (UAF)', '', inplace=True)
+df_all[['Latitude (dec deg)', 'Longitude (dec deg)']] = df_all[['Latitude (dec deg)', 'Longitude (dec deg)']].astype(np.float)
+
+
 ## clean data for geojson
 # find and remove non-numeric and invalid latitude/longitude rows for geojson.
 print('Dropping non-numeric lat/lons for geojson...')
@@ -138,7 +150,7 @@ gdf.plot(ax=ax, color='red')
 
 plt.show()
 
-#gdf.to_file("compiled_raw_assets.geojson", driver='GeoJSON')
+gdf.to_file("compiled_raw_assets.geojson", driver='GeoJSON')
 
 # Create a final data frame
 df_final = pd.DataFrame(columns=
@@ -197,7 +209,7 @@ df_final.replace(True, 'X', inplace=True)
 # Create a geopandas dataframe and save as geojson
 gdf_final = geopandas.GeoDataFrame(
     df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
-#gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
+gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
 
 # export final data frame as csv
-#df_final.to_csv('2019_Combined_asset_Inventory_forArcGIS.csv', index=False)
+df_final.to_csv('2019_Combined_asset_Inventory_forArcGIS.csv', index=False)
