@@ -5,8 +5,8 @@ import os
 files = os.listdir('data/raw/Original RA submissions')
 print('Found %i Excel workbooks' % len(files))
 
-print('Dropping %s' % files[4])
-files.pop(4)  # remove the initial AOOS submission
+#print('Dropping %s' % files[4])
+#files.pop(4)  # remove the initial AOOS submission
 
 df_raw = pd.DataFrame(
     columns=['RA', 'Station ID', 'WMO ID or NWS/CMAN ID', 'Station Long Name',
