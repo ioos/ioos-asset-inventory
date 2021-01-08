@@ -83,7 +83,7 @@ print('row count:', df_raw.shape[0])
 df_all = df_raw.copy()
 # Write all data to csv file
 print('Saving to csv..')
-df_raw.to_csv('2019_Combined_raw_asset_Inventory.csv', index=False)
+df_raw.to_csv('Combined_raw_asset_Inventory.csv', index=False)
 
 print('Removing platform type = \'surface_current_radar\' | \'glider\'.')
 df_all.drop(
@@ -212,4 +212,4 @@ gdf_final = geopandas.GeoDataFrame(
 gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
 
 # export final data frame as csv
-df_final.to_csv('2019_Combined_asset_Inventory_forArcGIS.csv', index=False)
+df_final.to_csv('Combined_asset_Inventory_forArcGIS.csv', index=False)
