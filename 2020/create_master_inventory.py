@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 
-files = os.listdir('data/raw/Original RA submissions')
+files = os.listdir('data/raw')
 print('Found %i Excel workbooks' % len(files))
 
 #print('Dropping %s' % files[4])
@@ -19,7 +19,7 @@ df_raw = pd.DataFrame(
        'Additional notes', 'file']
 )
 for file in files:
-    fname = 'raw/Original RA submissions/' + file
+    fname = 'data/raw/' + file
 
     # NANOOS and PacIOOS' inventories in second sheet
     if any(x in file for x in ['NANOOS', 'PacIOOS']):
