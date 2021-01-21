@@ -67,10 +67,10 @@ print('row count:', df_raw.shape[0])
 print('Inserting RA name from file name...')
 df_raw.loc[idx, 'RA'] = df_raw.loc[idx, 'file'].str.replace(
     'Observing_Asset_Inventory_', '').str.replace(
-    '_Dec2019.xlsx', '').str.replace(
-    '_Asset_Inventory_2019.xlsx', '').str.replace(
+    '_Dec2020.xlsx', '').str.replace(
+    '_Asset_Inventory_2020.xlsx', '').str.replace(
     'revised_Final_', '').str.replace(
-    ' Asset Inventory_2019-2nd submission.xlsx', '').replace(' ', '')
+    ' Asset Inventory_2020-2nd submission.xlsx', '').replace(' ', '')
 
 ## Remove the useless rows
 print('Removing rows where AOOS has the string \'Something\'|\'Removed\'.')
