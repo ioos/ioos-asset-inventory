@@ -19,7 +19,7 @@ df_raw = pd.DataFrame(
        'Additional notes', 'file']
 )
 for file in files:
-    fname = 'data/raw/Original RA submissions/' + file
+    fname = 'raw/Original RA submissions/' + file
 
     # NANOOS and PacIOOS' inventories in second sheet
     if any(x in file for x in ['NANOOS', 'PacIOOS']):
