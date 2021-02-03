@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 
+## For 2020
+
 files = os.listdir('data/raw')
 print('Found %i Excel workbooks' % len(files))
 
@@ -22,7 +24,7 @@ for file in files:
     fname = 'data/raw/' + file
 
     # NANOOS and PacIOOS' inventories in second sheet
-    if any(x in file for x in ['NANOOS', 'PacIOOS']):
+    if any(x in file for x in ['PacIOOS']):
         df = pd.read_excel(fname, header=0, sheet_name=1)
     else:
         df = pd.read_excel(fname, header=0)
@@ -206,6 +208,7 @@ for key in mapping:
 df_final.replace(False, '', inplace=True)
 df_final.replace(True, 'X', inplace=True)
 
+print('Saving cleaned geoJson and csv.')
 # Create a geopandas dataframe and save as geojson
 gdf_final = geopandas.GeoDataFrame(
     df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
