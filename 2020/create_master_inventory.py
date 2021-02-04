@@ -164,7 +164,7 @@ df_final = pd.DataFrame(columns=
                          'pH','OmgArag_st','Chl','Nitrate','CDOM','Alkalinity','Acoustics'])
 
 df_final['RA'] = df_all['RA']
-df_final['Station_long_name'] = df_all['Station Long Name']
+df_final['station_long_name'] = df_all['Station Long Name']
 df_final['Latitude'] = df_all['Latitude']
 df_final['Longitude'] = df_all['Longitude']
 df_final['Platform'] = df_all['Platform Type']
