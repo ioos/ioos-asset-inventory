@@ -24,10 +24,11 @@ for file in files:
     fname = dir + file
 
     # NANOOS and PacIOOS' inventories in second sheet
-    if any(x in file for x in ['PacIOOS']):
-        df = pd.read_excel(fname, header=0, sheet_name=1)
-    else:
-        df = pd.read_excel(fname, header=0)
+    # if any(x in file for x in ['PacIOOS']):
+    #     df = pd.read_excel(fname, header=0, sheet_name=1)
+    # else:
+    #     df = pd.read_excel(fname, header=0)
+    df = pd.read_excel(fname, header=0)
 
     # Drop empty rows
     df.dropna(axis='index', how='all', inplace=True)
