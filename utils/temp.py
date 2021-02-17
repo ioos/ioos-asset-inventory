@@ -3,7 +3,15 @@ import pandas as pd
 import xarray as xr
 import netCDF4
 from erddapy import ERDDAP
+import json
 
+with open('ra_erddaps.json') as f:
+    urls = json.load(f)
+
+df = pd.read_excel('../2020/data/raw/MARACOOS Asset Inventory_2020_FINAL.xlsx')
+
+df_cruise = df[df['Station Description'] == 'Chesapeake Bay WQ Cruise Data ']
+df_wf = df[df['Station Description'] == 'WeatherFlow Meteorological Station']
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/OMOECC_E1/OMOECC_E1.ncml'
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/45186/45186.ncml'
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/bgsusd2/bgsusd2.ncml'
@@ -25,28 +33,30 @@ from erddapy import ERDDAP
 # check out http://data.glos.us/erddap/tabledap/allDatasets.htmlTable?datasetID%2Ctitle%2CminTime%2CmaxTime&maxTime%3E=2020-01-01&maxTime%3C=2020-12-31&orderBy(%22maxTime%22)
 # that lists out all the GLOS stations with the maximum time of observations within the year 2020 (on their ERDDAP).
 
-server = 'http://erddap.secoora.org/erddap'
+server = urls['maracoos']
 e = ERDDAP(server=server, protocol="tabledap")
-e.dataset_id = 'edu_northcarolina_csi_44095'
-e.constraints = {
-    "time>=": "2020-01-01",
-    "time<=": "2020-12-31"
-}
-title = e.dataset_id
+for index, row in df_wf.iterrows():
+    id = row['Station Long Name'].lower().replace(', ','_')
+    e.dataset_id = id
+    # e.constraints = {
+    #     "time>=": "2020-01-01",
+    #     "time<=": "2020-12-31"
+    # }
+    title = e.dataset_id
 # # url = 'http://data.glos.us/erddap/tabledap/osugi.csv'
-df = e.to_pandas(parse_dates=True)
+    df_data = e.to_pandas(parse_dates=True)
 # drop qc vars
-cols = [c for c in df.columns if 'qc' not in c]
-df = df[cols]
+    cols = [c for c in df_data.columns if 'qc' not in c]
+    df_data = df_data[cols]
 # set index for plotting
-df = df.set_index(df['time (UTC)'])
+    df_data = df_data.set_index(df_data['time (UTC)'])
 # plot
-df.plot(subplots=True)
+    #df.plot(subplots=True)
 
-start_time = df['time (UTC)'].min()
-end_time = df['time (UTC)'].max()
+    start_time = df_data['time (UTC)'].min()
+    end_time = df_data['time (UTC)'].max()
 
 
 
-print('Dataset %s' % title)
-print('Duration: %s - %s' % (start_time, end_time))
+    print('Dataset %s' % title)
+    print('Duration: %s - %s' % (start_time, end_time))

@@ -1,5 +1,6 @@
 {
   "glos": "http://data.glos.us/erddap" ,
   "gcoos": "http://gulfhub-data.gcoos.org/erddap" ,
-  "secoora": "http://erddap.secoora.org/erddap"
+  "secoora": "http://erddap.secoora.org/erddap" ,
+  "maracoos": "https://erddap.maracoos.org/erddap"
 }
