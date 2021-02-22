@@ -12,7 +12,7 @@ df = pd.read_excel('../2020/data/raw/Asset Inventory_PacIOOS_2020.xlsx',sheet_na
 #
 # df_cruise = df[df['Station Description'] == 'Chesapeake Bay WQ Cruise Data ']
 # df_wf = df[df['Station Description'] == 'WeatherFlow Meteorological Station']
-df_aws = df[df['Station ID'] == 'AWS-HIMB']
+df_aws = df[df['Station ID'] == 'CWB-NSS 1']
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/OMOECC_E1/OMOECC_E1.ncml'
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/45186/45186.ncml'
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/bgsusd2/bgsusd2.ncml'
@@ -35,10 +35,10 @@ df_aws = df[df['Station ID'] == 'AWS-HIMB']
 # check out http://data.glos.us/erddap/tabledap/allDatasets.htmlTable?datasetID%2Ctitle%2CminTime%2CmaxTime&maxTime%3E=2020-01-01&maxTime%3C=2020-12-31&orderBy(%22maxTime%22)
 # that lists out all the GLOS stations with the maximum time of observations within the year 2020 (on their ERDDAP).
 
-server = urls['pacioos']
+server = urls['pacioos2']
 e = ERDDAP(server=server, protocol="tabledap")
 for index, row in df_aws.iterrows():
-    id = row['Station ID']
+    id = row['Station ID'].replace('CWB-NSS 1', 'NSS-CWB-001')
     e.dataset_id = id
     e.constraints = {
         "time>=": "2020-01-01",
@@ -53,7 +53,7 @@ for index, row in df_aws.iterrows():
 # set index for plotting
     df_data = df_data.set_index(df_data['time (UTC)'])
 # plot
-    #df.plot(subplots=True)
+    df_data.plot(subplots=True)
 
     start_time = df_data['time (UTC)'].min()
     end_time = df_data['time (UTC)'].max()

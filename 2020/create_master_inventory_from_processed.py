@@ -218,4 +218,10 @@ gdf_final = geopandas.GeoDataFrame(
 gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
 
 # export final data frame as csv
-df_final.to_csv('Combined_asset_Inventory_forArcGIS.csv', index=False)
+cols = ['RA', 'Latitude', 'Longitude', 'station_long_name', 'Platform', 'Operational', 'RA_Funded',
+        'Water_temp', 'Salinity', 'Wtr_press', 'Dew_pt', 'Rel_hum', 'Air_temp',
+        'Winds', 'Air_press', 'Precip', 'Solar_radn', 'Visibility',
+        'Water_level', 'Waves', 'Currents', 'Turbidity', 'DO', 'pCO2_water',
+        'pCO2_air', 'TCO2', 'pH', 'OmgArag_st', 'Chl', 'Nitrate', 'CDOM',
+        'Alkalinity', 'Acoustics', 'Raw_Vars', 'geometry']
+df_final.to_csv('Combined_asset_Inventory_forArcGIS.csv', index=False, columns=cols)

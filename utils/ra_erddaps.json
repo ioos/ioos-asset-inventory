@@ -3,5 +3,6 @@
   "gcoos": "http://gulfhub-data.gcoos.org/erddap" ,
   "secoora": "http://erddap.secoora.org/erddap" ,
   "maracoos": "https://erddap.maracoos.org/erddap" ,
-  "pacioos": "https://pae-paha.pacioos.hawaii.edu/erddap"
+  "pacioos1": "https://pae-paha.pacioos.hawaii.edu/erddap",
+  "pacioos2": "http://oos.soest.hawaii.edu/erddap"
 }
