@@ -212,16 +212,20 @@ df_final.replace(False, '', inplace=True)
 df_final.replace(True, 'X', inplace=True)
 
 print('Saving cleaned geoJson and csv.')
-# Create a geopandas dataframe and save as geojson
-gdf_final = geopandas.GeoDataFrame(
-    df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
-gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
-
 # export final data frame as csv
 cols = ['RA', 'Latitude', 'Longitude', 'station_long_name', 'Platform', 'Operational', 'RA_Funded',
         'Water_temp', 'Salinity', 'Wtr_press', 'Dew_pt', 'Rel_hum', 'Air_temp',
         'Winds', 'Air_press', 'Precip', 'Solar_radn', 'Visibility',
         'Water_level', 'Waves', 'Currents', 'Turbidity', 'DO', 'pCO2_water',
         'pCO2_air', 'TCO2', 'pH', 'OmgArag_st', 'Chl', 'Nitrate', 'CDOM',
-        'Alkalinity', 'Acoustics', 'Raw_Vars', 'geometry']
-df_final.to_csv('Combined_asset_Inventory_forArcGIS.csv', index=False, columns=cols)
+        'Alkalinity', 'Acoustics', 'Raw_Vars']
+
+# reorganize df
+df_final = df_final[cols]
+
+# Create a geopandas dataframe and save as geojson
+gdf_final = geopandas.GeoDataFrame(
+    df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
+gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
+
+df_final.to_csv('Combined_asset_Inventory_forArcGIS.csv', index=False)
