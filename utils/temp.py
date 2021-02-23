@@ -8,11 +8,11 @@ import json
 with open('ra_erddaps.json') as f:
     urls = json.load(f)
 
-df = pd.read_excel('../2020/data/raw/Asset Inventory_PacIOOS_2020.xlsx',sheet_name=1)
+df = pd.read_excel('../2020/data/raw/CeNCOOS Asset Inventory 2019update2122020_02262020_011121.xlsx', sheet_name=0)
 #
 # df_cruise = df[df['Station Description'] == 'Chesapeake Bay WQ Cruise Data ']
 # df_wf = df[df['Station Description'] == 'WeatherFlow Meteorological Station']
-df_aws = df[df['Station ID'] == 'CWB-NSS 1']
+df_aws = df[df['Station ID'] == 'Humboldt']
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/OMOECC_E1/OMOECC_E1.ncml'
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/45186/45186.ncml'
 # #url = 'http://tds.glos.us/thredds/dodsC/buoy_agg_standard/bgsusd2/bgsusd2.ncml'
@@ -35,10 +35,10 @@ df_aws = df[df['Station ID'] == 'CWB-NSS 1']
 # check out http://data.glos.us/erddap/tabledap/allDatasets.htmlTable?datasetID%2Ctitle%2CminTime%2CmaxTime&maxTime%3E=2020-01-01&maxTime%3C=2020-12-31&orderBy(%22maxTime%22)
 # that lists out all the GLOS stations with the maximum time of observations within the year 2020 (on their ERDDAP).
 
-server = urls['pacioos2']
+server = urls['cencoos']
 e = ERDDAP(server=server, protocol="tabledap")
 for index, row in df_aws.iterrows():
-    id = row['Station ID'].replace('CWB-NSS 1', 'NSS-CWB-001')
+    id = row['Station ID'].replace('Humboldt', 'edu_humboldt_humboldt')
     e.dataset_id = id
     e.constraints = {
         "time>=": "2020-01-01",
