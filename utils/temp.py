@@ -8,7 +8,7 @@ import json
 with open('ra_erddaps.json') as f:
     urls = json.load(f)
 
-df = pd.read_excel('../2020/data/raw/CARICOOS Asset Inventory_2020.xlsx', sheet_name=0)
+df = pd.read_excel('../2020/data/raw/NERACOOS Asset Inventory_2020.xlsx', sheet_name=0)
 #
 # df_cruise = df[df['Station Description'] == 'Chesapeake Bay WQ Cruise Data ']
 #
@@ -35,34 +35,36 @@ df = pd.read_excel('../2020/data/raw/CARICOOS Asset Inventory_2020.xlsx', sheet_
 # check out http://data.glos.us/erddap/tabledap/allDatasets.htmlTable?datasetID%2Ctitle%2CminTime%2CmaxTime&maxTime%3E=2020-01-01&maxTime%3C=2020-12-31&orderBy(%22maxTime%22)
 # that lists out all the GLOS stations with the maximum time of observations within the year 2020 (on their ERDDAP).
 
-server = urls['caricoos']
+server = urls['neracoos']
 e = ERDDAP(server=server, protocol="tabledap")
 search_url = e.get_search_url(search_for="all", response="csv")
 all_datasets = pd.read_csv(search_url)
-df_wf = df[df['Platform Operator/Owner'] == 'Weatherflow']
+df_wf = df[df['Station Long Name'] == 'Central Maine Shelf']
 
 for index, row in df_wf.iterrows():
-    id = all_datasets.loc[all_datasets['Title'].str.contains(row['Station ID']), ['Dataset ID','Title']]
-    #print(id.item())
-    e.dataset_id = id['Dataset ID']
-    # e.constraints = {
-    #     "time>=": "2020-01-01"
-    # }
-    title = e.dataset_id
-# # url = 'http://data.glos.us/erddap/tabledap/osugi.csv'
-    df_data = e.to_pandas(parse_dates=True)
-# drop qc vars
-    cols = [c for c in df_data.columns if 'qc' not in c]
-    df_data = df_data[cols]
-# set index for plotting
-    df_data = df_data.set_index(df_data['time (UTC)'])
-# plot
-    df_data.plot(subplots=True, title=title)
+    ids = all_datasets.loc[all_datasets['Dataset ID'].str.contains('N01'), ['Dataset ID', 'Title']]
+    for index, id in ids.iterrows():
+        #print(id.item())
+        e.dataset_id = id['Dataset ID']
+        # e.constraints = {
+        #     "time>=": "2020-01-01"
+        # }
+        title = e.dataset_id
+        # # url = 'http://data.glos.us/erddap/tabledap/osugi.csv'
+        df_data = e.to_pandas(parse_dates=True)
+        # drop qc vars
+        cols = [c for c in df_data.columns if 'qc' not in c]
+        cols = [c for c in cols if 'QARTOD' not in c]
+        df_data = df_data[cols]
+        # set index for plotting
+        df_data = df_data.set_index(df_data['time (UTC)'])
+        # plot
+        df_data.plot(subplots=True, title=title)
 
-    start_time = df_data['time (UTC)'].min()
-    end_time = df_data['time (UTC)'].max()
+        start_time = df_data['time (UTC)'].min()
+        end_time = df_data['time (UTC)'].max()
 
 
 
-    print('Dataset %s' % title)
-    print('Duration: %s - %s' % (start_time, end_time))
+        print('Dataset %s' % title)
+        print('Duration: %s - %s' % (start_time, end_time))
