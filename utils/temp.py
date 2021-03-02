@@ -42,7 +42,7 @@ all_datasets = pd.read_csv(search_url)
 df_wf = df[df['Station Long Name'] == 'Central Maine Shelf']
 
 for index, row in df_wf.iterrows():
-    ids = all_datasets.loc[all_datasets['Dataset ID'].str.contains('N01'), ['Dataset ID', 'Title']]
+    ids = all_datasets.loc[all_datasets['Dataset ID'].str.contains('CLIS'), ['Dataset ID', 'Title']]
     for index, id in ids.iterrows():
         #print(id.item())
         e.dataset_id = id['Dataset ID']
