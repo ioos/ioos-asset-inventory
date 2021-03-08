@@ -84,9 +84,6 @@ print('Initial row count: %i' % df_raw.shape[0])
 # print('row count:', df_raw.shape[0])
 
 df_all = df_raw.copy()
-# Write all data to csv file
-print('Saving to csv..')
-df_raw.to_csv('Combined_raw_asset_Inventory.csv', index=False)
 
 print('Removing platform type = \'surface_current_radar\' | \'glider\'.')
 df_all.drop(
@@ -103,7 +100,6 @@ print('row count:', df_all.shape[0])
 #df_raw.replace(' (ASLC), 60.0983 (UAF)', '', inplace=True)
 # convert lat/lon to floating points
 df_all[['Latitude (dec deg)', 'Longitude (dec deg)']] = df_all[['Latitude (dec deg)', 'Longitude (dec deg)']].astype(np.float)
-
 
 ## clean data for geojson
 # find and remove non-numeric and invalid latitude/longitude rows for geojson.
@@ -151,10 +147,7 @@ ax = world.plot(
 
 # We can now plot our ``GeoDataFrame``.
 gdf.plot(ax=ax, color='red')
-
 plt.show()
-
-gdf.to_file("compiled_raw_assets.geojson", driver='GeoJSON')
 
 # Create a final data frame
 df_final = pd.DataFrame(columns=
@@ -226,6 +219,11 @@ df_final = df_final[cols]
 # Create a geopandas dataframe and save as geojson
 gdf_final = geopandas.GeoDataFrame(
     df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
-gdf_final.to_file("compiled_assets_forArcGIS.geojson", driver='GeoJSON')
 
-df_final.to_csv('Combined_asset_Inventory_forArcGIS.csv', index=False)
+
+# Write all data to csv file
+print('Saving to csv..')
+df_raw.to_csv('combined_raw_inventory.csv', index=False)
+gdf.to_file("combined_raw_inventory.geojson", driver='GeoJSON')
+gdf_final.to_file("processed_inventory.geojson", driver='GeoJSON')
+df_final.to_csv('processed_inventory.csv', index=False)
