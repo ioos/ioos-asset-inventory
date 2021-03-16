@@ -166,10 +166,43 @@ df_final['Platform'] = df_all['Platform Type']
 df_final['Operational'] = df_all['Currently Operational? (Y, N, O, U)']
 df_final['RA_Funded'] = df_all['RA Funding Involvement (Yf, Yp, N)']
 df_final['Raw_Vars'] = df_all['Variable Names']
+
+# Unique list of plaform types
+plat_lut = {
+    'moored_buoy': 'moored_buoy',
+    'Fixed moored_buoy': 'moored_buoy',
+    'Fixed': 'fixed',
+    'fixed': 'fixed',
+    'wave_buoy': 'wave_buoy',
+    'Fixed shorebased': 'fixed',
+    'Moored wave buoy': 'wave_buoy',
+    'Moored Buoy': 'moored_buoy',
+    'fixed ': 'fixed',
+    'offshore_tower': 'tower',
+    'tide_station': 'tide_station',
+    'offshore_platform': 'offshore_platform',
+    'tower': 'tower',
+    'buoy and mooring': 'moored_buoy',
+    'profiling_buoy': 'profiling_buoy',
+    'river_level_station': 'river_level_station',
+    'mooring': 'moored_buot',
+    'buoy ',
+    'ship',
+    'sampling_location',
+    'mooring ',
+    'glider',
+    'surface_current_radar',
+    'bottom_mount',
+}
+
 # Unique list of variable names
-vars = pd.DataFrame(data=sorted(set(sum(df_all['Variable Names'].fillna('').str.replace('\(.*\)','').str.replace(' ','').str.replace('\\n','').str.split(',').tolist(),[]))))
-# map provided text to standard vars
-mapping = {
+# vars = pd.DataFrame(data=sorted(set(sum(df_all['Variable Names'].fillna('').
+#                                         str.replace('\(.*\)', '').
+#                                         str.replace(' ', '').
+#                                         str.replace('\\n', '').
+#                                         str.split(',').tolist(), []))))
+# map provided variable text to standard vars
+var_lut = {
     'Water_temp': 'sea_water_temperature',
     'Salinity': 'sea_water_salinity',
     'Wtr_press': 'water_pressure|sea_water_pressure|sea_water_depth',
@@ -198,22 +231,19 @@ mapping = {
     'Acoustics': 'acoustic',
     }
 # Insert True for assets that have text in 'Variable Names' from mapping above
-for key in mapping:
-    df_final[key] = df_all['Variable Names'].str.contains(mapping[key], na=False)
+for key in var_lut:
+    df_final[key] = df_all['Variable Names'].str.contains(var_lut[key], na=False)
 
 df_final.replace(False, '', inplace=True)
 df_final.replace(True, 'X', inplace=True)
 
-print('Saving cleaned geoJson and csv.')
-# export final data frame as csv
+# reorganize df
 cols = ['RA', 'Latitude', 'Longitude', 'station_long_name', 'Platform', 'Operational', 'RA_Funded',
         'Water_temp', 'Salinity', 'Wtr_press', 'Dew_pt', 'Rel_hum', 'Air_temp',
         'Winds', 'Air_press', 'Precip', 'Solar_radn', 'Visibility',
         'Water_level', 'Waves', 'Currents', 'Turbidity', 'DO', 'pCO2_water',
         'pCO2_air', 'TCO2', 'pH', 'OmgArag_st', 'Chl', 'Nitrate', 'CDOM',
         'Alkalinity', 'Acoustics', 'Raw_Vars']
-
-# reorganize df
 df_final = df_final[cols]
 
 # Create a geopandas dataframe and save as geojson
@@ -222,8 +252,8 @@ gdf_final = geopandas.GeoDataFrame(
 
 
 # Write all data to csv file
-print('Saving to csv..')
-df_raw.to_csv('combined_raw_inventory.csv', index=False)
-gdf.to_file("combined_raw_inventory.geojson", driver='GeoJSON')
-gdf_final.to_file("processed_inventory.geojson", driver='GeoJSON')
-df_final.to_csv('processed_inventory.csv', index=False)
+# print('Saving inventory files..')
+# df_raw.to_csv('combined_raw_inventory.csv', index=False)
+# gdf.to_file("combined_raw_inventory.geojson", driver='GeoJSON')
+# gdf_final.to_file("processed_inventory.geojson", driver='GeoJSON')
+# df_final.to_csv('processed_inventory.csv', index=False)
