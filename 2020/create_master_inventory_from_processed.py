@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
+import fiona
 
 ## For 2020
 dir = 'data/processed/'
@@ -186,13 +187,13 @@ plat_lut = {
     'profiling_buoy': 'profiling_buoy',
     'river_level_station': 'river_level_station',
     'mooring': 'moored_buot',
-    'buoy ',
-    'ship',
-    'sampling_location',
-    'mooring ',
-    'glider',
-    'surface_current_radar',
-    'bottom_mount',
+    'buoy ': '',
+    'ship': '',
+    'sampling_location': '',
+    'mooring ': '',
+    'glider': '',
+    'surface_current_radar': '',
+    'bottom_mount': ''
 }
 
 # Unique list of variable names
@@ -257,3 +258,11 @@ gdf_final = geopandas.GeoDataFrame(
 # gdf.to_file("combined_raw_inventory.geojson", driver='GeoJSON')
 # gdf_final.to_file("processed_inventory.geojson", driver='GeoJSON')
 # df_final.to_csv('processed_inventory.csv', index=False)
+
+# Enable fiona driver
+geopandas.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
+
+# Write file
+with fiona.drivers():
+    # Might throw a WARNING - CPLE_NotSupported in b'dataset sample_out.kml does not support layer creation option ENCODING'
+    gdf_final.to_file('processed_inventory.kml', driver='KML')
