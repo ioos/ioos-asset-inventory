@@ -11,9 +11,6 @@ dir = 'data/processed/'
 files = os.listdir(dir)
 print('Found %i Excel workbooks' % len(files))
 
-#print('Dropping %s' % files[4])
-#files.pop(4)  # remove the initial AOOS submission
-
 df_raw = pd.DataFrame(
     columns=['RA', 'Station ID', 'WMO ID or NWS/CMAN ID', 'Station Long Name',
        'Station Description', 'Latitude (dec deg)', 'Longitude (dec deg)',
@@ -27,11 +24,6 @@ df_raw = pd.DataFrame(
 for file in files:
     fname = dir + file
 
-    # NANOOS and PacIOOS' inventories in second sheet
-    # if any(x in file for x in ['PacIOOS']):
-    #     df = pd.read_excel(fname, header=0, sheet_name=1)
-    # else:
-    #     df = pd.read_excel(fname, header=0)
     print('Reading %s' % file)
     df = pd.read_excel(fname, header=0)
 
@@ -52,42 +44,10 @@ for file in files:
 
     # print some information out
     print('Ingested %s with %i columns' % (file, len(df.columns)))
-    #print(df.columns)
 
 print('Initial row count: %i' % df_raw.shape[0])
-# drop superfluous headers buried during concatenation
-# print('Dropping extra headers...')
-# df_raw.drop(
-#     df_raw.loc[
-#         (df_raw['Latitude (dec deg)'] == '(Required) ') |
-#         (df_raw['Latitude (dec deg)'].str.contains('These lat/long')) |
-#         (df_raw['Latitude (dec deg)'].str.contains('TBD')) |
-#         (df_raw['Latitude (dec deg)'].str.contains('(ASLC)'))
-#     ].index, inplace=True)
-# print('row count:', df_raw.shape[0])
 
-# find rows missing RA name
-# print('Dropping rows missing RA name.')
-# idx = df_raw[df_raw['RA'].isin([np.nan, ''])].index
-# print('row count:', df_raw.shape[0])
-# insert RA name, when missing, by extracting from the file name
-
-# print('Inserting RA name from file name...')
-# df_raw.loc[idx, 'RA'] = df_raw.loc[idx, 'file'].str.replace(
-#     'Observing_Asset_Inventory_', '').str.replace(
-#     '_Dec2020.xlsx', '').str.replace(
-#     '_Asset_Inventory_2020.xlsx', '').str.replace(
-#     'revised_Final_', '').str.replace(
-#     ' Asset Inventory_2020-2nd submission.xlsx', '').replace(' ', '')
-
-## Remove the useless rows
-# print('Removing rows where AOOS has the string \'Something\'|\'Removed\'.')
-# df_raw.drop(
-#     df_raw.loc[
-#         (df_raw['RA'] == 'AOOS') & (df_raw['Station ID'].str.contains('Something|Removed'))].index,
-#     inplace=True)
-# print('row count:', df_raw.shape[0])
-
+# create a copy of the dataFrame for processing
 df_all = df_raw.copy()
 
 print('Removing platform type = \'surface_current_radar\' | \'glider\'.')
@@ -99,30 +59,8 @@ df_all.drop(
     inplace=True)
 print('row count:', df_all.shape[0])
 
-## bad coords
-#df_raw[(~df_raw['Latitude (dec deg)'].apply(np.isreal)) | ~df_raw['Longitude (dec deg)'].apply(np.isreal)][['Latitude (dec deg)','Longitude (dec deg)']]
-
-#df_raw.replace(' (ASLC), 60.0983 (UAF)', '', inplace=True)
 # convert lat/lon to floating points
 df_all[['Latitude (dec deg)', 'Longitude (dec deg)']] = df_all[['Latitude (dec deg)', 'Longitude (dec deg)']].astype(float)
-
-## clean data for geojson
-# find and remove non-numeric and invalid latitude/longitude rows for geojson.
-# print('Dropping non-numeric lat/lons for geojson...')
-# df_all.drop(
-#     df_all.loc[
-#         (~df_all['Latitude (dec deg)'].apply(np.isreal)) | (~df_all['Longitude (dec deg)'].apply(np.isreal))
-#     ].index,
-#     inplace=True)
-# print('row count:', df_all.shape[0])
-#
-# print('Dropping invalid lat/lons...')
-# df_all.drop(
-#     df_all.loc[
-#         (df_all['Latitude (dec deg)'] > 90) | (df_all['Longitude (dec deg)'] < -180)
-#     ].index,
-#     inplace=True)
-# print('final count:', df_all.shape[0])
 
 # saving dates as strings
 df_all['Station Deployment (mm/yyyy, yyyy, < 5 yr, > 5 yr)'] = \
@@ -137,21 +75,16 @@ df_all.rename(columns=
  'Latitude (dec deg)': 'Latitude'},
               inplace=True)
 
-## Make a plot and write the raw geojson file
+## Make a simple plot of station locations
 gdf = geopandas.GeoDataFrame(
     df_all, geometry=geopandas.points_from_xy(df_all['Longitude'], df_all['Latitude']))
-
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-
-# create world map
 ax = world.plot(
     color='white', edgecolor='black')
-
-# We can now plot our ``GeoDataFrame``.
-gdf.plot(ax=ax, color='red')
+gdf.plot(ax=ax, color='red', markersize=1)
 plt.show()
 
-# Create a final data frame
+# Create a final data frame for processed file
 df_final = pd.DataFrame(columns=
                         ['RA','Latitude','Longitude','Platform','Operational',
                          'RA_Funded','Water_temp','Salinity','Wtr_press',
@@ -169,6 +102,7 @@ df_final['Operational'] = df_all['Currently Operational? (Y, N, O, U)']
 df_final['RA_Funded'] = df_all['RA Funding Involvement (Yf, Yp, N)']
 df_final['Raw_Vars'] = df_all['Variable Names']
 
+# TODO clean up the platform types
 # Unique list of plaform types
 plat_lut = {
     'moored_buoy': 'moored_buoy',
@@ -197,12 +131,6 @@ plat_lut = {
     'bottom_mount': ''
 }
 
-# Unique list of variable names
-# vars = pd.DataFrame(data=sorted(set(sum(df_all['Variable Names'].fillna('').
-#                                         str.replace('\(.*\)', '').
-#                                         str.replace(' ', '').
-#                                         str.replace('\\n', '').
-#                                         str.split(',').tolist(), []))))
 # map provided variable text to standard vars
 var_lut = {
     'Water_temp': 'sea_water_temperature',
@@ -252,15 +180,14 @@ df_final = df_final[cols]
 gdf_final = geopandas.GeoDataFrame(
     df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
 
-
 # Write data
-print('Saving inventory files...')
-# csv
-df_raw.to_csv('combined_raw_inventory.csv', index=False)
-df_final.to_csv('processed_inventory.csv', index=False)
-# geojson
-gdf.to_file('combined_raw_inventory.geojson', driver='GeoJSON')
-gdf_final.to_file('processed_inventory.geojson', driver='GeoJSON')
-# kml
-gdf.to_file('combined_raw_inventory.kml', driver='KML')
-gdf_final.to_file('processed_inventory.kml', driver='KML')
+# print('Saving inventory files...')
+# # csv
+# df_raw.to_csv('combined_raw_inventory.csv', index=False)
+# df_final.to_csv('processed_inventory.csv', index=False)
+# # geojson
+# gdf.to_file('combined_raw_inventory.geojson', driver='GeoJSON')
+# gdf_final.to_file('processed_inventory.geojson', driver='GeoJSON')
+# # kml
+# gdf.to_file('combined_raw_inventory.kml', driver='KML')
+# gdf_final.to_file('processed_inventory.kml', driver='KML')
