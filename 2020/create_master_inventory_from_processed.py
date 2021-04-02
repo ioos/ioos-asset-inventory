@@ -100,7 +100,7 @@ print('row count:', df_all.shape[0])
 
 #df_raw.replace(' (ASLC), 60.0983 (UAF)', '', inplace=True)
 # convert lat/lon to floating points
-df_all[['Latitude (dec deg)', 'Longitude (dec deg)']] = df_all[['Latitude (dec deg)', 'Longitude (dec deg)']].astype(np.float)
+df_all[['Latitude (dec deg)', 'Longitude (dec deg)']] = df_all[['Latitude (dec deg)', 'Longitude (dec deg)']].astype(float)
 
 ## clean data for geojson
 # find and remove non-numeric and invalid latitude/longitude rows for geojson.
@@ -205,7 +205,7 @@ plat_lut = {
 # map provided variable text to standard vars
 var_lut = {
     'Water_temp': 'sea_water_temperature',
-    'Salinity': 'sea_water_salinity',
+    'Salinity': 'salinity',
     'Wtr_press': 'water_pressure|sea_water_pressure|sea_water_depth',
     'Dew_pt': 'dew_point_temperature|dew_point_temperaure',
     'Rel_hum': 'RelativeHumidity|relative_humidity',
@@ -223,7 +223,7 @@ var_lut = {
     'pCO2_water': 'mole_fraction_of_carbon_dioxide_in_sea_water|pCO2|partial_pressure_of_carbon_dioxide_in_sea_water|pco2',
     'pCO2_air': 'mole_fraction_of_carbon_dioxide_in_air|partial_pressure_of_carbon_dioxide_in_atmosphere|surface_partial_pressure_of_carbon_dioxide_in_air',
     'TCO2': 'dissolved_carbon_dioxide',
-    'pH': 'pH',
+    'pH': 'pH|sea_water_ph_reported_on_total_scale',
     'OmgArag_st': 'aragonite',
     'Chl': 'chlorophyll',
     'Nitrate': 'nitrate',
@@ -253,16 +253,16 @@ gdf_final = geopandas.GeoDataFrame(
 
 
 # Write all data to csv file
-# print('Saving inventory files..')
-# df_raw.to_csv('combined_raw_inventory.csv', index=False)
-# gdf.to_file("combined_raw_inventory.geojson", driver='GeoJSON')
-# gdf_final.to_file("processed_inventory.geojson", driver='GeoJSON')
-# df_final.to_csv('processed_inventory.csv', index=False)
+print('Saving inventory files..')
+df_raw.to_csv('combined_raw_inventory.csv', index=False)
+gdf.to_file("combined_raw_inventory.geojson", driver='GeoJSON')
+gdf_final.to_file("processed_inventory.geojson", driver='GeoJSON')
+df_final.to_csv('processed_inventory.csv', index=False)
 
 # Enable fiona driver
 geopandas.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 
-# Write file
-with fiona.drivers():
+# Write kml file
+#with fiona.drivers():
     # Might throw a WARNING - CPLE_NotSupported in b'dataset sample_out.kml does not support layer creation option ENCODING'
-    gdf_final.to_file('processed_inventory.kml', driver='KML')
+gdf_final.to_file('processed_inventory.kml', driver='KML')

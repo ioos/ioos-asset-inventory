@@ -48,7 +48,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -87,7 +87,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt">X</SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -126,7 +126,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt">X</SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -2736,7 +2736,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -2754,7 +2754,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2">X</SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st">X</SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -2775,7 +2775,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -2793,7 +2793,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2">X</SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st">X</SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -2814,7 +2814,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -2832,7 +2832,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2">X</SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st">X</SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -3789,7 +3789,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -3829,7 +3829,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -3869,7 +3869,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -3909,7 +3909,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -4652,7 +4652,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -4691,7 +4691,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -4730,7 +4730,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -4769,7 +4769,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -4886,7 +4886,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -4925,7 +4925,7 @@
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -4943,7 +4943,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st">X</SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -4964,7 +4964,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5003,7 +5003,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5042,7 +5042,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5081,7 +5081,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5120,7 +5120,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5159,7 +5159,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5198,7 +5198,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5237,7 +5237,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5276,7 +5276,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5315,7 +5315,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5354,7 +5354,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5393,7 +5393,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5432,7 +5432,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5471,7 +5471,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5510,7 +5510,7 @@
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5549,7 +5549,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5588,7 +5588,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5627,7 +5627,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5666,7 +5666,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5705,7 +5705,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5744,7 +5744,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5783,7 +5783,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5821,7 +5821,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -5860,7 +5860,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5899,7 +5899,7 @@
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5938,7 +5938,7 @@
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -5977,7 +5977,7 @@
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6328,7 +6328,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6367,7 +6367,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6484,7 +6484,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6523,7 +6523,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6562,7 +6562,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6601,7 +6601,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6640,7 +6640,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6679,7 +6679,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -6718,7 +6718,7 @@
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6757,7 +6757,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6796,7 +6796,7 @@
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6835,7 +6835,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6874,7 +6874,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -6991,7 +6991,7 @@
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -7147,7 +7147,7 @@
 		<SimpleData name="Operational">O/U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7186,7 +7186,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7225,7 +7225,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7264,7 +7264,7 @@
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7303,7 +7303,7 @@
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7342,7 +7342,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7381,7 +7381,7 @@
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7730,7 +7730,7 @@
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7769,7 +7769,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7847,7 +7847,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7886,7 +7886,7 @@
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7925,7 +7925,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -7964,7 +7964,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -8003,7 +8003,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -8042,7 +8042,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -8081,7 +8081,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -8120,7 +8120,7 @@
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -10088,7 +10088,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -10127,7 +10127,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -10205,7 +10205,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -10478,7 +10478,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -10556,7 +10556,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -10634,7 +10634,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -10713,7 +10713,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11025,7 +11025,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11064,7 +11064,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11103,7 +11103,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11571,7 +11571,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11610,7 +11610,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11649,7 +11649,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11688,7 +11688,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11727,7 +11727,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11766,7 +11766,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11805,7 +11805,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11844,7 +11844,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11883,7 +11883,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11922,7 +11922,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -11961,7 +11961,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12000,7 +12000,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12039,7 +12039,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12078,7 +12078,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12117,7 +12117,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12156,7 +12156,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12234,7 +12234,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12273,7 +12273,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12312,7 +12312,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12351,7 +12351,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12687,7 +12687,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -12705,7 +12705,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12726,7 +12726,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -12744,7 +12744,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12765,7 +12765,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -12783,7 +12783,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12804,7 +12804,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -12822,7 +12822,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12843,7 +12843,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -12861,7 +12861,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12882,7 +12882,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -12900,7 +12900,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12921,7 +12921,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -12939,7 +12939,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12960,7 +12960,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -12978,7 +12978,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -12999,7 +12999,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13017,7 +13017,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13038,7 +13038,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13056,7 +13056,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13077,7 +13077,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13095,7 +13095,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13116,7 +13116,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13134,7 +13134,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13155,7 +13155,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13173,7 +13173,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13194,7 +13194,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13212,7 +13212,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13233,7 +13233,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13251,7 +13251,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13272,7 +13272,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13290,7 +13290,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13311,7 +13311,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13329,7 +13329,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13350,7 +13350,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13368,7 +13368,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13389,7 +13389,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt">X</SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -13407,7 +13407,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13428,7 +13428,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt">X</SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -13446,7 +13446,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13506,7 +13506,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13524,7 +13524,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13545,7 +13545,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13563,7 +13563,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13584,7 +13584,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt">X</SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -13602,7 +13602,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13623,7 +13623,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13641,7 +13641,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13701,7 +13701,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13719,7 +13719,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13740,7 +13740,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt">X</SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -13758,7 +13758,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13779,7 +13779,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt">X</SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -13797,7 +13797,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13818,7 +13818,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13836,7 +13836,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13857,7 +13857,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -13875,7 +13875,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -13896,7 +13896,7 @@
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -14343,7 +14343,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air">X</SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -14460,7 +14460,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -14694,7 +14694,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate">X</SimpleData>
@@ -14772,7 +14772,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -14928,7 +14928,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st">X</SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15006,7 +15006,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st">X</SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15045,7 +15045,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15084,7 +15084,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate">X</SimpleData>
@@ -15123,7 +15123,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15162,7 +15162,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15201,7 +15201,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15240,7 +15240,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15279,7 +15279,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15357,7 +15357,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15396,7 +15396,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15435,7 +15435,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15591,7 +15591,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air">X</SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15630,7 +15630,7 @@
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air">X</SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15708,7 +15708,7 @@
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15748,7 +15748,7 @@ O</SimpleData>
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -15787,7 +15787,7 @@ O</SimpleData>
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -16060,7 +16060,7 @@ O</SimpleData>
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate">X</SimpleData>
@@ -16099,7 +16099,7 @@ O</SimpleData>
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate">X</SimpleData>
@@ -17737,7 +17737,7 @@ O</SimpleData>
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air">X</SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -17776,7 +17776,7 @@ O</SimpleData>
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air">X</SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -17815,7 +17815,7 @@ O</SimpleData>
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air">X</SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -17854,7 +17854,7 @@ O</SimpleData>
 		<SimpleData name="pCO2_water">X</SimpleData>
 		<SimpleData name="pCO2_air">X</SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -18993,7 +18993,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19011,7 +19011,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -19032,7 +19032,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19071,7 +19071,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19110,7 +19110,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19149,7 +19149,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19188,7 +19188,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19227,7 +19227,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -19266,7 +19266,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -19344,7 +19344,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -19362,7 +19362,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl">X</SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -19383,7 +19383,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19422,7 +19422,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19461,7 +19461,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19500,7 +19500,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19539,7 +19539,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19656,7 +19656,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19734,7 +19734,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -19773,7 +19773,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19890,7 +19890,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19968,7 +19968,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -19986,7 +19986,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -20046,7 +20046,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20064,7 +20064,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -20085,7 +20085,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -20124,7 +20124,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20142,7 +20142,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="pCO2_water"></SimpleData>
 		<SimpleData name="pCO2_air"></SimpleData>
 		<SimpleData name="TCO2"></SimpleData>
-		<SimpleData name="pH"></SimpleData>
+		<SimpleData name="pH">X</SimpleData>
 		<SimpleData name="OmgArag_st"></SimpleData>
 		<SimpleData name="Chl"></SimpleData>
 		<SimpleData name="Nitrate"></SimpleData>
@@ -20202,7 +20202,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20241,7 +20241,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press"></SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20280,7 +20280,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20319,7 +20319,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -20358,7 +20358,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -20397,7 +20397,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20436,7 +20436,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum"></SimpleData>
@@ -20475,7 +20475,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20514,7 +20514,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20553,7 +20553,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20592,7 +20592,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
@@ -20631,7 +20631,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
-		<SimpleData name="Salinity"></SimpleData>
+		<SimpleData name="Salinity">X</SimpleData>
 		<SimpleData name="Wtr_press">X</SimpleData>
 		<SimpleData name="Dew_pt"></SimpleData>
 		<SimpleData name="Rel_hum">X</SimpleData>
