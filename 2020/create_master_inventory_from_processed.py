@@ -1,7 +1,10 @@
 import pandas as pd
-# import numpy as np
 import os
-# import fiona
+import geopandas
+import matplotlib.pyplot as plt
+import fiona
+
+fiona.drvsupport.supported_drivers['KML'] = 'rw' # enable KML support which is disabled by default
 
 ## For 2020
 dir = 'data/processed/'
@@ -29,6 +32,7 @@ for file in files:
     #     df = pd.read_excel(fname, header=0, sheet_name=1)
     # else:
     #     df = pd.read_excel(fname, header=0)
+    print('Reading %s' % file)
     df = pd.read_excel(fname, header=0)
 
     # Drop empty rows
@@ -134,9 +138,6 @@ df_all.rename(columns=
               inplace=True)
 
 ## Make a plot and write the raw geojson file
-import geopandas
-import matplotlib.pyplot as plt
-
 gdf = geopandas.GeoDataFrame(
     df_all, geometry=geopandas.points_from_xy(df_all['Longitude'], df_all['Latitude']))
 
@@ -252,17 +253,14 @@ gdf_final = geopandas.GeoDataFrame(
     df_final, geometry=geopandas.points_from_xy(df_final['Longitude'], df_final['Latitude']))
 
 
-# Write all data to csv file
-print('Saving inventory files..')
+# Write data
+print('Saving inventory files...')
+# csv
 df_raw.to_csv('combined_raw_inventory.csv', index=False)
-gdf.to_file("combined_raw_inventory.geojson", driver='GeoJSON')
-gdf_final.to_file("processed_inventory.geojson", driver='GeoJSON')
 df_final.to_csv('processed_inventory.csv', index=False)
-
-# Enable fiona driver
-#geopandas.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
-
-# Write kml file
-#with fiona.drivers():
-    # Might throw a WARNING - CPLE_NotSupported in b'dataset sample_out.kml does not support layer creation option ENCODING'
+# geojson
+gdf.to_file('combined_raw_inventory.geojson', driver='GeoJSON')
+gdf_final.to_file('processed_inventory.geojson', driver='GeoJSON')
+# kml
+gdf.to_file('combined_raw_inventory.kml', driver='KML')
 gdf_final.to_file('processed_inventory.kml', driver='KML')

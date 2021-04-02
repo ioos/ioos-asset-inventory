@@ -1,0 +1,15 @@
+name: assetInventory
+channels:
+  - conda-forge
+dependencies:
+  - cfunits==3.2.9
+  - erddapy
+  - fiona
+  - geopandas
+  - matplotlib
+  - netcdf4
+  - openpyxl
+  - pandas
+  - python=3.8
+  - xarray
+  - xlrd
