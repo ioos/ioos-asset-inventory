@@ -1,7 +1,7 @@
 import pandas as pd
-import numpy as np
+# import numpy as np
 import os
-import fiona
+# import fiona
 
 ## For 2020
 dir = 'data/processed/'
@@ -260,7 +260,7 @@ gdf_final.to_file("processed_inventory.geojson", driver='GeoJSON')
 df_final.to_csv('processed_inventory.csv', index=False)
 
 # Enable fiona driver
-geopandas.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
+#geopandas.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 
 # Write kml file
 #with fiona.drivers():
