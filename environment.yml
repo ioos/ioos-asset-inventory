@@ -6,6 +6,7 @@ dependencies:
   - erddapy
   - fiona
   - geopandas
+  - jupyter
   - matplotlib
   - netcdf4
   - openpyxl
