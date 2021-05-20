@@ -21,17 +21,6 @@
 	<SimpleField name="Variable Names" type="string"></SimpleField>
 	<SimpleField name="Additional notes" type="string"></SimpleField>
 	<SimpleField name="file" type="string"></SimpleField>
-	<SimpleField name="Unnamed: 18" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 19" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 15" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 16" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 17" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 20" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 21" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 22" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 23" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 24" type="float"></SimpleField>
-	<SimpleField name="Unnamed: 25" type="float"></SimpleField>
 </Schema>
 <Folder><name>combined_raw_inventory</name>
   <Placemark>

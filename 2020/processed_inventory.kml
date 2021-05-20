@@ -83,7 +83,7 @@
 		<SimpleData name="Latitude">59.0142</SimpleData>
 		<SimpleData name="Longitude">-148.6902</SimpleData>
 		<SimpleData name="station_long_name">Gulf of Alaska Ecosystem Observatory-GEO1</SimpleData>
-		<SimpleData name="Platform">Fixed moored_buoy</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -122,7 +122,7 @@
 		<SimpleData name="Latitude">59.0165</SimpleData>
 		<SimpleData name="Longitude">-148.696</SimpleData>
 		<SimpleData name="station_long_name">Gulf of Alaska Ecosystem Observatory-GEO3</SimpleData>
-		<SimpleData name="Platform">Fixed moored_buoy</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -278,7 +278,7 @@
 		<SimpleData name="Latitude">54.1321</SimpleData>
 		<SimpleData name="Longitude">-165.7818</SimpleData>
 		<SimpleData name="station_long_name">Akutan, Port</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -317,7 +317,7 @@
 		<SimpleData name="Latitude">61.238746</SimpleData>
 		<SimpleData name="Longitude">-149.888778</SimpleData>
 		<SimpleData name="station_long_name">Anchorage Port</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -356,7 +356,7 @@
 		<SimpleData name="Latitude">60.7915</SimpleData>
 		<SimpleData name="Longitude">-161.7487</SimpleData>
 		<SimpleData name="station_long_name">Bethel</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -395,7 +395,7 @@
 		<SimpleData name="Latitude">56.001483</SimpleData>
 		<SimpleData name="Longitude">-134.136</SimpleData>
 		<SimpleData name="station_long_name">Cape Decision</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">N</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -434,7 +434,7 @@
 		<SimpleData name="Latitude">53.842909</SimpleData>
 		<SimpleData name="Longitude">-166.583242</SimpleData>
 		<SimpleData name="station_long_name">Captains Bay - Dutch Harbor</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -473,7 +473,7 @@
 		<SimpleData name="Latitude">60.542375</SimpleData>
 		<SimpleData name="Longitude">-145.765979</SimpleData>
 		<SimpleData name="station_long_name">Cordova</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -511,7 +511,7 @@
 		<SimpleData name="Latitude">70.22235</SimpleData>
 		<SimpleData name="Longitude">-148.419267</SimpleData>
 		<SimpleData name="station_long_name">Deadhorse, Prudhoe Bay</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -550,7 +550,7 @@
 		<SimpleData name="Latitude">53.883648</SimpleData>
 		<SimpleData name="Longitude">-166.531315</SimpleData>
 		<SimpleData name="station_long_name">Dutch Harbor APL</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -589,7 +589,7 @@
 		<SimpleData name="Latitude">53.8891</SimpleData>
 		<SimpleData name="Longitude">-166.54212</SimpleData>
 		<SimpleData name="station_long_name">Dutch Harbor PilotSta</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -628,7 +628,7 @@
 		<SimpleData name="Latitude">53.902729</SimpleData>
 		<SimpleData name="Longitude">-166.5284</SimpleData>
 		<SimpleData name="station_long_name">Dutch Harbor - Port Office</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -667,7 +667,7 @@
 		<SimpleData name="Latitude">58.971348</SimpleData>
 		<SimpleData name="Longitude">-135.220808</SimpleData>
 		<SimpleData name="station_long_name">Eldred Rock</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -706,7 +706,7 @@
 		<SimpleData name="Latitude">63.776913</SimpleData>
 		<SimpleData name="Longitude">-171.71531</SimpleData>
 		<SimpleData name="station_long_name">Gambell, St. Lawrence Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -745,7 +745,7 @@
 		<SimpleData name="Latitude">58.2118</SimpleData>
 		<SimpleData name="Longitude">-136.3813</SimpleData>
 		<SimpleData name="station_long_name">George Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -784,7 +784,7 @@
 		<SimpleData name="Latitude">55.446433</SimpleData>
 		<SimpleData name="Longitude">-131.8810333</SimpleData>
 		<SimpleData name="station_long_name">Guard Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -823,7 +823,7 @@
 		<SimpleData name="Latitude">58.407733</SimpleData>
 		<SimpleData name="Longitude">-135.726317</SimpleData>
 		<SimpleData name="station_long_name">Gustavus Dock</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -862,7 +862,7 @@
 		<SimpleData name="Latitude">59.234083</SimpleData>
 		<SimpleData name="Longitude">-135.441717</SimpleData>
 		<SimpleData name="station_long_name">Haines Harbor</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -901,7 +901,7 @@
 		<SimpleData name="Latitude">59.60206</SimpleData>
 		<SimpleData name="Longitude">-151.417436</SimpleData>
 		<SimpleData name="station_long_name">Homer Spit (Homer Port)</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -940,7 +940,7 @@
 		<SimpleData name="Latitude">59.92345</SimpleData>
 		<SimpleData name="Longitude">-141.358617</SimpleData>
 		<SimpleData name="station_long_name">Icy Bay</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -979,7 +979,7 @@
 		<SimpleData name="Latitude">58.285547</SimpleData>
 		<SimpleData name="Longitude">-134.389863</SimpleData>
 		<SimpleData name="station_long_name">Juneau AML</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1018,7 +1018,7 @@
 		<SimpleData name="Latitude">58.287244</SimpleData>
 		<SimpleData name="Longitude">-134.397994</SimpleData>
 		<SimpleData name="station_long_name">Juneau AJ Dock</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1057,7 +1057,7 @@
 		<SimpleData name="Latitude">58.290687</SimpleData>
 		<SimpleData name="Longitude">-134.393968</SimpleData>
 		<SimpleData name="station_long_name">Juneau ANG Dock</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1096,7 +1096,7 @@
 		<SimpleData name="Latitude">58.298233</SimpleData>
 		<SimpleData name="Longitude">-134.404517</SimpleData>
 		<SimpleData name="station_long_name">Juneau Library</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1135,7 +1135,7 @@
 		<SimpleData name="Latitude">70.127565</SimpleData>
 		<SimpleData name="Longitude">-143.615929</SimpleData>
 		<SimpleData name="station_long_name">Kaktovik</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1174,7 +1174,7 @@
 		<SimpleData name="Latitude">60.531856</SimpleData>
 		<SimpleData name="Longitude">-151.253022</SimpleData>
 		<SimpleData name="station_long_name">Kenai</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1213,7 +1213,7 @@
 		<SimpleData name="Latitude">55.3516</SimpleData>
 		<SimpleData name="Longitude">-131.6839</SimpleData>
 		<SimpleData name="station_long_name">Ketichikan Harbor</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1252,7 +1252,7 @@
 		<SimpleData name="Latitude">55.3395</SimpleData>
 		<SimpleData name="Longitude">-131.644231</SimpleData>
 		<SimpleData name="station_long_name">Ketchikan, Salmon Landing</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1291,7 +1291,7 @@
 		<SimpleData name="Latitude">57.777316</SimpleData>
 		<SimpleData name="Longitude">-152.42522</SimpleData>
 		<SimpleData name="station_long_name">Kodiak, Gull Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">N</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1330,7 +1330,7 @@
 		<SimpleData name="Latitude">58.54002</SimpleData>
 		<SimpleData name="Longitude">-135.047064</SimpleData>
 		<SimpleData name="station_long_name">Little Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1369,7 +1369,7 @@
 		<SimpleData name="Latitude">58.1983999</SimpleData>
 		<SimpleData name="Longitude">-134.256767</SimpleData>
 		<SimpleData name="station_long_name">Marmion Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1447,7 +1447,7 @@
 		<SimpleData name="Latitude">58.3641</SimpleData>
 		<SimpleData name="Longitude">-134.605917</SimpleData>
 		<SimpleData name="station_long_name">Mendenhall Valley</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1486,7 +1486,7 @@
 		<SimpleData name="Latitude">59.437667</SimpleData>
 		<SimpleData name="Longitude">-146.327533</SimpleData>
 		<SimpleData name="station_long_name">Middleton Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1524,7 +1524,7 @@
 		<SimpleData name="Latitude">58.301433</SimpleData>
 		<SimpleData name="Longitude">-134.42585</SimpleData>
 		<SimpleData name="station_long_name">MXAK Office</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1563,7 +1563,7 @@
 		<SimpleData name="Latitude">58.255308</SimpleData>
 		<SimpleData name="Longitude">-134.945049</SimpleData>
 		<SimpleData name="station_long_name">Naked Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1602,7 +1602,7 @@
 		<SimpleData name="Latitude">60.739666</SimpleData>
 		<SimpleData name="Longitude">-151.31045</SimpleData>
 		<SimpleData name="station_long_name">Nikiski</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1641,7 +1641,7 @@
 		<SimpleData name="Latitude">52.97215</SimpleData>
 		<SimpleData name="Longitude">-168.855417</SimpleData>
 		<SimpleData name="station_long_name">Nikolski White Alice</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1680,7 +1680,7 @@
 		<SimpleData name="Latitude">64.494037</SimpleData>
 		<SimpleData name="Longitude">-165.440035</SimpleData>
 		<SimpleData name="station_long_name">Nome, Port Breakwater</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1719,7 +1719,7 @@
 		<SimpleData name="Latitude">57.015542</SimpleData>
 		<SimpleData name="Longitude">-134.618333</SimpleData>
 		<SimpleData name="station_long_name">Point Gardner </SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1758,7 +1758,7 @@
 		<SimpleData name="Latitude">58.3464</SimpleData>
 		<SimpleData name="Longitude">-134.752283</SimpleData>
 		<SimpleData name="station_long_name">Portland Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1797,7 +1797,7 @@
 		<SimpleData name="Latitude">58.1953</SimpleData>
 		<SimpleData name="Longitude">-134.178</SimpleData>
 		<SimpleData name="station_long_name">Point Arden, AK</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1836,7 +1836,7 @@
 		<SimpleData name="Latitude">58.177057</SimpleData>
 		<SimpleData name="Longitude">-135.051541</SimpleData>
 		<SimpleData name="station_long_name">Rocky Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1875,7 +1875,7 @@
 		<SimpleData name="Latitude">63.692645</SimpleData>
 		<SimpleData name="Longitude">-170.492243</SimpleData>
 		<SimpleData name="station_long_name">Savoonga, St. Lawrence Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1914,7 +1914,7 @@
 		<SimpleData name="Latitude">58.204728</SimpleData>
 		<SimpleData name="Longitude">-134.645772</SimpleData>
 		<SimpleData name="station_long_name">Scull Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1953,7 +1953,7 @@
 		<SimpleData name="Latitude">60.115578</SimpleData>
 		<SimpleData name="Longitude">-149.434214</SimpleData>
 		<SimpleData name="station_long_name">Seward Harbor</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -1992,7 +1992,7 @@
 		<SimpleData name="Latitude">53.5989</SimpleData>
 		<SimpleData name="Longitude">-132.2032</SimpleData>
 		<SimpleData name="station_long_name">Ship Island</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2031,7 +2031,7 @@
 		<SimpleData name="Latitude">57.116326</SimpleData>
 		<SimpleData name="Longitude">-135.390701</SimpleData>
 		<SimpleData name="station_long_name">Sitka AML</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2070,7 +2070,7 @@
 		<SimpleData name="Latitude">57.055488</SimpleData>
 		<SimpleData name="Longitude">-135.349431</SimpleData>
 		<SimpleData name="station_long_name">Sitka Harbor</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2109,7 +2109,7 @@
 		<SimpleData name="Latitude">59.448383</SimpleData>
 		<SimpleData name="Longitude">-135.326367</SimpleData>
 		<SimpleData name="station_long_name">Skagway Port</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2148,7 +2148,7 @@
 		<SimpleData name="Latitude">57.779208</SimpleData>
 		<SimpleData name="Longitude">-135.219228</SimpleData>
 		<SimpleData name="station_long_name">Tenakee Springs</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2187,7 +2187,7 @@
 		<SimpleData name="Latitude">54.8026</SimpleData>
 		<SimpleData name="Longitude">-130.9344</SimpleData>
 		<SimpleData name="station_long_name">Tree Point</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2226,7 +2226,7 @@
 		<SimpleData name="Latitude">71.314869</SimpleData>
 		<SimpleData name="Longitude">-156.72177</SimpleData>
 		<SimpleData name="station_long_name">Utqiagvik (Barrow)</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2265,7 +2265,7 @@
 		<SimpleData name="Latitude">61.12706</SimpleData>
 		<SimpleData name="Longitude">-146.343876</SimpleData>
 		<SimpleData name="station_long_name">Valdez Port</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2303,7 +2303,7 @@
 		<SimpleData name="Latitude">70.636261</SimpleData>
 		<SimpleData name="Longitude">-160.033703</SimpleData>
 		<SimpleData name="station_long_name">Wainwright</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2342,7 +2342,7 @@
 		<SimpleData name="Latitude">65.605</SimpleData>
 		<SimpleData name="Longitude">-168.0864</SimpleData>
 		<SimpleData name="station_long_name">Wales</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2381,7 +2381,7 @@
 		<SimpleData name="Latitude">60.77673</SimpleData>
 		<SimpleData name="Longitude">-148.682278</SimpleData>
 		<SimpleData name="station_long_name">Whittier, AMHS </SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2537,7 +2537,7 @@
 		<SimpleData name="Latitude">60.9694</SimpleData>
 		<SimpleData name="Longitude">-149.0966</SimpleData>
 		<SimpleData name="station_long_name">Alyeska Resort Base</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2576,7 +2576,7 @@
 		<SimpleData name="Latitude">60.9483</SimpleData>
 		<SimpleData name="Longitude">-149.0871</SimpleData>
 		<SimpleData name="station_long_name">Alyeska Resort Max's Mountain</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2615,7 +2615,7 @@
 		<SimpleData name="Latitude">60.9724</SimpleData>
 		<SimpleData name="Longitude">-149.0819</SimpleData>
 		<SimpleData name="station_long_name">Alyeska Resort, Mid Mountain</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2654,7 +2654,7 @@
 		<SimpleData name="Latitude">60.9568</SimpleData>
 		<SimpleData name="Longitude">-149.0611</SimpleData>
 		<SimpleData name="station_long_name">Alyeska Resort Summit</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2693,7 +2693,7 @@
 		<SimpleData name="Latitude">60.9628</SimpleData>
 		<SimpleData name="Longitude">-149.0707</SimpleData>
 		<SimpleData name="station_long_name">Alyeska Resort, Top of Glacier Bowl Express</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2732,7 +2732,7 @@
 		<SimpleData name="Latitude">60.0992</SimpleData>
 		<SimpleData name="Longitude">-149.4428</SimpleData>
 		<SimpleData name="station_long_name">Alutiiq Pride Shellfish Hatchery Burke-o-Lator</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -2771,7 +2771,7 @@
 		<SimpleData name="Latitude">57.0526</SimpleData>
 		<SimpleData name="Longitude">-135.3456</SimpleData>
 		<SimpleData name="station_long_name">Sitka Burke-o-Lator</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -2810,7 +2810,7 @@
 		<SimpleData name="Latitude">50.116</SimpleData>
 		<SimpleData name="Longitude">-125.222</SimpleData>
 		<SimpleData name="station_long_name">Hyacinthe Bay, BC Buke-o-Lator</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -2849,7 +2849,7 @@
 		<SimpleData name="Latitude">60.793333</SimpleData>
 		<SimpleData name="Longitude">-161.745556</SimpleData>
 		<SimpleData name="station_long_name">Kuskokwim River at Bethel</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2888,7 +2888,7 @@
 		<SimpleData name="Latitude">66.895035</SimpleData>
 		<SimpleData name="Longitude">-162.56675</SimpleData>
 		<SimpleData name="station_long_name">Kotzebue: NOTE -  was to replace KZTA2. Both ran and stopped operating in 2020.</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2927,7 +2927,7 @@
 		<SimpleData name="Latitude">66.92682</SimpleData>
 		<SimpleData name="Longitude">-162.63506</SimpleData>
 		<SimpleData name="station_long_name">Kotzebue Sound at Kotzebue</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -2966,7 +2966,7 @@
 		<SimpleData name="Latitude">60.57065</SimpleData>
 		<SimpleData name="Longitude">-165.23786</SimpleData>
 		<SimpleData name="station_long_name">Tununak</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3005,7 +3005,7 @@
 		<SimpleData name="Latitude">60.805</SimpleData>
 		<SimpleData name="Longitude">-148.085</SimpleData>
 		<SimpleData name="station_long_name">Esther Island, SNOTEL STATION</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3044,7 +3044,7 @@
 		<SimpleData name="Latitude">60.555</SimpleData>
 		<SimpleData name="Longitude">-145.745</SimpleData>
 		<SimpleData name="station_long_name">Mt Eyak, SNOTEL STATION</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3083,7 +3083,7 @@
 		<SimpleData name="Latitude">60.335</SimpleData>
 		<SimpleData name="Longitude">-146.665</SimpleData>
 		<SimpleData name="station_long_name">Nuchek, SNOTEL STATION (on McNeil River)</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3122,7 +3122,7 @@
 		<SimpleData name="Latitude">60.055</SimpleData>
 		<SimpleData name="Longitude">-148.065</SimpleData>
 		<SimpleData name="station_long_name">Port San Juan, SNOTEL STATION</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3161,7 +3161,7 @@
 		<SimpleData name="Latitude">60.875</SimpleData>
 		<SimpleData name="Longitude">-146.675</SimpleData>
 		<SimpleData name="station_long_name">Tatitlek, SNOTEL STATION</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3200,7 +3200,7 @@
 		<SimpleData name="Latitude">60.435</SimpleData>
 		<SimpleData name="Longitude">-147.395</SimpleData>
 		<SimpleData name="station_long_name">Seal Island, SNOTEL STATION</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3239,7 +3239,7 @@
 		<SimpleData name="Latitude">60.235</SimpleData>
 		<SimpleData name="Longitude">-144.865</SimpleData>
 		<SimpleData name="station_long_name">Strawberry Reef, SNOTEL STATION</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3278,7 +3278,7 @@
 		<SimpleData name="Latitude">61.085</SimpleData>
 		<SimpleData name="Longitude">-146.295</SimpleData>
 		<SimpleData name="station_long_name">Sugarloaf Mtn, SNOTEL STATION</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3317,7 +3317,7 @@
 		<SimpleData name="Latitude">59.7724134</SimpleData>
 		<SimpleData name="Longitude">-151.83665552</SimpleData>
 		<SimpleData name="station_long_name">Cook Inletkeeper, Anchor River</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -3356,7 +3356,7 @@
 		<SimpleData name="Latitude">61.76751</SimpleData>
 		<SimpleData name="Longitude">-150.33992</SimpleData>
 		<SimpleData name="station_long_name">Cook Inletkeeper, Deshka River (Kroto Creek)</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -3395,7 +3395,7 @@
 		<SimpleData name="Latitude">60.45304</SimpleData>
 		<SimpleData name="Longitude">-149.98679</SimpleData>
 		<SimpleData name="station_long_name">Cook Inletkeeper, Russian River</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -3434,7 +3434,7 @@
 		<SimpleData name="Latitude">70.2041</SimpleData>
 		<SimpleData name="Longitude">-147.7014</SimpleData>
 		<SimpleData name="station_long_name">Foggy Island Bay</SimpleData>
-		<SimpleData name="Platform">Fixed shorebased</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">N</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3473,7 +3473,7 @@
 		<SimpleData name="Latitude">70.319</SimpleData>
 		<SimpleData name="Longitude">-147.7612</SimpleData>
 		<SimpleData name="station_long_name">SPOT-0156: Foggy Island STLD2 2019</SimpleData>
-		<SimpleData name="Platform">Moored wave buoy</SimpleData>
+		<SimpleData name="Platform">wave_buoy</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3512,7 +3512,7 @@
 		<SimpleData name="Latitude">70.3935</SimpleData>
 		<SimpleData name="Longitude">-147.835</SimpleData>
 		<SimpleData name="station_long_name">SPOT-0107: Foggy Island Dinkum 2019</SimpleData>
-		<SimpleData name="Platform">Moored wave buoy</SimpleData>
+		<SimpleData name="Platform">wave_buoy</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3551,7 +3551,7 @@
 		<SimpleData name="Latitude">59.7983</SimpleData>
 		<SimpleData name="Longitude">-144.5999</SimpleData>
 		<SimpleData name="station_long_name">Cape St. Elias</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3590,7 +3590,7 @@
 		<SimpleData name="Latitude">61.091</SimpleData>
 		<SimpleData name="Longitude">-146.3766</SimpleData>
 		<SimpleData name="station_long_name">Valdez Marine Terminal Weather Buoy</SimpleData>
-		<SimpleData name="Platform">Moored Buoy</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -3629,7 +3629,7 @@
 		<SimpleData name="Latitude">61.1225</SimpleData>
 		<SimpleData name="Longitude">-146.2967</SimpleData>
 		<SimpleData name="station_long_name">Valdez Duck Flats Weather Buoy</SimpleData>
-		<SimpleData name="Platform">Moored Buoy</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -3668,7 +3668,7 @@
 		<SimpleData name="Latitude">56.0041</SimpleData>
 		<SimpleData name="Longitude">-161.1751</SimpleData>
 		<SimpleData name="station_long_name">Nelson Lagoon</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3707,7 +3707,7 @@
 		<SimpleData name="Latitude">58.7321</SimpleData>
 		<SimpleData name="Longitude">-156.9833</SimpleData>
 		<SimpleData name="station_long_name">Naknek </SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -3746,7 +3746,7 @@
 		<SimpleData name="Latitude">59.6055</SimpleData>
 		<SimpleData name="Longitude">-151.4221</SimpleData>
 		<SimpleData name="station_long_name">Homer Ramp 8</SimpleData>
-		<SimpleData name="Platform">Fixed</SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -4648,7 +4648,7 @@
 		<SimpleData name="Latitude">35.37</SimpleData>
 		<SimpleData name="Longitude">-120.86</SimpleData>
 		<SimpleData name="station_long_name">Morro Bay</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -4726,7 +4726,7 @@
 		<SimpleData name="Latitude">35.17</SimpleData>
 		<SimpleData name="Longitude">-122.89</SimpleData>
 		<SimpleData name="station_long_name">San Luis Bay</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -4765,7 +4765,7 @@
 		<SimpleData name="Latitude">37.8</SimpleData>
 		<SimpleData name="Longitude">-122.397</SimpleData>
 		<SimpleData name="station_long_name">Exploratorium</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -4804,7 +4804,7 @@
 		<SimpleData name="Latitude">41.06</SimpleData>
 		<SimpleData name="Longitude">-124.15</SimpleData>
 		<SimpleData name="station_long_name">Trinidad Pier</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -4960,7 +4960,7 @@
 		<SimpleData name="Latitude">36.618</SimpleData>
 		<SimpleData name="Longitude">-121.9015</SimpleData>
 		<SimpleData name="station_long_name">Monterey Bay Aquarium</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5194,7 +5194,7 @@
 		<SimpleData name="Latitude">37.89</SimpleData>
 		<SimpleData name="Longitude">-122.45</SimpleData>
 		<SimpleData name="station_long_name">Tiburon</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5272,7 +5272,7 @@
 		<SimpleData name="Latitude">36.61</SimpleData>
 		<SimpleData name="Longitude">-121.89</SimpleData>
 		<SimpleData name="station_long_name">Monterey Wharf</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5311,7 +5311,7 @@
 		<SimpleData name="Latitude">36.8</SimpleData>
 		<SimpleData name="Longitude">-121.79</SimpleData>
 		<SimpleData name="station_long_name">Moss Landing</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5428,7 +5428,7 @@
 		<SimpleData name="Latitude">37.81</SimpleData>
 		<SimpleData name="Longitude">-122.47</SimpleData>
 		<SimpleData name="station_long_name">Fort Point</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5506,7 +5506,7 @@
 		<SimpleData name="Latitude">36.96</SimpleData>
 		<SimpleData name="Longitude">-122.02</SimpleData>
 		<SimpleData name="station_long_name">Santa Cruz Wharf</SimpleData>
-		<SimpleData name="Platform">fixed </SimpleData>
+		<SimpleData name="Platform">fixed</SimpleData>
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5545,7 +5545,7 @@
 		<SimpleData name="Latitude">30.3288</SimpleData>
 		<SimpleData name="Longitude">-87.8293</SimpleData>
 		<SimpleData name="station_long_name">BSCA: Station Bon Secour, LA</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5701,7 +5701,7 @@
 		<SimpleData name="Latitude">30.4367</SimpleData>
 		<SimpleData name="Longitude">-88.0117</SimpleData>
 		<SimpleData name="station_long_name">MBLA: Middle Bay Light, AL</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5895,7 +5895,7 @@
 		<SimpleData name="Latitude">29.187</SimpleData>
 		<SimpleData name="Longitude">-90.6093</SimpleData>
 		<SimpleData name="station_long_name">102: Terrebonne Bay, LA</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -5934,7 +5934,7 @@
 		<SimpleData name="Latitude">30.18894</SimpleData>
 		<SimpleData name="Longitude">-90.16831</SimpleData>
 		<SimpleData name="station_long_name">103: Western Lake Ponchartrain, LA</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -6012,7 +6012,7 @@
 		<SimpleData name="Latitude">29.18737</SimpleData>
 		<SimpleData name="Longitude">-90.66542</SimpleData>
 		<SimpleData name="station_long_name">105: Tambour Bay, LA</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -7494,7 +7494,7 @@
 		<SimpleData name="Latitude">29.4412</SimpleData>
 		<SimpleData name="Longitude">-92.0613</SimpleData>
 		<SimpleData name="station_long_name">CSI03: Marsh Island, LA</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -7533,7 +7533,7 @@
 		<SimpleData name="Latitude">29.0533</SimpleData>
 		<SimpleData name="Longitude">-90.5333</SimpleData>
 		<SimpleData name="station_long_name">CSI05: Isle Dernieres, LA</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -7572,7 +7572,7 @@
 		<SimpleData name="Latitude">28.8667</SimpleData>
 		<SimpleData name="Longitude">-90.4833</SimpleData>
 		<SimpleData name="station_long_name">CSI06: South Timbalier Block 52, LA</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -7611,7 +7611,7 @@
 		<SimpleData name="Latitude">29.1015</SimpleData>
 		<SimpleData name="Longitude">-89.9782</SimpleData>
 		<SimpleData name="station_long_name">CSI09: Grand Isle Blocks</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -7687,7 +7687,7 @@
 		<SimpleData name="Latitude">28.8332</SimpleData>
 		<SimpleData name="Longitude">-90.832</SimpleData>
 		<SimpleData name="station_long_name">CSI15: Ship Shoal blocks 114A</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -7726,7 +7726,7 @@
 		<SimpleData name="Latitude">29.4012</SimpleData>
 		<SimpleData name="Longitude">-89.0355</SimpleData>
 		<SimpleData name="station_long_name">CSI16: Chevron MP41M platform</SimpleData>
-		<SimpleData name="Platform">offshore_tower</SimpleData>
+		<SimpleData name="Platform">tower</SimpleData>
 		<SimpleData name="Operational">U</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -13892,7 +13892,7 @@
 		<SimpleData name="Latitude">39.2717</SimpleData>
 		<SimpleData name="Longitude">-73.8892</SimpleData>
 		<SimpleData name="station_long_name">Atlantic Shores Offshore Wind Lidar Buoy</SimpleData>
-		<SimpleData name="Platform">buoy and mooring</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -15686,7 +15686,7 @@
 		<SimpleData name="Latitude">47.7874</SimpleData>
 		<SimpleData name="Longitude">-122.8527</SimpleData>
 		<SimpleData name="station_long_name">Penn Cove Shellfish, Quilcene - Hood Canal</SimpleData>
-		<SimpleData name="Platform">mooring</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">N</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -15843,7 +15843,7 @@ O</SimpleData>
 		<SimpleData name="Latitude">48.0764</SimpleData>
 		<SimpleData name="Longitude">-122.7138</SimpleData>
 		<SimpleData name="station_long_name">Kilisut Harbor Site, NE shore</SimpleData>
-		<SimpleData name="Platform">mooring</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">O</SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -18145,7 +18145,7 @@ aragonite_saturation (1 m), sea_water_salinity (1 m), sea_water_temperature (1 m
 		<SimpleData name="Latitude">33.3628</SimpleData>
 		<SimpleData name="Longitude">-118.0628</SimpleData>
 		<SimpleData name="station_long_name">Catalina Sea Ranch - NOMAD Buoy </SimpleData>
-		<SimpleData name="Platform">buoy </SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">N</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp"></SimpleData>
@@ -18535,7 +18535,7 @@ aragonite_saturation (1 m), sea_water_salinity (1 m), sea_water_temperature (1 m
 		<SimpleData name="Latitude">35.17</SimpleData>
 		<SimpleData name="Longitude">-120.741</SimpleData>
 		<SimpleData name="station_long_name">Cal Poly Pier</SimpleData>
-		<SimpleData name="Platform">sampling_location</SimpleData>
+		<SimpleData name="Platform"></SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -18579,7 +18579,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Latitude">34.4107</SimpleData>
 		<SimpleData name="Longitude">-119.6874</SimpleData>
 		<SimpleData name="station_long_name">Stearns Wharf</SimpleData>
-		<SimpleData name="Platform">sampling_location</SimpleData>
+		<SimpleData name="Platform"></SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -18623,7 +18623,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Latitude">34.0086</SimpleData>
 		<SimpleData name="Longitude">-118.4986</SimpleData>
 		<SimpleData name="station_long_name">Santa Monica Pier</SimpleData>
-		<SimpleData name="Platform">sampling_location</SimpleData>
+		<SimpleData name="Platform"></SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -18667,7 +18667,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Latitude">33.6073</SimpleData>
 		<SimpleData name="Longitude">-117.9289</SimpleData>
 		<SimpleData name="station_long_name">Newport Pier</SimpleData>
-		<SimpleData name="Platform">sampling_location</SimpleData>
+		<SimpleData name="Platform"></SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -18711,7 +18711,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Latitude">32.867</SimpleData>
 		<SimpleData name="Longitude">-117.257</SimpleData>
 		<SimpleData name="station_long_name">Scripps Pier</SimpleData>
-		<SimpleData name="Platform">sampling_location</SimpleData>
+		<SimpleData name="Platform"></SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -18755,7 +18755,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Latitude">32.938</SimpleData>
 		<SimpleData name="Longitude">-117.326</SimpleData>
 		<SimpleData name="station_long_name">Del Mar Mooring</SimpleData>
-		<SimpleData name="Platform">mooring</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">U - no longer funded </SimpleData>
 		<SimpleData name="RA_Funded">N</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -18794,7 +18794,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Latitude">32.938</SimpleData>
 		<SimpleData name="Longitude">-117.326</SimpleData>
 		<SimpleData name="station_long_name">Observing nutrient fluxes and their role in HAB development in the nearshore region of Southern California. </SimpleData>
-		<SimpleData name="Platform">mooring </SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yp</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -19223,7 +19223,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Latitude">27.21</SimpleData>
 		<SimpleData name="Longitude">-82.82</SimpleData>
 		<SimpleData name="station_long_name">WFS 20m Bottom Mount</SimpleData>
-		<SimpleData name="Platform">bottom_mount</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
@@ -19262,7 +19262,7 @@ Lingulodinium_polyedrum, Prorocentrum_spp</SimpleData>
 		<SimpleData name="Latitude">27.29</SimpleData>
 		<SimpleData name="Longitude">-82.63</SimpleData>
 		<SimpleData name="station_long_name">WFS 10m Bottom Mount</SimpleData>
-		<SimpleData name="Platform">bottom_mount</SimpleData>
+		<SimpleData name="Platform">moored_buoy</SimpleData>
 		<SimpleData name="Operational">Y</SimpleData>
 		<SimpleData name="RA_Funded">Yf</SimpleData>
 		<SimpleData name="Water_temp">X</SimpleData>
