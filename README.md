@@ -12,7 +12,7 @@ Building the IOOS asset inventory with Python. See the [wiki page](https://githu
     * Each row is a station.
     * The columns are groupings of observations, with `X` in the cell denoting if the observation was made during the year. See [this mapping](https://github.com/MathewBiddle/assetInventory/blob/735da9f14dd02fdd395e49a86a3836bd6674bc7c/2020/create_master_inventory_from_processed.py#L206-L233) for how the columns are defined.
   * **create_master_inventory.py** - _(Used for testing)_ This script creates the inventory files from the raw spreadsheets. This is useful as a first check of the raw inventory files.
-  * **create_master_inventory_from_processed.py** - This script creates the inventory files from the processed Excel spreadsheets. 
+  * **create_master_inventory_from_processed.py** - This script creates the inventory files from the manually processed Excel spreadsheets. 
 * **utils/** - This directory contains some useful utilities for evaluating the inventory.
   * **ra_erddaps.json** - a json file of the RA erddap servers.
   * **temp.py** - a place to test
