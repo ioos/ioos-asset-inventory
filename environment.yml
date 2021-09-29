@@ -1,4 +1,4 @@
-name: assetInventory
+name: ioos-asset-inventory
 channels:
   - conda-forge
 dependencies:
