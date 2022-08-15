@@ -7,7 +7,8 @@
   "pacioos1": "https://pae-paha.pacioos.hawaii.edu/erddap" ,
   "pacioos2": "http://oos.soest.hawaii.edu/erddap" ,
   "cencoos": "http://erddap.cencoos.org/erddap" ,
-  "nanoos": "http://data.nanoos.org/erddap/" ,
+  "nanoos": "http://data.nanoos.org/erddap" ,
   "caricoos": "http://dm3.caricoos.org:8002/erddap" ,
-  "neracoos": "http://www.neracoos.org/erddap/"
+  "neracoos": "http://www.neracoos.org/erddap",
+  "sccoos": "https://erddap.sccoos.org/erddap"
 }
