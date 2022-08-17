@@ -1,7 +1,8 @@
 {
   "aoos": "http://erddap.aoos.org/erddap",
   "glos": "http://data.glos.us/erddap" ,
-  "gcoos": "http://gulfhub-data.gcoos.org/erddap" ,
+  "gcoos": "https://erddap.gcoos.org/erddap" ,
+  "gcoos2": "https://gcoos5.geos.tamu.edu/erddap",
   "secoora": "http://erddap.secoora.org/erddap" ,
   "maracoos": "https://erddap.maracoos.org/erddap" ,
   "pacioos": "https://pae-paha.pacioos.hawaii.edu/erddap" ,
