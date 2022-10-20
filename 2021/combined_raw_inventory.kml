@@ -99,6 +99,32 @@
       <SimpleField name="Dataset ID" type="string"/>
       <SimpleField name="Unnamed: 15" type="string"/>
     </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station ID" type="string"/>
+      <SimpleField name="WMO ID or NWS/CMAN ID" type="string"/>
+      <SimpleField name="Station Long Name" type="string"/>
+      <SimpleField name="Station Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform Type" type="string"/>
+      <SimpleField name="Station Deployment" type="string"/>
+      <SimpleField name="Currently Operational? (Y, N, O, U)" type="string"/>
+      <SimpleField name="Platform Funder/Sponsor" type="string"/>
+      <SimpleField name="RA Funding Involvement (Yf, Yp, N)" type="string"/>
+      <SimpleField name="Platform Operator/Owner" type="string"/>
+      <SimpleField name="Operator Sector" type="string"/>
+      <SimpleField name="Platform Maintainer" type="string"/>
+      <SimpleField name="Data Manager" type="string"/>
+      <SimpleField name="Variable Names" type="string"/>
+      <SimpleField name="Additional notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="CARICOOS Contact (Name and Email)" type="string"/>
+      <SimpleField name="RA/Federal Affiliation" type="string"/>
+      <SimpleField name="Dataset ID" type="string"/>
+      <SimpleField name="Unnamed: 15" type="string"/>
+      <SimpleField name="Unnamed: 18" type="string"/>
+    </Schema>
     <Document id="combined_raw_inventory">
       <name>combined_raw_inventory</name>
       <Placemark id="combined_raw_inventory.1">
@@ -9667,6 +9693,1264 @@
       <Placemark id="combined_raw_inventory.342">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Jug_Bay</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Jug_Bay - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.7813</SimpleData>
+            <SimpleData name="Longitude">-76.7137</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2003</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.7137,38.7813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.343">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Aquarium_West</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Aquarium_West - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.2854</SimpleData>
+            <SimpleData name="Longitude">-76.6088</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2016</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.6088,39.2854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.344">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Aquarium_East</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Aquarium_East - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.2855</SimpleData>
+            <SimpleData name="Longitude">-76.608</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2016</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.608,39.2855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.345">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Sandy_Pt_South_Beach</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Sandy_Pt_South_Beach - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.0075</SimpleData>
+            <SimpleData name="Longitude">-76.4003</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2004</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.4003,39.0075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.346">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Otter_Point_Creek</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Otter_Point_Creek - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.4508</SimpleData>
+            <SimpleData name="Longitude">-76.2746</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2003</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.2746,39.4508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.347">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Tolchester</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Tolchester - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.2135</SimpleData>
+            <SimpleData name="Longitude">-76.2462</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2015</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.2462,39.2135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.348">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Little_Monie_Creek</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Little Monie Creek - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.2086</SimpleData>
+            <SimpleData name="Longitude">-75.8046</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2006</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.8046,38.2086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.349">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Pier_26</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Pier 26 Weather/Hydro Station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">40.721538</SimpleData>
+            <SimpleData name="Longitude">-74.0156</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2016</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">air_pressure, air_temperature, dew_point_temperature, dissolved_oxygen_saturation, precipitation_amount, dissolved_oxygen, relative_humidity, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, wind_from_direction, wind_speed</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.0156,40.721538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.350">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Pier_84</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Pier_84 Hydro/weather Station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">40.764628</SimpleData>
+            <SimpleData name="Longitude">-74.003186</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2012</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">air_pressure, air_temperature, dew_point_temperature, dissolved_oxygen_saturation, precipitation_amount, dissolved_oxygen, relative_humidity, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, wind_from_direction, wind_speed</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.003186,40.764628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.351">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Mowhawk R. Lock 8 weather</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Port of Albany hydro/weather station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">42.8302</SimpleData>
+            <SimpleData name="Longitude">-73.9925</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2012</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">air_pressure, air_temperature, dew_point_temperature, relative_humidity,  wind_from_direction, wind_direction_standard_deviation, wind_gust, wind_speed, surface_upwelling_photosynthetic_photon_flux_in_air, precipitation_amount, surface_upwelling_photosynthetic_photon_flux_in_air</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.9925,42.8302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.352">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Mowhawk R. Lock 8 hydro</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Mowhawk R. Lock 8 Hydrologic station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">42.8281</SimpleData>
+            <SimpleData name="Longitude">-73.9904</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2012</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">dissolved_oxygen_saturation, dissolved_oxygen, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, water_level_observed</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.9904,42.8281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.353">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">West Point</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">West Point USGS hydrologic Station</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">41.3861</SimpleData>
+            <SimpleData name="Longitude">-73.955</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2016</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">USGS</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">USGS</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">dissolved_oxygen_saturation, dissolved_oxygen, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, </SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.955,41.3861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.354">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Norrie Point</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Norrie Point hydro/weather station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">41.831876</SimpleData>
+            <SimpleData name="Longitude">-73.941606</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2008</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">air_pressure, air_temperature, dew_point_temperature, dissolved_oxygen_saturation, precipitation_amount, dissolved_oxygen, relative_humidity, mass_concentration_of_chlorophyll_a_in_sea_water, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, surface_upwelling_photosynthetic_photon_flux_in_air</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.941606,41.831876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.355">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Mowhawk R. Rexford Bridge</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Mowhawk R. Rexford Bridge hydrologic station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">42.851</SimpleData>
+            <SimpleData name="Longitude">-73.887</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2014</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">dissolved_oxygen_saturation, dissolved_oxygen, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, water_level_observed</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.887,42.851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.356">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Schodak Island Weather</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Schodak Island weather station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">42.5012</SimpleData>
+            <SimpleData name="Longitude">-73.780381</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2013</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">air_pressure, air_temperature, dew_point_temperature, relative_humidity,  wind_from_direction, wind_direction_standard_deviation, wind_gust, wind_speed, surface_upwelling_photosynthetic_photon_flux_in_air, precipitation_amount, surface_upwelling_photosynthetic_photon_flux_in_air</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.780381,42.5012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.357">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Schodak Island Hydro</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Schodak Island hydrologic station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">42.4996</SimpleData>
+            <SimpleData name="Longitude">-73.7768</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2008</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">dissolved_oxygen_saturation, dissolved_oxygen, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, water_level_observed</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.7768,42.4996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.358">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Port of Albany</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Port of Albany hydro/weather station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">42.61954</SimpleData>
+            <SimpleData name="Longitude">-73.7589</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2011</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">air_pressure, air_temperature, dew_point_temperature, dissolved_oxygen_saturation, precipitation_amount, dissolved_oxygen, relative_humidity, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, wind_from_direction, wind_speed, surface_upwelling_photosynthetic_photon_flux_in_air</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.7589,42.61954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.359">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Piermont Pier</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Piermont Pier weather/hydro Station - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">41.043</SimpleData>
+            <SimpleData name="Longitude">-73.896</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2008</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">air_pressure, air_temperature, dew_point_temperature, dissolved_oxygen_saturation, precipitation_amount, dissolved_oxygen, relative_humidity, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, wind_from_direction, wind_speed</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.896,41.043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.360">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Pump Station</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Pump Station (Marist/County/USGS) - HRECOS</SimpleData>
+            <SimpleData name="Station Description">Hudson River Environmental Conditions Observing System hydrologic and weather station</SimpleData>
+            <SimpleData name="Latitude">41.7206</SimpleData>
+            <SimpleData name="Longitude">-73.9388</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2012</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Operator Sector">nonprofit</SimpleData>
+            <SimpleData name="Platform Maintainer">Hudson River Environmental Conditions Observing System</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">dissolved_oxygen_saturation, dissolved_oxygen, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_ph_reported_on_total_scale, sea_water_temperature, sea_water_turbidity, water_level_observed</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.9388,41.7206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.361">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Masonville_Cove_Pier</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Masonville_Cove_Pier - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.2447</SimpleData>
+            <SimpleData name="Longitude">-76.5972</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2013</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.5972,39.2447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.362">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">ASOW-6</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Atlantic Shores Offshore Wind Lidar Buoy</SimpleData>
+            <SimpleData name="Station Description">Atlantic Shores Offshore Wind lidar buoy and instrumented mooring</SimpleData>
+            <SimpleData name="Latitude">39.2717</SimpleData>
+            <SimpleData name="Longitude">-73.8892</SimpleData>
+            <SimpleData name="Platform Type">buoy and mooring</SimpleData>
+            <SimpleData name="Station Deployment">2020-07-01 00:00:00</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">N</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">BOEM</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Atlantic Shores Offshore Wind  </SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">Atlantic Shores Offshore Wind  </SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">air_pressure, air_temperature, relative_humidity, wind_from_direction, wind_speed, wind_speed_of_gust, sea_water_practical_salinity, sea_water_temperature (1m, 2m, 32m), sea_water velocity_to_direction (3D),  sea_water_speed (3D), sea_surface_wave_from_direction, sea_surface_wave_mean_period, sea_surface_wave_significant_height, sea_water_pressure</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.8892,39.2717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.363">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">ASOW-4</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Atlantic Shores Offshore Wind Lidar Buoy</SimpleData>
+            <SimpleData name="Station Description">Atlantic Shores Offshore Wind lidar buoy and instrumented mooring</SimpleData>
+            <SimpleData name="Latitude">39.2025</SimpleData>
+            <SimpleData name="Longitude">-74.08194</SimpleData>
+            <SimpleData name="Platform Type">buoy and mooring</SimpleData>
+            <SimpleData name="Station Deployment">2021-05-14 00:00:00</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">BOEM</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Atlantic Shores Offshore Wind  </SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">Atlantic Shores Offshore Wind  </SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">altitude</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.08194,39.2025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.364">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFlow Station Chesapeake Light Tower</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_150651</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">36.90463</SimpleData>
+            <SimpleData name="Longitude">-75.71265</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">N</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.71265,36.90463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.365">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFlow Station Middle Ground Lighthouse</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_160416</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">36.94523</SimpleData>
+            <SimpleData name="Longitude">-76.39145</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.39145,36.94523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.366">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFlow Station Tangier Sound Light</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_161219</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">37.78799</SimpleData>
+            <SimpleData name="Longitude">-75.9735</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.9735,37.78799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.367">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFlow Station Lynnhaven Inlet Light</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_181396</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">36.9178</SimpleData>
+            <SimpleData name="Longitude">-76.09045</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.09045,36.9178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.368">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFlow Station Ocean City</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_340</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">38.32699</SimpleData>
+            <SimpleData name="Longitude">-75.08321</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.08321,38.32699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.369">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFlow Station Cape Henry</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_397</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">36.92706</SimpleData>
+            <SimpleData name="Longitude">-76.00665</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.00665,36.92706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.370">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WatherFlow Station Wachapreague</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_48410</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">37.60166</SimpleData>
+            <SimpleData name="Longitude">-75.68974</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">N</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.68974,37.60166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.371">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFlow Station Creeds</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_48593</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">36.58971</SimpleData>
+            <SimpleData name="Longitude">-76.02099</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.02099,36.58971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.372">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFLow Station 3rd Island</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_693</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">37.03652</SimpleData>
+            <SimpleData name="Longitude">-76.07666</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.07666,37.03652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.373">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">WeatherFlow Station Rudee Inlet</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Weatherflow, station_85054</SimpleData>
+            <SimpleData name="Station Description">WeatherFlow Meteorological Station</SimpleData>
+            <SimpleData name="Latitude">36.83037</SimpleData>
+            <SimpleData name="Longitude">-75.96657</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">nan</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">WatherFlow Inc.</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Operator Sector">Private</SimpleData>
+            <SimpleData name="Platform Maintainer">WatherFlow Inc.</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names"> wind_from_direction, wind_speed, wind_speed_of_gust</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.96657,36.83037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.374">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Iron_Pot_Landing</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Iron_Pot_Landing - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.796</SimpleData>
+            <SimpleData name="Longitude">-76.7208</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2003</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">goes only to 2019</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.7208,38.796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.375">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Mataponi</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Mataponi - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.7433</SimpleData>
+            <SimpleData name="Longitude">-76.7074</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2003</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">goes only to 2019</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.7074,38.7433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.376">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Pleasure_Island</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Pleasure_Island - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.2282</SimpleData>
+            <SimpleData name="Longitude">-76.4006</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2015</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">goes only to 2017</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.4006,39.2282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.377">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Tinghman_Island</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Tinghman_Island - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.7037</SimpleData>
+            <SimpleData name="Longitude">-76.3453</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2017</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18"><![CDATA[can't find this station]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.3453,38.7037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.378">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Taylors_Island</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Taylors Island - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.4418</SimpleData>
+            <SimpleData name="Longitude">-76.3029</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2017</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">goes only to 2017</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.3029,38.4418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.379">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Camp_Tockwogh</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Camp_Tockwogh - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.3539</SimpleData>
+            <SimpleData name="Longitude">-76.1296</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2015</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">goes only to 2017</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.1296,39.3539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.380">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Budds_Landing</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Budds_Landing - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">39.3723</SimpleData>
+            <SimpleData name="Longitude">-75.8399</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2007</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">goes only to 2018</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.8399,39.3723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.381">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Public_Landing</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Public Landing - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.1483</SimpleData>
+            <SimpleData name="Longitude">-75.2862</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2005</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">goes only to 2019</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.2862,38.1483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.382">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Newport_Creek</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Newport Creek- Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.2674</SimpleData>
+            <SimpleData name="Longitude">-75.1981</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2006</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">Goes only to 2019</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.1981,38.2674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.383">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Bishopville_Prong</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Bishopville Prong - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.424</SimpleData>
+            <SimpleData name="Longitude">-75.1886</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2003</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">Goes only to 2019</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.1886,38.424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.384">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">MARACOOS</SimpleData>
+            <SimpleData name="Station ID">Greys_Creek</SimpleData>
+            <SimpleData name="WMO ID or NWS/CMAN ID">N/A: No WMO numbers</SimpleData>
+            <SimpleData name="Station Long Name">Greys Creek - Maryland DNR Station</SimpleData>
+            <SimpleData name="Station Description">Maryland Department of Natural Resources water quality station</SimpleData>
+            <SimpleData name="Latitude">38.449</SimpleData>
+            <SimpleData name="Longitude">-75.1325</SimpleData>
+            <SimpleData name="Platform Type">fixed</SimpleData>
+            <SimpleData name="Station Deployment">2008</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
+            <SimpleData name="Platform Funder/Sponsor">Maryland DNR</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
+            <SimpleData name="Platform Operator/Owner">Maryland DNR</SimpleData>
+            <SimpleData name="Operator Sector">gov_state</SimpleData>
+            <SimpleData name="Platform Maintainer">Maryland DNR</SimpleData>
+            <SimpleData name="Data Manager">RPS-ASA</SimpleData>
+            <SimpleData name="Variable Names">Fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, sea_water_practical_salinity, sea_water_temperature, sea_water_turbidity</SimpleData>
+            <SimpleData name="file">MARACOOS.xlsx</SimpleData>
+            <SimpleData name="Unnamed: 18">Goes only to 2019</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.1325,38.449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.385">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
             <SimpleData name="Station ID">APL-UW ESP</SimpleData>
             <SimpleData name="Station Long Name">APL-UW ESP Mooring</SimpleData>
@@ -9691,7 +10975,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.343">
+      <Placemark id="combined_raw_inventory.386">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9718,7 +11002,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.344">
+      <Placemark id="combined_raw_inventory.387">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9745,7 +11029,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.345">
+      <Placemark id="combined_raw_inventory.388">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9772,7 +11056,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.346">
+      <Placemark id="combined_raw_inventory.389">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9799,7 +11083,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.347">
+      <Placemark id="combined_raw_inventory.390">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9826,7 +11110,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.348">
+      <Placemark id="combined_raw_inventory.391">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9853,7 +11137,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.349">
+      <Placemark id="combined_raw_inventory.392">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9880,7 +11164,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.350">
+      <Placemark id="combined_raw_inventory.393">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9907,7 +11191,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.351">
+      <Placemark id="combined_raw_inventory.394">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9934,7 +11218,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.352">
+      <Placemark id="combined_raw_inventory.395">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9961,7 +11245,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.353">
+      <Placemark id="combined_raw_inventory.396">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -9988,7 +11272,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.354">
+      <Placemark id="combined_raw_inventory.397">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10015,7 +11299,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.355">
+      <Placemark id="combined_raw_inventory.398">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10041,7 +11325,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.356">
+      <Placemark id="combined_raw_inventory.399">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10069,7 +11353,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.357">
+      <Placemark id="combined_raw_inventory.400">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10097,7 +11381,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.358">
+      <Placemark id="combined_raw_inventory.401">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10125,7 +11409,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.359">
+      <Placemark id="combined_raw_inventory.402">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10153,7 +11437,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.360">
+      <Placemark id="combined_raw_inventory.403">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10181,7 +11465,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.361">
+      <Placemark id="combined_raw_inventory.404">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10209,7 +11493,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.362">
+      <Placemark id="combined_raw_inventory.405">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10236,7 +11520,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.363">
+      <Placemark id="combined_raw_inventory.406">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10262,7 +11546,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.364">
+      <Placemark id="combined_raw_inventory.407">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10288,7 +11572,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.365">
+      <Placemark id="combined_raw_inventory.408">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10314,7 +11598,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.366">
+      <Placemark id="combined_raw_inventory.409">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10340,7 +11624,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.367">
+      <Placemark id="combined_raw_inventory.410">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10366,7 +11650,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.368">
+      <Placemark id="combined_raw_inventory.411">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10392,7 +11676,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.369">
+      <Placemark id="combined_raw_inventory.412">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10418,7 +11702,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.370">
+      <Placemark id="combined_raw_inventory.413">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10444,7 +11728,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.371">
+      <Placemark id="combined_raw_inventory.414">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10470,7 +11754,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.372">
+      <Placemark id="combined_raw_inventory.415">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10496,7 +11780,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.373">
+      <Placemark id="combined_raw_inventory.416">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NANOOS</SimpleData>
@@ -10522,7 +11806,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.374">
+      <Placemark id="combined_raw_inventory.417">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10551,7 +11835,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.375">
+      <Placemark id="combined_raw_inventory.418">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10580,7 +11864,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.376">
+      <Placemark id="combined_raw_inventory.419">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10609,7 +11893,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.377">
+      <Placemark id="combined_raw_inventory.420">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10638,7 +11922,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.378">
+      <Placemark id="combined_raw_inventory.421">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10667,7 +11951,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.379">
+      <Placemark id="combined_raw_inventory.422">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10696,7 +11980,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.380">
+      <Placemark id="combined_raw_inventory.423">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10725,7 +12009,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.381">
+      <Placemark id="combined_raw_inventory.424">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10754,7 +12038,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.382">
+      <Placemark id="combined_raw_inventory.425">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10783,7 +12067,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.383">
+      <Placemark id="combined_raw_inventory.426">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10812,7 +12096,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.384">
+      <Placemark id="combined_raw_inventory.427">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10841,7 +12125,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.385">
+      <Placemark id="combined_raw_inventory.428">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10870,7 +12154,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.386">
+      <Placemark id="combined_raw_inventory.429">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10899,7 +12183,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.387">
+      <Placemark id="combined_raw_inventory.430">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10928,7 +12212,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.388">
+      <Placemark id="combined_raw_inventory.431">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">NERACOOS</SimpleData>
@@ -10957,7 +12241,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.389">
+      <Placemark id="combined_raw_inventory.432">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -10984,7 +12268,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.390">
+      <Placemark id="combined_raw_inventory.433">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11013,7 +12297,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.391">
+      <Placemark id="combined_raw_inventory.434">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11042,7 +12326,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.392">
+      <Placemark id="combined_raw_inventory.435">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11071,7 +12355,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.393">
+      <Placemark id="combined_raw_inventory.436">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11100,7 +12384,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.394">
+      <Placemark id="combined_raw_inventory.437">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11130,7 +12414,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.395">
+      <Placemark id="combined_raw_inventory.438">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11159,7 +12443,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.396">
+      <Placemark id="combined_raw_inventory.439">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11188,7 +12472,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.397">
+      <Placemark id="combined_raw_inventory.440">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11217,7 +12501,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.398">
+      <Placemark id="combined_raw_inventory.441">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11247,7 +12531,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.399">
+      <Placemark id="combined_raw_inventory.442">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11277,7 +12561,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.400">
+      <Placemark id="combined_raw_inventory.443">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11306,7 +12590,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.401">
+      <Placemark id="combined_raw_inventory.444">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11335,7 +12619,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.402">
+      <Placemark id="combined_raw_inventory.445">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11364,7 +12648,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.403">
+      <Placemark id="combined_raw_inventory.446">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11393,7 +12677,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.404">
+      <Placemark id="combined_raw_inventory.447">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11422,7 +12706,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.405">
+      <Placemark id="combined_raw_inventory.448">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11451,7 +12735,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.406">
+      <Placemark id="combined_raw_inventory.449">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11480,7 +12764,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.407">
+      <Placemark id="combined_raw_inventory.450">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11509,7 +12793,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.408">
+      <Placemark id="combined_raw_inventory.451">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11538,7 +12822,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.409">
+      <Placemark id="combined_raw_inventory.452">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11567,7 +12851,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.410">
+      <Placemark id="combined_raw_inventory.453">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11596,7 +12880,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.411">
+      <Placemark id="combined_raw_inventory.454">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11625,7 +12909,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.412">
+      <Placemark id="combined_raw_inventory.455">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11654,7 +12938,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.413">
+      <Placemark id="combined_raw_inventory.456">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11683,7 +12967,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.414">
+      <Placemark id="combined_raw_inventory.457">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11712,7 +12996,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.415">
+      <Placemark id="combined_raw_inventory.458">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11741,7 +13025,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.416">
+      <Placemark id="combined_raw_inventory.459">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11770,7 +13054,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.417">
+      <Placemark id="combined_raw_inventory.460">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11799,7 +13083,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.418">
+      <Placemark id="combined_raw_inventory.461">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11828,7 +13112,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.419">
+      <Placemark id="combined_raw_inventory.462">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11857,7 +13141,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.420">
+      <Placemark id="combined_raw_inventory.463">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11886,7 +13170,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.421">
+      <Placemark id="combined_raw_inventory.464">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -11915,7 +13199,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.422">
+      <Placemark id="combined_raw_inventory.465">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -11944,7 +13228,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.423">
+      <Placemark id="combined_raw_inventory.466">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -11972,7 +13256,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.424">
+      <Placemark id="combined_raw_inventory.467">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12001,7 +13285,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.425">
+      <Placemark id="combined_raw_inventory.468">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12030,7 +13314,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.426">
+      <Placemark id="combined_raw_inventory.469">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12058,7 +13342,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.427">
+      <Placemark id="combined_raw_inventory.470">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12086,7 +13370,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.428">
+      <Placemark id="combined_raw_inventory.471">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12114,7 +13398,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.429">
+      <Placemark id="combined_raw_inventory.472">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12142,7 +13426,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.430">
+      <Placemark id="combined_raw_inventory.473">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12170,7 +13454,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.431">
+      <Placemark id="combined_raw_inventory.474">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12198,7 +13482,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.432">
+      <Placemark id="combined_raw_inventory.475">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -12226,7 +13510,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.433">
+      <Placemark id="combined_raw_inventory.476">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12255,7 +13539,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.434">
+      <Placemark id="combined_raw_inventory.477">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12284,7 +13568,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.435">
+      <Placemark id="combined_raw_inventory.478">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12314,7 +13598,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.436">
+      <Placemark id="combined_raw_inventory.479">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12344,7 +13628,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.437">
+      <Placemark id="combined_raw_inventory.480">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12374,7 +13658,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.438">
+      <Placemark id="combined_raw_inventory.481">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12404,7 +13688,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.439">
+      <Placemark id="combined_raw_inventory.482">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12434,7 +13718,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.440">
+      <Placemark id="combined_raw_inventory.483">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12464,7 +13748,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.441">
+      <Placemark id="combined_raw_inventory.484">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12494,7 +13778,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.442">
+      <Placemark id="combined_raw_inventory.485">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12523,7 +13807,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.443">
+      <Placemark id="combined_raw_inventory.486">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12553,7 +13837,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.444">
+      <Placemark id="combined_raw_inventory.487">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12583,7 +13867,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.445">
+      <Placemark id="combined_raw_inventory.488">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12612,7 +13896,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.446">
+      <Placemark id="combined_raw_inventory.489">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12642,7 +13926,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.447">
+      <Placemark id="combined_raw_inventory.490">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12672,7 +13956,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.448">
+      <Placemark id="combined_raw_inventory.491">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12702,7 +13986,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.449">
+      <Placemark id="combined_raw_inventory.492">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12732,7 +14016,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.450">
+      <Placemark id="combined_raw_inventory.493">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12762,7 +14046,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.451">
+      <Placemark id="combined_raw_inventory.494">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12792,7 +14076,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.452">
+      <Placemark id="combined_raw_inventory.495">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12822,7 +14106,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.453">
+      <Placemark id="combined_raw_inventory.496">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12852,7 +14136,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.454">
+      <Placemark id="combined_raw_inventory.497">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12881,7 +14165,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.455">
+      <Placemark id="combined_raw_inventory.498">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12910,7 +14194,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.456">
+      <Placemark id="combined_raw_inventory.499">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12939,7 +14223,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.457">
+      <Placemark id="combined_raw_inventory.500">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12968,7 +14252,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.458">
+      <Placemark id="combined_raw_inventory.501">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -12997,7 +14281,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.459">
+      <Placemark id="combined_raw_inventory.502">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13026,7 +14310,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.460">
+      <Placemark id="combined_raw_inventory.503">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13055,7 +14339,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.461">
+      <Placemark id="combined_raw_inventory.504">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13084,7 +14368,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.462">
+      <Placemark id="combined_raw_inventory.505">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13113,7 +14397,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.463">
+      <Placemark id="combined_raw_inventory.506">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13142,7 +14426,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.464">
+      <Placemark id="combined_raw_inventory.507">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13171,7 +14455,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.465">
+      <Placemark id="combined_raw_inventory.508">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13200,7 +14484,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.466">
+      <Placemark id="combined_raw_inventory.509">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13229,7 +14513,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.467">
+      <Placemark id="combined_raw_inventory.510">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13258,7 +14542,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.468">
+      <Placemark id="combined_raw_inventory.511">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13287,7 +14571,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.469">
+      <Placemark id="combined_raw_inventory.512">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13316,7 +14600,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.470">
+      <Placemark id="combined_raw_inventory.513">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13345,7 +14629,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.471">
+      <Placemark id="combined_raw_inventory.514">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13374,7 +14658,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.472">
+      <Placemark id="combined_raw_inventory.515">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13403,7 +14687,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.473">
+      <Placemark id="combined_raw_inventory.516">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13432,7 +14716,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.474">
+      <Placemark id="combined_raw_inventory.517">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13461,7 +14745,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.475">
+      <Placemark id="combined_raw_inventory.518">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13490,7 +14774,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.476">
+      <Placemark id="combined_raw_inventory.519">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -13519,7 +14803,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.477">
+      <Placemark id="combined_raw_inventory.520">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
