@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - cfunits==3.2.9
+  - ckanapi
   - erddapy
   - fiona
   - geopandas
