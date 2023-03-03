@@ -1,6 +1,7 @@
 {
   "aoos": "http://erddap.aoos.org/erddap",
-  "glos": "http://data.glos.us/erddap" ,
+  "glos": "https://seagull-erddap.glos.org/erddap",
+  "glos2": "http://data.glos.us/erddap" ,
   "gcoos": "https://erddap.gcoos.org/erddap" ,
   "gcoos2": "https://gcoos5.geos.tamu.edu/erddap",
   "secoora": "http://erddap.secoora.org/erddap" ,
