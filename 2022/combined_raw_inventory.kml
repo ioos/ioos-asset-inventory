@@ -23,6 +23,50 @@
       <SimpleField name="file" type="string"/>
       <SimpleField name="Dataset (ERDDAP) ID" type="string"/>
     </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station ID" type="string"/>
+      <SimpleField name="WMO ID or NWS/CMAN ID" type="string"/>
+      <SimpleField name="Station Long Name" type="string"/>
+      <SimpleField name="Station Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform Type" type="string"/>
+      <SimpleField name="Station Deployment" type="string"/>
+      <SimpleField name="Currently Operational? (Y, N, O, U)" type="string"/>
+      <SimpleField name="Platform Funder/Sponsor" type="string"/>
+      <SimpleField name="RA Funding Involvement (Yf, Yp, N)" type="string"/>
+      <SimpleField name="Platform Operator/Owner" type="string"/>
+      <SimpleField name="Operator Sector" type="string"/>
+      <SimpleField name="Platform Maintainer" type="string"/>
+      <SimpleField name="Data Manager" type="string"/>
+      <SimpleField name="Variable Names" type="string"/>
+      <SimpleField name="Additional notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="Dataset (ERDDAP) ID" type="string"/>
+    </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station ID" type="string"/>
+      <SimpleField name="WMO ID or NWS/CMAN ID" type="string"/>
+      <SimpleField name="Station Long Name" type="string"/>
+      <SimpleField name="Station Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform Type" type="string"/>
+      <SimpleField name="Station Deployment" type="string"/>
+      <SimpleField name="Currently Operational? (Y, N, O, U)" type="string"/>
+      <SimpleField name="Platform Funder/Sponsor" type="string"/>
+      <SimpleField name="RA Funding Involvement (Yf, Yp, N)" type="string"/>
+      <SimpleField name="Platform Operator/Owner" type="string"/>
+      <SimpleField name="Operator Sector" type="string"/>
+      <SimpleField name="Platform Maintainer" type="string"/>
+      <SimpleField name="Data Manager" type="string"/>
+      <SimpleField name="Variable Names" type="string"/>
+      <SimpleField name="Additional notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="Dataset (ERDDAP) ID" type="string"/>
+    </Schema>
     <Document id="combined_raw_inventory">
       <name>combined_raw_inventory</name>
       <Placemark id="combined_raw_inventory.1">
@@ -2099,7 +2143,7 @@
             <SimpleData name="Station Deployment">2015-04-13 00:00:00</SimpleData>
             <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">AOOS, CDIP (USACE) </SimpleData>
-            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">YP</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">AOOS (operattor), CDIP (owner)</SimpleData>
             <SimpleData name="Operator Sector">nonprofit</SimpleData>
             <SimpleData name="Platform Maintainer">AOOS</SimpleData>
@@ -2156,7 +2200,7 @@
             <SimpleData name="Longitude">-149.0966</SimpleData>
             <SimpleData name="Platform Type">Fixed</SimpleData>
             <SimpleData name="Station Deployment">5/5/2015; 8/3/16</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Alyeska Ski Resort</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">Alyeska Ski Resort</SimpleData>
@@ -2185,7 +2229,7 @@
             <SimpleData name="Longitude">-149.0871</SimpleData>
             <SimpleData name="Platform Type">Fixed</SimpleData>
             <SimpleData name="Station Deployment">2015-05-05 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Alyeska Ski Resort</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">Alyeska Ski Resort</SimpleData>
@@ -2214,7 +2258,7 @@
             <SimpleData name="Longitude">-149.0819</SimpleData>
             <SimpleData name="Platform Type">Fixed</SimpleData>
             <SimpleData name="Station Deployment">5/5/2015; 08/31/16</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Alyeska Ski Resort</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">Alyeska Ski Resort</SimpleData>
@@ -2243,7 +2287,7 @@
             <SimpleData name="Longitude">-149.0611</SimpleData>
             <SimpleData name="Platform Type">Fixed</SimpleData>
             <SimpleData name="Station Deployment">2015-05-05 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Alyeska Ski Resort</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">Alyeska Ski Resort</SimpleData>
@@ -2272,7 +2316,7 @@
             <SimpleData name="Longitude">-149.0707</SimpleData>
             <SimpleData name="Platform Type">Fixed</SimpleData>
             <SimpleData name="Station Deployment">2015-05-05 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Alyeska Ski Resort</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">Alyeska Ski Resort</SimpleData>
@@ -2764,7 +2808,7 @@
             <SimpleData name="Station Long Name">Homer Ramp 8, Alaska, Water Level</SimpleData>
             <SimpleData name="Station Description">Homer Ramp 8 Water Level (Tier C)</SimpleData>
             <SimpleData name="Latitude">59.6055</SimpleData>
-            <SimpleData name="Longitude">151.4221</SimpleData>
+            <SimpleData name="Longitude">-151.4221</SimpleData>
             <SimpleData name="Platform Type">Fixed</SimpleData>
             <SimpleData name="Station Deployment">2020-07-23 00:00:00</SimpleData>
             <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
@@ -2781,7 +2825,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            151.4221,59.6055,0
+            -151.4221,59.6055,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3491,7 +3535,7 @@
             <SimpleData name="Station Long Name">Camel Bay Weather Station, Adak Island, AK</SimpleData>
             <SimpleData name="Station Description">MET Station in Camel Bay, Aleutian Islands, Adak Island</SimpleData>
             <SimpleData name="Latitude">51.708</SimpleData>
-            <SimpleData name="Longitude">176.6062</SimpleData>
+            <SimpleData name="Longitude">-176.6062</SimpleData>
             <SimpleData name="Platform Type">Fixed</SimpleData>
             <SimpleData name="Station Deployment">2022-08-16 00:00:00</SimpleData>
             <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
@@ -3508,7 +3552,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            176.6062,51.708,0
+            -176.6062,51.708,0
           </coordinates>
         </Point>
       </Placemark>
@@ -4661,7 +4705,7 @@
             <SimpleData name="Longitude">-124.15</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2008-12-31 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">HSU/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">HSU</SimpleData>
@@ -4691,9 +4735,9 @@
             <SimpleData name="Longitude">-124.2</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2003</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">HSU/CeNCOOS</SimpleData>
-            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">yp</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">HSU</SimpleData>
             <SimpleData name="Operator Sector">Academic</SimpleData>
             <SimpleData name="Platform Maintainer">HSU</SimpleData>
@@ -4719,7 +4763,7 @@
             <SimpleData name="Longitude">-124.13</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2006-08-01 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">HSU/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">HSU</SimpleData>
@@ -4747,7 +4791,7 @@
             <SimpleData name="Longitude">-124.192885</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2022-09-01 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">o</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">O</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">HSU</SimpleData>
             <SimpleData name="Operator Sector">Academic</SimpleData>
@@ -4772,7 +4816,7 @@
             <SimpleData name="Longitude">-123.07</SimpleData>
             <SimpleData name="Platform Type">fixed intertidal</SimpleData>
             <SimpleData name="Station Deployment">2007</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">n</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">N</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">SSU/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">SFSU</SimpleData>
@@ -4801,9 +4845,9 @@
             <SimpleData name="Longitude">-123.07</SimpleData>
             <SimpleData name="Platform Type">fixed intake</SimpleData>
             <SimpleData name="Station Deployment">2003</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">UC Davis/CeNCOOS</SimpleData>
-            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">yp</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">UC Davis (BML)</SimpleData>
             <SimpleData name="Operator Sector">Academic</SimpleData>
             <SimpleData name="Platform Maintainer">UC Davis (BML)</SimpleData>
@@ -4829,7 +4873,7 @@
             <SimpleData name="Longitude">-123.0716</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2022-06-01 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">UC Davis/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">UC Davis (BML)</SimpleData>
@@ -4855,7 +4899,7 @@
             <SimpleData name="Longitude">-122.8939</SimpleData>
             <SimpleData name="Platform Type">fixed intake</SimpleData>
             <SimpleData name="Station Deployment">2014-05-31 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">UC Davis/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">UC Davis  </SimpleData>
@@ -4884,7 +4928,7 @@
             <SimpleData name="Longitude">-122.23</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2008-02-21 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">SFSU/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">SFSU</SimpleData>
@@ -4913,7 +4957,7 @@
             <SimpleData name="Longitude">-122.45</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2002-11-01 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">SFSU/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">SFSU</SimpleData>
@@ -4942,7 +4986,7 @@
             <SimpleData name="Longitude">-122.47</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2009-02-28 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">UC Davis/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">UC Davis (BML)</SimpleData>
@@ -4970,7 +5014,7 @@
             <SimpleData name="Longitude">-122.397</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">nan</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">o</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">O</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Exploratorium</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">Exploratorium</SimpleData>
@@ -4998,7 +5042,7 @@
             <SimpleData name="Longitude">-122.397</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2016-09-01 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">o</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">O</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">UCSC  </SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">UCSC</SimpleData>
@@ -5025,7 +5069,7 @@
             <SimpleData name="Longitude">-122.02</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2011-11-11 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">o</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">O</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">UCSC/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">UCSC</SimpleData>
@@ -5053,7 +5097,7 @@
             <SimpleData name="Longitude">-122.02</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2015-08-01 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">UCSC</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">UCSC</SimpleData>
@@ -5081,7 +5125,7 @@
             <SimpleData name="Longitude">-121.79</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2010-09-03 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">MLML/SJSU/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">SJSU (MLML)</SimpleData>
@@ -5110,9 +5154,9 @@
             <SimpleData name="Longitude">-122.029</SimpleData>
             <SimpleData name="Platform Type">moored buoy</SimpleData>
             <SimpleData name="Station Deployment">1991</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">MBARI</SimpleData>
-            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">n</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">MBARI</SimpleData>
             <SimpleData name="Operator Sector">nonprofit</SimpleData>
             <SimpleData name="Platform Maintainer">MBARI</SimpleData>
@@ -5138,7 +5182,7 @@
             <SimpleData name="Longitude">-121.8845</SimpleData>
             <SimpleData name="Platform Type">moored buoy</SimpleData>
             <SimpleData name="Station Deployment">2021-08-17 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">o</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">O</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">MBARI/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Operator Sector">nonprofit</SimpleData>
@@ -5163,9 +5207,9 @@
             <SimpleData name="Longitude">-121.9015</SimpleData>
             <SimpleData name="Platform Type">fixed intake</SimpleData>
             <SimpleData name="Station Deployment">nan</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">MBA</SimpleData>
-            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">n</SimpleData>
+            <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">MBA</SimpleData>
             <SimpleData name="Operator Sector">nonprofit</SimpleData>
             <SimpleData name="Platform Maintainer">MBA</SimpleData>
@@ -5192,7 +5236,7 @@
             <SimpleData name="Longitude">-120.86</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2007-01-01 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Cal Poly/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">Cal Poly</SimpleData>
@@ -5220,7 +5264,7 @@
             <SimpleData name="Longitude">-120.84725</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2018-09-20 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Cal Poly/CeNCOOS</SimpleData>
             <SimpleData name="Platform Operator/Owner">Cal Poly</SimpleData>
             <SimpleData name="Operator Sector">Academic</SimpleData>
@@ -5248,7 +5292,7 @@
             <SimpleData name="Longitude">-122.89</SimpleData>
             <SimpleData name="Platform Type">fixed pier</SimpleData>
             <SimpleData name="Station Deployment">2005-05-01 00:00:00</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">y</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">Y</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">Cal Poly/CeNCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">Yp</SimpleData>
             <SimpleData name="Platform Operator/Owner">Cal Poly</SimpleData>
@@ -9837,7 +9881,7 @@
             <SimpleData name="Longitude">-117.326</SimpleData>
             <SimpleData name="Platform Type">mooring</SimpleData>
             <SimpleData name="Station Deployment">2006</SimpleData>
-            <SimpleData name="Currently Operational? (Y, N, O, U)">U - no longer funded </SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)">U</SimpleData>
             <SimpleData name="Platform Funder/Sponsor">SCCOOS</SimpleData>
             <SimpleData name="RA Funding Involvement (Yf, Yp, N)">N</SimpleData>
             <SimpleData name="Platform Operator/Owner">UCSD</SimpleData>

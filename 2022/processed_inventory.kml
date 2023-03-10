@@ -37,6 +37,78 @@
       <SimpleField name="Raw_Vars" type="string"/>
       <SimpleField name="file" type="string"/>
     </Schema>
+    <Schema id="processed_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="station_long_name" type="string"/>
+      <SimpleField name="Platform" type="string"/>
+      <SimpleField name="Operational" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Water_temp" type="string"/>
+      <SimpleField name="Salinity" type="string"/>
+      <SimpleField name="Wtr_press" type="string"/>
+      <SimpleField name="Dew_pt" type="string"/>
+      <SimpleField name="Rel_hum" type="string"/>
+      <SimpleField name="Air_temp" type="string"/>
+      <SimpleField name="Winds" type="string"/>
+      <SimpleField name="Air_press" type="string"/>
+      <SimpleField name="Precip" type="string"/>
+      <SimpleField name="Solar_radn" type="string"/>
+      <SimpleField name="Water_level" type="string"/>
+      <SimpleField name="Waves" type="string"/>
+      <SimpleField name="Currents" type="string"/>
+      <SimpleField name="Turbidity" type="string"/>
+      <SimpleField name="DO" type="string"/>
+      <SimpleField name="pCO2_water" type="string"/>
+      <SimpleField name="pCO2_air" type="string"/>
+      <SimpleField name="TCO2" type="string"/>
+      <SimpleField name="pH" type="string"/>
+      <SimpleField name="OmgArag_st" type="string"/>
+      <SimpleField name="Chl" type="string"/>
+      <SimpleField name="Nitrate" type="string"/>
+      <SimpleField name="CDOM" type="string"/>
+      <SimpleField name="Alkalinity" type="string"/>
+      <SimpleField name="Acoustics" type="string"/>
+      <SimpleField name="Raw_Vars" type="string"/>
+      <SimpleField name="file" type="string"/>
+    </Schema>
+    <Schema id="processed_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="station_long_name" type="string"/>
+      <SimpleField name="Platform" type="string"/>
+      <SimpleField name="Operational" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Water_temp" type="string"/>
+      <SimpleField name="Salinity" type="string"/>
+      <SimpleField name="Wtr_press" type="string"/>
+      <SimpleField name="Dew_pt" type="string"/>
+      <SimpleField name="Rel_hum" type="string"/>
+      <SimpleField name="Air_temp" type="string"/>
+      <SimpleField name="Winds" type="string"/>
+      <SimpleField name="Air_press" type="string"/>
+      <SimpleField name="Precip" type="string"/>
+      <SimpleField name="Solar_radn" type="string"/>
+      <SimpleField name="Water_level" type="string"/>
+      <SimpleField name="Waves" type="string"/>
+      <SimpleField name="Currents" type="string"/>
+      <SimpleField name="Turbidity" type="string"/>
+      <SimpleField name="DO" type="string"/>
+      <SimpleField name="pCO2_water" type="string"/>
+      <SimpleField name="pCO2_air" type="string"/>
+      <SimpleField name="TCO2" type="string"/>
+      <SimpleField name="pH" type="string"/>
+      <SimpleField name="OmgArag_st" type="string"/>
+      <SimpleField name="Chl" type="string"/>
+      <SimpleField name="Nitrate" type="string"/>
+      <SimpleField name="CDOM" type="string"/>
+      <SimpleField name="Alkalinity" type="string"/>
+      <SimpleField name="Acoustics" type="string"/>
+      <SimpleField name="Raw_Vars" type="string"/>
+      <SimpleField name="file" type="string"/>
+    </Schema>
     <Document id="processed_inventory">
       <name>processed_inventory</name>
       <Placemark id="processed_inventory.1">
@@ -1790,7 +1862,7 @@
             <SimpleData name="station_long_name">Lower Cook Inlet, AK CDIP Wave Buoy 204</SimpleData>
             <SimpleData name="Platform">wave_buoy</SimpleData>
             <SimpleData name="Operational">Y</SimpleData>
-            <SimpleData name="RA_Funded">YP</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Waves">X</SimpleData>
             <SimpleData name="Raw_Vars">sea_surface_wave_to_direction, sea_surface_wave_mean_period,  sea_surface_wave_significant_height,  sea_surface_dominant_wave_period, sea_water_temperature</SimpleData>
@@ -1834,7 +1906,7 @@
             <SimpleData name="Longitude">-149.0966</SimpleData>
             <SimpleData name="station_long_name">Alyeska Resort Base</SimpleData>
             <SimpleData name="Platform">fixed</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Rel_hum">X</SimpleData>
             <SimpleData name="Air_temp">X</SimpleData>
@@ -1856,7 +1928,7 @@
             <SimpleData name="Longitude">-149.0871</SimpleData>
             <SimpleData name="station_long_name"><![CDATA[Alyeska Resort Max's Mountain]]></SimpleData>
             <SimpleData name="Platform">fixed</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Rel_hum">X</SimpleData>
             <SimpleData name="Air_temp">X</SimpleData>
@@ -1879,7 +1951,7 @@
             <SimpleData name="Longitude">-149.0819</SimpleData>
             <SimpleData name="station_long_name">Alyeska Resort, Mid Mountain</SimpleData>
             <SimpleData name="Platform">fixed</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Rel_hum">X</SimpleData>
             <SimpleData name="Air_temp">X</SimpleData>
@@ -1901,7 +1973,7 @@
             <SimpleData name="Longitude">-149.0611</SimpleData>
             <SimpleData name="station_long_name">Alyeska Resort Summit</SimpleData>
             <SimpleData name="Platform">fixed</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Rel_hum">X</SimpleData>
             <SimpleData name="Air_temp">X</SimpleData>
@@ -1925,7 +1997,7 @@
             <SimpleData name="Longitude">-149.0707</SimpleData>
             <SimpleData name="station_long_name">Alyeska Resort, Top of Glacier Bowl Express</SimpleData>
             <SimpleData name="Platform">fixed</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Air_temp">X</SimpleData>
             <SimpleData name="Winds">X</SimpleData>
@@ -2323,7 +2395,7 @@
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">AOOS</SimpleData>
             <SimpleData name="Latitude">59.6055</SimpleData>
-            <SimpleData name="Longitude">151.4221</SimpleData>
+            <SimpleData name="Longitude">-151.4221</SimpleData>
             <SimpleData name="station_long_name">Homer Ramp 8, Alaska, Water Level</SimpleData>
             <SimpleData name="Platform">fixed</SimpleData>
             <SimpleData name="Operational">Y</SimpleData>
@@ -2335,7 +2407,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            151.4221,59.6055,0
+            -151.4221,59.6055,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2904,7 +2976,7 @@
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">AOOS</SimpleData>
             <SimpleData name="Latitude">51.708</SimpleData>
-            <SimpleData name="Longitude">176.6062</SimpleData>
+            <SimpleData name="Longitude">-176.6062</SimpleData>
             <SimpleData name="station_long_name">Camel Bay Weather Station, Adak Island, AK</SimpleData>
             <SimpleData name="Platform">fixed</SimpleData>
             <SimpleData name="Operational">Y</SimpleData>
@@ -2920,7 +2992,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            176.6062,51.708,0
+            -176.6062,51.708,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3897,7 +3969,7 @@
             <SimpleData name="Longitude">-124.15</SimpleData>
             <SimpleData name="station_long_name">Trinidad Pier</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -3923,8 +3995,8 @@
             <SimpleData name="Longitude">-124.2</SimpleData>
             <SimpleData name="station_long_name">Humboldt Bay: Chevron Dock</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
-            <SimpleData name="RA_Funded">yp</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
             <SimpleData name="Wtr_press">X</SimpleData>
@@ -3949,7 +4021,7 @@
             <SimpleData name="Longitude">-124.13</SimpleData>
             <SimpleData name="station_long_name">Humboldt Bay: South Bay</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -3975,7 +4047,7 @@
             <SimpleData name="Longitude">-124.192885</SimpleData>
             <SimpleData name="station_long_name">HSU IFCB</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">o</SimpleData>
+            <SimpleData name="Operational">O</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="file">CENCOOS.xlsx</SimpleData>
           </SchemaData>
@@ -3994,7 +4066,7 @@
             <SimpleData name="Longitude">-123.07</SimpleData>
             <SimpleData name="station_long_name">Bodega Head</SimpleData>
             <SimpleData name="Platform">fixed intertidal</SimpleData>
-            <SimpleData name="Operational">n</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Wtr_press">X</SimpleData>
@@ -4017,8 +4089,8 @@
             <SimpleData name="Longitude">-123.07</SimpleData>
             <SimpleData name="station_long_name">Bodega</SimpleData>
             <SimpleData name="Platform">fixed intake</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
-            <SimpleData name="RA_Funded">yp</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
             <SimpleData name="Wtr_press">X</SimpleData>
@@ -4041,7 +4113,7 @@
             <SimpleData name="Longitude">-123.0716</SimpleData>
             <SimpleData name="station_long_name">Bodega IFCB163</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="file">CENCOOS.xlsx</SimpleData>
           </SchemaData>
@@ -4060,7 +4132,7 @@
             <SimpleData name="Longitude">-122.8939</SimpleData>
             <SimpleData name="station_long_name">Hog Island</SimpleData>
             <SimpleData name="Platform">fixed intake</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -4085,7 +4157,7 @@
             <SimpleData name="Longitude">-122.23</SimpleData>
             <SimpleData name="station_long_name">Carquinez</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -4111,7 +4183,7 @@
             <SimpleData name="Longitude">-122.45</SimpleData>
             <SimpleData name="station_long_name">Tiburon</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -4137,7 +4209,7 @@
             <SimpleData name="Longitude">-122.47</SimpleData>
             <SimpleData name="station_long_name">Fort Point</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -4161,7 +4233,7 @@
             <SimpleData name="Longitude">-122.397</SimpleData>
             <SimpleData name="station_long_name">Exploritorium</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">o</SimpleData>
+            <SimpleData name="Operational">O</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -4194,7 +4266,7 @@
             <SimpleData name="Longitude">-122.397</SimpleData>
             <SimpleData name="station_long_name">San Francisco Pier 17 IFCB</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">o</SimpleData>
+            <SimpleData name="Operational">O</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="file">CENCOOS.xlsx</SimpleData>
           </SchemaData>
@@ -4213,7 +4285,7 @@
             <SimpleData name="Longitude">-122.02</SimpleData>
             <SimpleData name="station_long_name">Santa Cruz Wharf</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">o</SimpleData>
+            <SimpleData name="Operational">O</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -4239,7 +4311,7 @@
             <SimpleData name="Longitude">-122.02</SimpleData>
             <SimpleData name="station_long_name">Santa Cruz Municipal Wharf IFCB</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="file">CENCOOS.xlsx</SimpleData>
           </SchemaData>
@@ -4258,7 +4330,7 @@
             <SimpleData name="Longitude">-121.79</SimpleData>
             <SimpleData name="station_long_name">Moss Landing</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -4288,8 +4360,8 @@
             <SimpleData name="Longitude">-122.029</SimpleData>
             <SimpleData name="station_long_name">M1</SimpleData>
             <SimpleData name="Platform">moored buoy</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
-            <SimpleData name="RA_Funded">n</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
             <SimpleData name="Rel_hum">X</SimpleData>
@@ -4318,7 +4390,7 @@
             <SimpleData name="Longitude">-121.8845</SimpleData>
             <SimpleData name="station_long_name">IFCB161</SimpleData>
             <SimpleData name="Platform">moored buoy</SimpleData>
-            <SimpleData name="Operational">o</SimpleData>
+            <SimpleData name="Operational">O</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="file">CENCOOS.xlsx</SimpleData>
           </SchemaData>
@@ -4337,8 +4409,8 @@
             <SimpleData name="Longitude">-121.9015</SimpleData>
             <SimpleData name="station_long_name">Monterey Bay Aquarium</SimpleData>
             <SimpleData name="Platform">fixed intake</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
-            <SimpleData name="RA_Funded">n</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
             <SimpleData name="DO">X</SimpleData>
@@ -4360,7 +4432,7 @@
             <SimpleData name="Longitude">-120.86</SimpleData>
             <SimpleData name="station_long_name">Morro Bay</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -4393,7 +4465,7 @@
             <SimpleData name="Longitude">-120.84725</SimpleData>
             <SimpleData name="station_long_name">Morro Back Bay BS1</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
             <SimpleData name="Wtr_press">X</SimpleData>
@@ -4423,7 +4495,7 @@
             <SimpleData name="Longitude">-122.89</SimpleData>
             <SimpleData name="station_long_name">San Luis Bay</SimpleData>
             <SimpleData name="Platform">fixed pier</SimpleData>
-            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
             <SimpleData name="RA_Funded">Yp</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="Salinity">X</SimpleData>
@@ -8862,7 +8934,7 @@
             <SimpleData name="Longitude">-117.326</SimpleData>
             <SimpleData name="station_long_name">Del Mar Mooring</SimpleData>
             <SimpleData name="Platform">moored_buoy</SimpleData>
-            <SimpleData name="Operational">U - no longer funded </SimpleData>
+            <SimpleData name="Operational">U</SimpleData>
             <SimpleData name="RA_Funded">N</SimpleData>
             <SimpleData name="Water_temp">X</SimpleData>
             <SimpleData name="DO">X</SimpleData>
