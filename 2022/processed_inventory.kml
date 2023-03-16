@@ -109,6 +109,42 @@
       <SimpleField name="Raw_Vars" type="string"/>
       <SimpleField name="file" type="string"/>
     </Schema>
+    <Schema id="processed_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="station_long_name" type="string"/>
+      <SimpleField name="Platform" type="string"/>
+      <SimpleField name="Operational" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Water_temp" type="string"/>
+      <SimpleField name="Salinity" type="string"/>
+      <SimpleField name="Wtr_press" type="string"/>
+      <SimpleField name="Dew_pt" type="string"/>
+      <SimpleField name="Rel_hum" type="string"/>
+      <SimpleField name="Air_temp" type="string"/>
+      <SimpleField name="Winds" type="string"/>
+      <SimpleField name="Air_press" type="string"/>
+      <SimpleField name="Precip" type="string"/>
+      <SimpleField name="Solar_radn" type="string"/>
+      <SimpleField name="Water_level" type="string"/>
+      <SimpleField name="Waves" type="string"/>
+      <SimpleField name="Currents" type="string"/>
+      <SimpleField name="Turbidity" type="string"/>
+      <SimpleField name="DO" type="string"/>
+      <SimpleField name="pCO2_water" type="string"/>
+      <SimpleField name="pCO2_air" type="string"/>
+      <SimpleField name="TCO2" type="string"/>
+      <SimpleField name="pH" type="string"/>
+      <SimpleField name="OmgArag_st" type="string"/>
+      <SimpleField name="Chl" type="string"/>
+      <SimpleField name="Nitrate" type="string"/>
+      <SimpleField name="CDOM" type="string"/>
+      <SimpleField name="Alkalinity" type="string"/>
+      <SimpleField name="Acoustics" type="string"/>
+      <SimpleField name="Raw_Vars" type="string"/>
+      <SimpleField name="file" type="string"/>
+    </Schema>
     <Document id="processed_inventory">
       <name>processed_inventory</name>
       <Placemark id="processed_inventory.1">
@@ -7714,6 +7750,488 @@
       <Placemark id="processed_inventory.304">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">40.88</SimpleData>
+            <SimpleData name="Longitude">-73.73</SimpleData>
+            <SimpleData name="station_long_name">Execution Rocks</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">wind_speed, wind_to_direction, barometric_altitude, air_temperature, relative_humidity, sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_speed, seawater_turbidity, photosynthetically_available_radiation, water_pressure, nitrate</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.73,40.88,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.305">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">40.95</SimpleData>
+            <SimpleData name="Longitude">-73.58</SimpleData>
+            <SimpleData name="station_long_name">Western Long Island Sound</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="pCO2_water">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">wind_speed, wind_to_direction, barometric_altitude, air_temperature, relative_humidity, sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_speed, downwelling_photosynthetic_radiance_in_sea_water, sea_surface_wave_significant_height, sea_surface_swell_wave_mean_period,seawater_turbidity, photosynthetically_available_radiation, water_pressure, nitrate, pCO2, phosphate</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.58,40.95,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.306">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">41.13</SimpleData>
+            <SimpleData name="Longitude">-72.65</SimpleData>
+            <SimpleData name="station_long_name">Central Long Island Sound</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="pCO2_water">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">wind_speed, wind_to_direction, barometric_altitude, air_temperature, relative_humidity, sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_speed, downwelling_photosynthetic_radiance_in_sea_water,  sea_surface_wave_significant_height, sea_surface_swell_wave_mean_period, sea_water_to_direction,seawater_turbidity, photosynthetically_available_radiation, water_pressure, nitrate, pCO2</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.65,41.13,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.307">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">41.492</SimpleData>
+            <SimpleData name="Longitude">-71.419</SimpleData>
+            <SimpleData name="station_long_name">GSO Dock</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="pH">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.419,41.492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.308">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">43.07</SimpleData>
+            <SimpleData name="Longitude">-70.86</SimpleData>
+            <SimpleData name="station_long_name">Great Bay Buoy</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="pCO2_water">X</SimpleData>
+            <SimpleData name="pH">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="CDOM">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, mole_concentration_of_phosphate_in_sea_water, wind_speed, wind_to_direction, wind_speed_of_gust, air_temperature,  air_pressure, solar_irradiance, sea_water_turbidity, concentration_of_colored_dissolved_organic_matter_in_sea_water_expressed_as_equivalent_mass_fraction_of_quinine_sulfate_dihydrate, partial_pressure_of_carbon_dioxide_in_sea_water</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.86,43.07,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.309">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">43.07</SimpleData>
+            <SimpleData name="Longitude">-70.7</SimpleData>
+            <SimpleData name="station_long_name">Coastal Marine Lab</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, partial_pressure_of_carbon_dioxide_in_seawater,downwelling_photosynthetic_radiance_in_sea_water, wind_speed, wind_to_direction, wind_speed_of_gust, air_temperature, air_pressure</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.7,43.07,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.310">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">42.52</SimpleData>
+            <SimpleData name="Longitude">-70.56</SimpleData>
+            <SimpleData name="station_long_name">Massachusetts Bay</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Visibility">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m), sea_water_turbidity (3 m), mass_concentration_of_chlorophyll_in_sea_water (3 m), mole_concentration_of_dissolved_molecular_oxygen_in_sea_water (51 m), mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_saturation (51 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.56,42.52,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.311">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">43.02</SimpleData>
+            <SimpleData name="Longitude">-70.54</SimpleData>
+            <SimpleData name="station_long_name">Appledore Island</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">O</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="pCO2_water">X</SimpleData>
+            <SimpleData name="pCO2_air">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Raw_Vars">wind_speed, wind_to_direction, wind_speed_of_gust, air_temperature, air_pressure, sea_water_temperature, sea_water_salinity, dissolved oxygen, sea_water_turbidity, mass_concentration_of_chlorophyll_in_sea_water, surface_partial_pressure_of_carbon_dioxide_in_air, partial_pressure_of_carbon_dioxide_in_sea_water</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.54,43.02,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.312">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">43.18</SimpleData>
+            <SimpleData name="Longitude">-70.42</SimpleData>
+            <SimpleData name="station_long_name">Western Maine Shelf</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Visibility">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.42,43.18,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.313">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">41.84</SimpleData>
+            <SimpleData name="Longitude">-70.329</SimpleData>
+            <SimpleData name="station_long_name">Cape Cod Bay</SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, sea_surface_wave_significant_height, sea_surface_swell_wave_mean_period, sea_water_to_direction</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.329,41.84,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.314">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">41.39</SimpleData>
+            <SimpleData name="Longitude">-71.03</SimpleData>
+            <SimpleData name="station_long_name">Buzzards Bay</SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, sea_surface_wave_significant_height, sea_surface_swell_wave_mean_period, sea_water_to_direction</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.03,41.39,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.315">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">42.8</SimpleData>
+            <SimpleData name="Longitude">-70.16</SimpleData>
+            <SimpleData name="station_long_name"><![CDATA[Jeffrey's Ledge]]></SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height,sea_surface_swell_wave_mean_period, sea_water_temperature</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.16,42.8,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.316">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">43.71</SimpleData>
+            <SimpleData name="Longitude">-69.35</SimpleData>
+            <SimpleData name="station_long_name">Central Maine Shelf</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Visibility">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -69.35,43.71,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.317">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">44.05</SimpleData>
+            <SimpleData name="Longitude">-68.99</SimpleData>
+            <SimpleData name="station_long_name">Penobscot Bay</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Visibility">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m, 94 m, 98 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m, 94 m, 98 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -68.99,44.05,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.318">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">44.1</SimpleData>
+            <SimpleData name="Longitude">-68.1</SimpleData>
+            <SimpleData name="station_long_name">Eastern Maine Shelf</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Visibility">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -68.1,44.1,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.319">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">43.49</SimpleData>
+            <SimpleData name="Longitude">-67.88</SimpleData>
+            <SimpleData name="station_long_name">Jordan Basin</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Visibility">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m, 100 m, 150 m, 200 m, 250 m), sea_water_to_direction (2 m, 18 m, 26 m, 43 m, 42 m, 50 m, 58 m, 66 m, 74 m, 82 m, 90 m, 98 m, 106 m, 114 m, 122 m, 130 m, 138 m, 146 m, 154 m, 162 m, 170 m, 178 m, 186 m, 194 m, 202 m, 210 m, 218 m, 226 m, 234 m, 242 m, 250 m, 258 m), sea_water_speed (2 m, 18 m, 26 m, 43 m, 42 m, 50 m, 58 m, 66 m, 74 m, 82 m, 90 m, 98 m, 106 m, 114 m, 122 m, 130 m, 138 m, 146 m, 154 m, 162 m, 170 m, 178 m, 186 m, 194 m, 202 m, 210 m, 218 m, 226 m, 234 m, 242 m, 250 m, 258 m), sea_water_salinity (1 m, 20 m, 50 m, 100 m, 150 m, 200 m, 250 m),  sea_water_density (1 m, 20 m, 50 m, 100 m, 150 m, 200 m, 250 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.88,43.49,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.320">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Latitude">42.34</SimpleData>
+            <SimpleData name="Longitude">-65.91</SimpleData>
+            <SimpleData name="station_long_name">Northeast Channel</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">O</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Visibility">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m 100 m, 150 m, 180 m), sea_water_to_direction (2 m, 18 m, 26 m, 34 m, 42 m, 50 m, 58 m, 66 m, 74 m, 82 m, 90 m, 98 m, 106 m, 114 m, 122 m, 130 m, 138 m, 146 m, 154 m, 162 m, 170 m, 178 m, 186 m, 194 m, 202 m), sea_water_speed (2 m, 18 m, 26 m, 34 m, 42 m, 50 m, 58 m, 66 m, 74 m, 82 m, 90 m, 98 m, 106 m, 114 m, 122 m, 130 m, 138 m, 146 m, 154 m, 162 m, 170 m, 178 m, 186 m, 194 m, 202 m), sea_water_salinity (1 m, 20 m, 50 m, 100 m, 150 m, 180 m), sea_water_density (1 m, 20 m, 50 m, 100 m, 150 m, 180 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.91,42.34,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.321">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.433</SimpleData>
             <SimpleData name="Longitude">-157.7863</SimpleData>
@@ -7737,7 +8255,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.305">
+      <Placemark id="processed_inventory.322">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7762,7 +8280,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.306">
+      <Placemark id="processed_inventory.323">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7784,7 +8302,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.307">
+      <Placemark id="processed_inventory.324">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7806,7 +8324,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.308">
+      <Placemark id="processed_inventory.325">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7828,7 +8346,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.309">
+      <Placemark id="processed_inventory.326">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7850,7 +8368,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.310">
+      <Placemark id="processed_inventory.327">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7872,7 +8390,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.311">
+      <Placemark id="processed_inventory.328">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7894,7 +8412,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.312">
+      <Placemark id="processed_inventory.329">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7916,7 +8434,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.313">
+      <Placemark id="processed_inventory.330">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7938,7 +8456,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.314">
+      <Placemark id="processed_inventory.331">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7960,7 +8478,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.315">
+      <Placemark id="processed_inventory.332">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -7982,7 +8500,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.316">
+      <Placemark id="processed_inventory.333">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8004,7 +8522,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.317">
+      <Placemark id="processed_inventory.334">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8026,7 +8544,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.318">
+      <Placemark id="processed_inventory.335">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8049,7 +8567,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.319">
+      <Placemark id="processed_inventory.336">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8072,7 +8590,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.320">
+      <Placemark id="processed_inventory.337">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8097,7 +8615,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.321">
+      <Placemark id="processed_inventory.338">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8122,7 +8640,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.322">
+      <Placemark id="processed_inventory.339">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8147,7 +8665,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.323">
+      <Placemark id="processed_inventory.340">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8172,7 +8690,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.324">
+      <Placemark id="processed_inventory.341">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8197,7 +8715,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.325">
+      <Placemark id="processed_inventory.342">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8222,7 +8740,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.326">
+      <Placemark id="processed_inventory.343">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8247,7 +8765,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.327">
+      <Placemark id="processed_inventory.344">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8272,7 +8790,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.328">
+      <Placemark id="processed_inventory.345">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8297,7 +8815,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.329">
+      <Placemark id="processed_inventory.346">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8322,7 +8840,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.330">
+      <Placemark id="processed_inventory.347">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8347,7 +8865,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.331">
+      <Placemark id="processed_inventory.348">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -8372,7 +8890,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.332">
+      <Placemark id="processed_inventory.349">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8395,7 +8913,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.333">
+      <Placemark id="processed_inventory.350">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8418,7 +8936,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.334">
+      <Placemark id="processed_inventory.351">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8441,7 +8959,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.335">
+      <Placemark id="processed_inventory.352">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8464,7 +8982,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.336">
+      <Placemark id="processed_inventory.353">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8486,7 +9004,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.337">
+      <Placemark id="processed_inventory.354">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8508,7 +9026,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.338">
+      <Placemark id="processed_inventory.355">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8530,7 +9048,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.339">
+      <Placemark id="processed_inventory.356">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8552,7 +9070,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.340">
+      <Placemark id="processed_inventory.357">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8574,7 +9092,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.341">
+      <Placemark id="processed_inventory.358">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8595,7 +9113,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.342">
+      <Placemark id="processed_inventory.359">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8619,7 +9137,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.343">
+      <Placemark id="processed_inventory.360">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8640,7 +9158,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.344">
+      <Placemark id="processed_inventory.361">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8662,7 +9180,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.345">
+      <Placemark id="processed_inventory.362">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8683,7 +9201,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.346">
+      <Placemark id="processed_inventory.363">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8710,7 +9228,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.347">
+      <Placemark id="processed_inventory.364">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8737,7 +9255,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.348">
+      <Placemark id="processed_inventory.365">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8764,7 +9282,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.349">
+      <Placemark id="processed_inventory.366">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8791,7 +9309,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.350">
+      <Placemark id="processed_inventory.367">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8818,7 +9336,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.351">
+      <Placemark id="processed_inventory.368">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8845,7 +9363,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.352">
+      <Placemark id="processed_inventory.369">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8872,7 +9390,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.353">
+      <Placemark id="processed_inventory.370">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8899,7 +9417,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.354">
+      <Placemark id="processed_inventory.371">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8926,7 +9444,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.355">
+      <Placemark id="processed_inventory.372">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8949,7 +9467,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.356">
+      <Placemark id="processed_inventory.373">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SCCOOS</SimpleData>
@@ -8972,7 +9490,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.357">
+      <Placemark id="processed_inventory.374">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -8998,7 +9516,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.358">
+      <Placemark id="processed_inventory.375">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9025,7 +9543,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.359">
+      <Placemark id="processed_inventory.376">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9053,7 +9571,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.360">
+      <Placemark id="processed_inventory.377">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9085,7 +9603,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.361">
+      <Placemark id="processed_inventory.378">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9114,7 +9632,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.362">
+      <Placemark id="processed_inventory.379">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9143,7 +9661,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.363">
+      <Placemark id="processed_inventory.380">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9172,7 +9690,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.364">
+      <Placemark id="processed_inventory.381">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9199,7 +9717,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.365">
+      <Placemark id="processed_inventory.382">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9225,7 +9743,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.366">
+      <Placemark id="processed_inventory.383">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9246,7 +9764,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.367">
+      <Placemark id="processed_inventory.384">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9272,7 +9790,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.368">
+      <Placemark id="processed_inventory.385">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9293,7 +9811,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.369">
+      <Placemark id="processed_inventory.386">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9319,7 +9837,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.370">
+      <Placemark id="processed_inventory.387">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9345,7 +9863,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.371">
+      <Placemark id="processed_inventory.388">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9371,7 +9889,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.372">
+      <Placemark id="processed_inventory.389">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9397,7 +9915,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.373">
+      <Placemark id="processed_inventory.390">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9418,7 +9936,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.374">
+      <Placemark id="processed_inventory.391">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9439,7 +9957,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.375">
+      <Placemark id="processed_inventory.392">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9465,7 +9983,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.376">
+      <Placemark id="processed_inventory.393">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9486,7 +10004,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.377">
+      <Placemark id="processed_inventory.394">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9510,7 +10028,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.378">
+      <Placemark id="processed_inventory.395">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9534,7 +10052,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.379">
+      <Placemark id="processed_inventory.396">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9558,7 +10076,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.380">
+      <Placemark id="processed_inventory.397">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9585,7 +10103,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.381">
+      <Placemark id="processed_inventory.398">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9619,7 +10137,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.382">
+      <Placemark id="processed_inventory.399">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9647,7 +10165,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.383">
+      <Placemark id="processed_inventory.400">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9681,7 +10199,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.384">
+      <Placemark id="processed_inventory.401">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9709,7 +10227,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.385">
+      <Placemark id="processed_inventory.402">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9743,7 +10261,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.386">
+      <Placemark id="processed_inventory.403">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9777,7 +10295,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.387">
+      <Placemark id="processed_inventory.404">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9811,7 +10329,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.388">
+      <Placemark id="processed_inventory.405">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9845,7 +10363,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.389">
+      <Placemark id="processed_inventory.406">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9879,7 +10397,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.390">
+      <Placemark id="processed_inventory.407">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9900,7 +10418,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.391">
+      <Placemark id="processed_inventory.408">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -9921,7 +10439,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="processed_inventory.392">
+      <Placemark id="processed_inventory.409">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
