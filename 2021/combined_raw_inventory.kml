@@ -151,6 +151,58 @@
       <SimpleField name="Unnamed: 15" type="string"/>
       <SimpleField name="Unnamed: 18" type="string"/>
     </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station ID" type="string"/>
+      <SimpleField name="WMO ID or NWS/CMAN ID" type="string"/>
+      <SimpleField name="Station Long Name" type="string"/>
+      <SimpleField name="Station Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform Type" type="string"/>
+      <SimpleField name="Station Deployment" type="string"/>
+      <SimpleField name="Currently Operational? (Y, N, O, U)" type="string"/>
+      <SimpleField name="Platform Funder/Sponsor" type="string"/>
+      <SimpleField name="RA Funding Involvement (Yf, Yp, N)" type="string"/>
+      <SimpleField name="Platform Operator/Owner" type="string"/>
+      <SimpleField name="Operator Sector" type="string"/>
+      <SimpleField name="Platform Maintainer" type="string"/>
+      <SimpleField name="Data Manager" type="string"/>
+      <SimpleField name="Variable Names" type="string"/>
+      <SimpleField name="Additional notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="CARICOOS Contact (Name and Email)" type="string"/>
+      <SimpleField name="RA/Federal Affiliation" type="string"/>
+      <SimpleField name="Dataset ID" type="string"/>
+      <SimpleField name="Unnamed: 15" type="string"/>
+      <SimpleField name="Unnamed: 18" type="string"/>
+    </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station ID" type="string"/>
+      <SimpleField name="WMO ID or NWS/CMAN ID" type="string"/>
+      <SimpleField name="Station Long Name" type="string"/>
+      <SimpleField name="Station Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform Type" type="string"/>
+      <SimpleField name="Station Deployment" type="string"/>
+      <SimpleField name="Currently Operational? (Y, N, O, U)" type="string"/>
+      <SimpleField name="Platform Funder/Sponsor" type="string"/>
+      <SimpleField name="RA Funding Involvement (Yf, Yp, N)" type="string"/>
+      <SimpleField name="Platform Operator/Owner" type="string"/>
+      <SimpleField name="Operator Sector" type="string"/>
+      <SimpleField name="Platform Maintainer" type="string"/>
+      <SimpleField name="Data Manager" type="string"/>
+      <SimpleField name="Variable Names" type="string"/>
+      <SimpleField name="Additional notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="CARICOOS Contact (Name and Email)" type="string"/>
+      <SimpleField name="RA/Federal Affiliation" type="string"/>
+      <SimpleField name="Dataset ID" type="string"/>
+      <SimpleField name="Unnamed: 15" type="string"/>
+      <SimpleField name="Unnamed: 18" type="string"/>
+    </Schema>
     <Document id="combined_raw_inventory">
       <name>combined_raw_inventory</name>
       <Placemark id="combined_raw_inventory.1">
