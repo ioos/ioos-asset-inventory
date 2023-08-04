@@ -30,7 +30,7 @@ def variables(df_final, df_all):
     }
     # Insert True for assets that have text in 'Variable Names' from mapping above
     for key in var_lut:
-        df_final[key] = df_all['Variable Names'].str.contains(var_lut[key], na=False)
+        df_final[key] = df_all['Variable_Names'].str.contains(var_lut[key], na=False)
 
     df_final.replace(False, '', inplace=True)
     df_final.replace(True, 'X', inplace=True)
