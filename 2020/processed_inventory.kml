@@ -253,6 +253,43 @@
       <SimpleField name="Raw_Vars" type="string"/>
       <SimpleField name="file" type="string"/>
     </Schema>
+    <Schema id="processed_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="station_long_name" type="string"/>
+      <SimpleField name="Platform" type="string"/>
+      <SimpleField name="Operational" type="string"/>
+      <SimpleField name="station_deployment" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Water_temp" type="string"/>
+      <SimpleField name="Salinity" type="string"/>
+      <SimpleField name="Wtr_press" type="string"/>
+      <SimpleField name="Dew_pt" type="string"/>
+      <SimpleField name="Rel_hum" type="string"/>
+      <SimpleField name="Air_temp" type="string"/>
+      <SimpleField name="Winds" type="string"/>
+      <SimpleField name="Air_press" type="string"/>
+      <SimpleField name="Precip" type="string"/>
+      <SimpleField name="Solar_radn" type="string"/>
+      <SimpleField name="Water_level" type="string"/>
+      <SimpleField name="Waves" type="string"/>
+      <SimpleField name="Currents" type="string"/>
+      <SimpleField name="Turbidity" type="string"/>
+      <SimpleField name="DO" type="string"/>
+      <SimpleField name="pCO2_water" type="string"/>
+      <SimpleField name="pCO2_air" type="string"/>
+      <SimpleField name="TCO2" type="string"/>
+      <SimpleField name="pH" type="string"/>
+      <SimpleField name="OmgArag_st" type="string"/>
+      <SimpleField name="Chl" type="string"/>
+      <SimpleField name="Nitrate" type="string"/>
+      <SimpleField name="CDOM" type="string"/>
+      <SimpleField name="Alkalinity" type="string"/>
+      <SimpleField name="Acoustics" type="string"/>
+      <SimpleField name="Raw_Vars" type="string"/>
+      <SimpleField name="file" type="string"/>
+    </Schema>
     <Document id="processed_inventory">
       <name>processed_inventory</name>
       <Placemark id="processed_inventory.1">
