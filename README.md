@@ -1,5 +1,5 @@
 # assetInventory
-Building the IOOS asset inventory with Python. See the [REVIEW_PROCESS](https://github.com/ioos/ioos-asset-inventory/REVIEW_PROCESS.md) for information on how the IOOS Office compiles the asset inventory.
+Building the IOOS asset inventory with Python. See the [REVIEW_PROCESS](https://github.com/ioos/ioos-asset-inventory/blob/main/REVIEW_PROCESS.md) for information on how the IOOS Office compiles the asset inventory.
 
 ## Repository outline
 * For each year, an inventory directory is created (eg. [2020](https://github.com/ioos/ioos-asset-inventory/tree/main/2020)).
