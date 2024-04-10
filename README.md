@@ -1,8 +1,8 @@
 # assetInventory
-Building the IOOS asset inventory with Python. See the [wiki page](https://github.com/MathewBiddle/assetInventory/wiki) for information on how the IOOS Office compiles the asset inventory.
+Building the IOOS asset inventory with Python. See the [REVIEW_PROCESS](https://github.com/ioos/ioos-asset-inventory/REVIEW_PROCESS.md) for information on how the IOOS Office compiles the asset inventory.
 
 ## Repository outline
-* For each year, an inventory directory is created (eg. [2020](https://github.com/MathewBiddle/assetInventory/tree/master/2020)).
+* For each year, an inventory directory is created (eg. [2020](https://github.com/ioos/ioos-asset-inventory/tree/main/2020)).
 * Within each year there are the following files and directories:
   * **data/** - This directory contains the `raw` and `processed` inventory files as well as any additional directories needed for processing.
     * `raw` - The inventory files as received from the RA
@@ -10,7 +10,7 @@ Building the IOOS asset inventory with Python. See the [wiki page](https://githu
   * **combined_raw_inventory.(csv | geoJSON | kml)** - These are the concatenation of all the raw inventory files, without cleaning.
   * **processed_inventory.(csv | geoJSON | kml)** - These are cleaned inventory files.
     * Each row is a station.
-    * The columns are groupings of observations, with `X` in the cell denoting if the observation was made during the year. See [this mapping](https://github.com/MathewBiddle/assetInventory/blob/735da9f14dd02fdd395e49a86a3836bd6674bc7c/2020/create_master_inventory_from_processed.py#L206-L233) for how the columns are defined.
+    * The columns are groupings of observations, with `X` in the cell denoting if the observation was made during the year. See [this mapping](https://github.com/ioos/ioos-asset-inventory/blob/735da9f14dd02fdd395e49a86a3836bd6674bc7c/2020/create_master_inventory_from_processed.py#L206-L233) for how the columns are defined.
   * **create_master_inventory.py** - _(Used for testing)_ This script creates the inventory files from the raw spreadsheets. This is useful as a first check of the raw inventory files.
   * **create_master_inventory_from_processed.py** - This script creates the inventory files from the manually processed Excel spreadsheets. 
 * **utils/** - This directory contains some useful utilities for evaluating the inventory.
