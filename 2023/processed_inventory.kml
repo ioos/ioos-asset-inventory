@@ -1,0 +1,3049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="processed_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="station_long_name" type="string"/>
+      <SimpleField name="Platform" type="string"/>
+      <SimpleField name="Operational" type="string"/>
+      <SimpleField name="station_deployment" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Water_temp" type="string"/>
+      <SimpleField name="Salinity" type="string"/>
+      <SimpleField name="Wtr_press" type="string"/>
+      <SimpleField name="Dew_pt" type="string"/>
+      <SimpleField name="Rel_hum" type="string"/>
+      <SimpleField name="Air_temp" type="string"/>
+      <SimpleField name="Winds" type="string"/>
+      <SimpleField name="Air_press" type="string"/>
+      <SimpleField name="Precip" type="string"/>
+      <SimpleField name="Solar_radn" type="string"/>
+      <SimpleField name="Water_level" type="string"/>
+      <SimpleField name="Waves" type="string"/>
+      <SimpleField name="Currents" type="string"/>
+      <SimpleField name="Turbidity" type="string"/>
+      <SimpleField name="DO" type="string"/>
+      <SimpleField name="pCO2_water" type="string"/>
+      <SimpleField name="pCO2_air" type="string"/>
+      <SimpleField name="TCO2" type="string"/>
+      <SimpleField name="pH" type="string"/>
+      <SimpleField name="OmgArag_st" type="string"/>
+      <SimpleField name="Chl" type="string"/>
+      <SimpleField name="Nitrate" type="string"/>
+      <SimpleField name="CDOM" type="string"/>
+      <SimpleField name="Alkalinity" type="string"/>
+      <SimpleField name="Acoustics" type="string"/>
+      <SimpleField name="Raw_Vars" type="string"/>
+      <SimpleField name="file" type="string"/>
+    </Schema>
+    <Document id="processed_inventory">
+      <name>processed_inventory</name>
+      <Placemark id="processed_inventory.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.8016</SimpleData>
+            <SimpleData name="Longitude">-79.6188</SimpleData>
+            <SimpleData name="station_long_name">Capers Nearshore</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2005-02-11 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.6188,32.8016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.8006</SimpleData>
+            <SimpleData name="Longitude">-79.6187</SimpleData>
+            <SimpleData name="station_long_name">Capers Nearshore Wave</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-07-05 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, wave_period_peak, wave period_mean, wave_direction_peak, wave_direction_mean, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.6187,32.8006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.536</SimpleData>
+            <SimpleData name="Longitude">-79.656</SimpleData>
+            <SimpleData name="station_long_name">Charleston 60 </SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-03-17 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.656,32.536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.536467</SimpleData>
+            <SimpleData name="Longitude">-79.658533</SimpleData>
+            <SimpleData name="station_long_name">Charleston 60 Wave</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-03-17 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, wave_period_peak, wave period_mean, wave_direction_peak, wave_direction_mean, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.658533,32.536467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.2789</SimpleData>
+            <SimpleData name="Longitude">-80.4102</SimpleData>
+            <SimpleData name="station_long_name">Fripp Nearshore</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2005-02-09 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.4102,32.2789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.1416</SimpleData>
+            <SimpleData name="Longitude">-77.7197</SimpleData>
+            <SimpleData name="station_long_name">Wrightsville Beach Nearshore</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2005-06-07 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.7197,34.1416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.9877</SimpleData>
+            <SimpleData name="Longitude">-77.3617</SimpleData>
+            <SimpleData name="station_long_name">Wrightsville Beach Offshore</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2005-06-06 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.3617,33.9877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.208</SimpleData>
+            <SimpleData name="Longitude">-76.9461</SimpleData>
+            <SimpleData name="station_long_name">Onslow Bay Outer </SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2015-11-16 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.9461,34.208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.2083</SimpleData>
+            <SimpleData name="Longitude">-76.9458</SimpleData>
+            <SimpleData name="station_long_name">Onslow Bay Outer (217)</SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2015-08-01 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum,  sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment,  sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, sea_surface_wave_variance_spectral_density, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.9458,34.2083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.1419</SimpleData>
+            <SimpleData name="Longitude">-77.715</SimpleData>
+            <SimpleData name="station_long_name">Masonboro Inlet (150)</SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2008-08-01 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum,  sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment,  sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, sea_surface_wave_variance_spectral_density, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.715,34.1419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.11">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.8419</SimpleData>
+            <SimpleData name="Longitude">-78.4837</SimpleData>
+            <SimpleData name="station_long_name">Sunset Nearshore</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2005-06-06 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.4837,33.8419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.12">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.8407</SimpleData>
+            <SimpleData name="Longitude">-78.4834</SimpleData>
+            <SimpleData name="station_long_name">Sunset Nearshore Wave </SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2012-03-22 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, wave_period_peak, wave period_mean, wave_direction_peak, wave_direction_mean, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.4834,33.8407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.9941</SimpleData>
+            <SimpleData name="Longitude">-77.3524</SimpleData>
+            <SimpleData name="station_long_name">OB27</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2000-04-15 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_to_direction (mult), eastward_sea_water_velocity (mult), northward_sea_water_velocity (mult), sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_significant_period, sea_water_temperature (10  m), sea_water_practical_salinity (29 m), sea_water_temperature (29 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.3524,33.9941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.14">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.1712</SimpleData>
+            <SimpleData name="Longitude">-77.8234</SimpleData>
+            <SimpleData name="station_long_name">Masonboro Island North</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-01-14 00:00:00</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, precipitation (6 min), precipitation (daily)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.8234,34.1712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.15">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.0906</SimpleData>
+            <SimpleData name="Longitude">-77.8679</SimpleData>
+            <SimpleData name="station_long_name">Masonboro Island South</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2020-12-17 00:00:00</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, precipitation (6 min), precipitation (daily)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.8679,34.0906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.16">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.593</SimpleData>
+            <SimpleData name="Longitude">-80.189</SimpleData>
+            <SimpleData name="station_long_name">Ft. Pierce </SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-09-27 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.189,27.593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.17">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">29.289</SimpleData>
+            <SimpleData name="Longitude">-80.803</SimpleData>
+            <SimpleData name="station_long_name">Ponce De Leon</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-09-27 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m), sea_water_temperature (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.803,29.289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.18">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">29.286</SimpleData>
+            <SimpleData name="Longitude">-80.5058</SimpleData>
+            <SimpleData name="station_long_name">Ponce De Leon</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-09-27 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, wave_period_peak, wave period_mean, wave_direction_peak, wave_direction_mean, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.5058,29.286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.19">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.505</SimpleData>
+            <SimpleData name="Longitude">-83.741</SimpleData>
+            <SimpleData name="station_long_name">WFS Central Buoy</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">1997-07-28 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m, 20 m, 30 m), sea_water_temperature (1 m, 20 m, 30 m), downwelling_shortwave_flux_in_air, downwelling_longwave_flux_in_air, sea_water_speed (mult), sea_water_to_direction (mult), eastward_sea_water_velocity (mult), northward_sea_water_velocity (mult)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -83.741,27.505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.20">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">26.01</SimpleData>
+            <SimpleData name="Longitude">-83.086</SimpleData>
+            <SimpleData name="station_long_name">WFS South Buoy</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">1999-09-01 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m, 20 m, 30 m), sea_water_temperature (1 m, 20 m, 30 m), downwelling_shortwave_flux_in_air, downwelling_longwave_flux_in_air, sea_water_speed (mult), sea_water_to_direction (mult), eastward_sea_water_velocity (mult), northward_sea_water_velocity (mult)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -83.086,26.01,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.21">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.173</SimpleData>
+            <SimpleData name="Longitude">-82.924</SimpleData>
+            <SimpleData name="station_long_name">WFS Central Buoy</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">1998-09-14 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m, 10 m, 19 m), sea_water_temperature (1 m, 10 m, 19 m), downwelling_shortwave_flux_in_air, downwelling_longwave_flux_in_air, sea_water_speed (mult), sea_water_to_direction (mult), eastward_sea_water_velocity (mult), northward_sea_water_velocity (mult)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.924,27.173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.22">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">25.171</SimpleData>
+            <SimpleData name="Longitude">-83.475</SimpleData>
+            <SimpleData name="station_long_name">WFS Pressure Point Buoy</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2019-06-27 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, sea_water_practical_salinity (1 m, 10 m, 65 m), sea_water_temperature (1 m, 10 m, 65 m), sea_water_speed (mult), sea_water_to_direction (mult), eastward_sea_water_velocity (mult), northward_sea_water_velocity (mult)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -83.475,25.171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.23">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.21</SimpleData>
+            <SimpleData name="Longitude">-82.82</SimpleData>
+            <SimpleData name="station_long_name">WFS 20m Bottom Mount</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">1998-07-13 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_practical_salinity (bottom 20 m), sea_water_temperature (bottom, 20 m), sea_water_speed (mult), sea_water_to_direction (mult), eastward_sea_water_velocity (mult), northward_sea_water_velocity (mult)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.82,27.21,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.24">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.29</SimpleData>
+            <SimpleData name="Longitude">-82.63</SimpleData>
+            <SimpleData name="station_long_name">WFS 10m Bottom Mount</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">1998-07-13 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_practical_salinity (bottom 20 m), sea_water_temperature (bottom, 20 m), sea_water_speed (mult), sea_water_to_direction (mult), eastward_sea_water_velocity (mult), northward_sea_water_velocity (mult)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.63,27.29,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.25">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">24.6172</SimpleData>
+            <SimpleData name="Longitude">-82.7243</SimpleData>
+            <SimpleData name="station_long_name">WFS 30m Bottom Mount</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2003-09-19 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature (bottom, 27 m), sea_water_speed (mult), sea_water_to_direction (mult), eastward_sea_water_velocity (mult), northward_sea_water_velocity (mult)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.7243,24.6172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.26">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.4</SimpleData>
+            <SimpleData name="Longitude">-80.8681</SimpleData>
+            <SimpleData name="station_long_name">Grays Reef</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2006-08-01 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="pCO2_water">X</SimpleData>
+            <SimpleData name="pCO2_air">X</SimpleData>
+            <SimpleData name="pH">X</SimpleData>
+            <SimpleData name="Raw_Vars">partial_pressure_of_carbon_dioxide_in_sea_water, partial_pressure_of_carbon_dioxide_in_atmosphere, seawater_temperature, sea_water_pH_reported_in_total_scale (1 m), sea_water_salinity (1 m), sea_water_dissolved_oxygen (1 m), sea_water_temperature (1 m), sea_water_conductance (1 m), sea_water_turbidity (1 m), mass_concentration_of_cholorphyll_in_sea_water (1 m)</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.8681,31.4,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.27">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">35.75</SimpleData>
+            <SimpleData name="Longitude">-75.33</SimpleData>
+            <SimpleData name="station_long_name">Oregon Inlet</SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2012-04-08 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum,  sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment,  sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, sea_surface_wave_variance_spectral_density, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.33,35.75,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.28">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">36.0013</SimpleData>
+            <SimpleData name="Longitude">-75.421</SimpleData>
+            <SimpleData name="station_long_name">Nags Head</SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2018-09-07 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum,  sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment,  sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, sea_surface_wave_variance_spectral_density, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.421,36.0013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.29">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">35.25925</SimpleData>
+            <SimpleData name="Longitude">-75.2861</SimpleData>
+            <SimpleData name="station_long_name">Cape Hatteras East</SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-08-02 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum,  sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment,  sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, sea_surface_wave_variance_spectral_density, sea_surface_temperature</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.2861,35.25925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.30">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">35.912033</SimpleData>
+            <SimpleData name="Longitude">-75.593317</SimpleData>
+            <SimpleData name="station_long_name"><![CDATA[CSI-Jennette'sSpotter1]]></SimpleData>
+            <SimpleData name="Platform">wave_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2020-08-29 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Waves">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum,  sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment,  sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, sea_surface_wave_variance_spectral_density, sea_surface_temperature, wind speed/direction</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.593317,35.912033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.31">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.75334</SimpleData>
+            <SimpleData name="Longitude">-79.89898</SimpleData>
+            <SimpleData name="station_long_name">Fort Johnson in Charleston Harbor</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[07/22/2020, < 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="pH">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, sea_water_electrical_conductivity, sea_water_practical_salinity, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, turbidity</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.89898,32.75334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.32">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.058</SimpleData>
+            <SimpleData name="Longitude">-84.29</SimpleData>
+            <SimpleData name="station_long_name">Shell Point</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">11/2000 - 1/2007,                                      6/2008 - present</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, lwe_thickness_of_precipitation_amount, sea_water_temperature, water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -84.29,30.058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.33">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">28.153</SimpleData>
+            <SimpleData name="Longitude">-82.801</SimpleData>
+            <SimpleData name="station_long_name">Fred Howard Park</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">7/2004 -9/2008,                                      2/2010 - present</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, lwe_thickness_of_precipitation_amount, sea_water_pressure_due_to_sea_water</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.801,28.153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.34">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">28.433</SimpleData>
+            <SimpleData name="Longitude">-82.667</SimpleData>
+            <SimpleData name="station_long_name">Aripeka</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">6/2002 - present</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">air_pressure, air_temperature, relative_humidity, wind_speed, wind_gust, wind_from_direction, lwe_thickness_of_precipitation_amount, sea_water_temperature, water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.667,28.433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.35">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.2244</SimpleData>
+            <SimpleData name="Longitude">-80.2023</SimpleData>
+            <SimpleData name="station_long_name">Indian River Lagoon - Jensen Beach</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, air_temperatue, relative_humidity, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, precipitation_increment, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, surface_downwelling_photosynthetic_photon_flux_in_air, turbidity, sea_water_practical_salinity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.2023,27.2244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.36">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.8391</SimpleData>
+            <SimpleData name="Longitude">-80.4708</SimpleData>
+            <SimpleData name="station_long_name">Indian River Lagoon - Sebastian </SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, sea_water_practical_salinity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, turbidity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.4708,27.8391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.37">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.5901</SimpleData>
+            <SimpleData name="Longitude">-80.3553</SimpleData>
+            <SimpleData name="station_long_name">Indian River Lagoon - Vero Beach</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, sea_water_practical_salinity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, turbidity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.3553,27.5901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.38">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.5348</SimpleData>
+            <SimpleData name="Longitude">-80.3431</SimpleData>
+            <SimpleData name="station_long_name">Indian River Lagoon - Link Port</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, air_temperatue, relative_humidity, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, precipitation_increment, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, surface_downwelling_photosynthetic_photon_flux_in_air, turbidity, sea_water_practical_salinity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.3431,27.5348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.39">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.4756</SimpleData>
+            <SimpleData name="Longitude">-80.3266</SimpleData>
+            <SimpleData name="station_long_name">Indian River Lagoon - Fort Pierce</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, sea_water_practical_salinity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, turbidity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.3266,27.4756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.40">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.1649</SimpleData>
+            <SimpleData name="Longitude">-80.1718</SimpleData>
+            <SimpleData name="station_long_name">Indian River Lagoon - St. Lucie Estuary</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, air_temperatue, relative_humidity, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, precipitation_increment, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, surface_downwelling_photosynthetic_photon_flux_in_air, turbidity, sea_water_practical_salinity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.1718,27.1649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.41">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.21</SimpleData>
+            <SimpleData name="Longitude">-80.2692</SimpleData>
+            <SimpleData name="station_long_name">St. Lucie Estuary - North Fork </SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, air_temperatue, relative_humidity, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, precipitation_increment, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, surface_downwelling_photosynthetic_photon_flux_in_air, turbidity, sea_water_practical_salinity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.2692,27.21,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.42">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.1878</SimpleData>
+            <SimpleData name="Longitude">-80.2642</SimpleData>
+            <SimpleData name="station_long_name">St. Lucie Estuary - South Fork</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, air_temperatue, relative_humidity, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, precipitation_increment, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, surface_downwelling_photosynthetic_photon_flux_in_air, turbidity, sea_water_practical_salinity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.2642,27.1878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.43">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.2089</SimpleData>
+            <SimpleData name="Longitude">-80.248</SimpleData>
+            <SimpleData name="station_long_name">St. Lucie Estuary - Middle Estuary</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, air_temperatue, relative_humidity, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, precipitation_increment, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, surface_downwelling_photosynthetic_photon_flux_in_air, turbidity, sea_water_practical_salinity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.248,27.2089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.44">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.1142</SimpleData>
+            <SimpleData name="Longitude">-80.2829</SimpleData>
+            <SimpleData name="station_long_name">St. Lucie Estuary - South Fork 2</SimpleData>
+            <SimpleData name="Platform">moored_buoy</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment"><![CDATA[> 5 yr]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Water_temp">X</SimpleData>
+            <SimpleData name="Salinity">X</SimpleData>
+            <SimpleData name="Wtr_press">X</SimpleData>
+            <SimpleData name="Rel_hum">X</SimpleData>
+            <SimpleData name="Air_temp">X</SimpleData>
+            <SimpleData name="Winds">X</SimpleData>
+            <SimpleData name="Air_press">X</SimpleData>
+            <SimpleData name="Precip">X</SimpleData>
+            <SimpleData name="Solar_radn">X</SimpleData>
+            <SimpleData name="Currents">X</SimpleData>
+            <SimpleData name="Turbidity">X</SimpleData>
+            <SimpleData name="DO">X</SimpleData>
+            <SimpleData name="Chl">X</SimpleData>
+            <SimpleData name="Nitrate">X</SimpleData>
+            <SimpleData name="Raw_Vars">sea_water_temperature, air_temperatue, relative_humidity, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, precipitation_increment, mass_concentration_of_chlorophyll_in_sea_water, sea_water_electrical_conductivity, direction_of_sea_water_velocity, sea_water_speed, depth, fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, phosphate, surface_downwelling_photosynthetic_photon_flux_in_air, turbidity, sea_water_practical_salinity, sea_water_pressure</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.2829,27.1142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.45">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.4554</SimpleData>
+            <SimpleData name="Longitude">-86.587634</SimpleData>
+            <SimpleData name="station_long_name">Eastern Lake Boat Ramp (florida_panhandle_1), Shalimar, FL</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-05-01 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.587634,30.4554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.46">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.309557</SimpleData>
+            <SimpleData name="Longitude">-86.089639</SimpleData>
+            <SimpleData name="station_long_name">Poquito Bayou Boat ramp (florida_panhandle_2), Santa Rosa Beach, FL</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-05-01 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.089639,30.309557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.47">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.3988980933</SimpleData>
+            <SimpleData name="Longitude">-81.6986528000293</SimpleData>
+            <SimpleData name="station_long_name">Ribault River Reserve</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-10-01 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.6986528000293,30.3988980933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.48">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.792624</SimpleData>
+            <SimpleData name="Longitude">-78.736681</SimpleData>
+            <SimpleData name="station_long_name">White Point Swash,(whitepoint_wl_1), North Myrtle Beach, SC</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">jul 21/ replacedSep-23</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.736681,33.792624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.49">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.579828</SimpleData>
+            <SimpleData name="Longitude">-79.003625</SimpleData>
+            <SimpleData name="station_long_name">Atlantic Avenue Causeway(murrells_inlet_2), Garden City, SC</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-07-22 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.003625,33.579828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.50">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.802873</SimpleData>
+            <SimpleData name="Longitude">-78.741159</SimpleData>
+            <SimpleData name="station_long_name">Barefoot Resort Swing Bridge, North Myrtle Beach, SC(sc_secoora_1)</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-03-30 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.741159,33.802873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.51">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.714435</SimpleData>
+            <SimpleData name="Longitude">-78.921515</SimpleData>
+            <SimpleData name="station_long_name">ICW-HWY 501, (sc_secoora_2), Myrtle Beach, SC</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-06-22 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.921515,33.714435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.52">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.6835</SimpleData>
+            <SimpleData name="Longitude">-79.043001</SimpleData>
+            <SimpleData name="station_long_name">Osprey Marina (osprey_marina_2) - Socastee, SC</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">Mar 21 / replaced Dec 22</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.043001,33.6835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.53">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.852724</SimpleData>
+            <SimpleData name="Longitude">-78.593925</SimpleData>
+            <SimpleData name="station_long_name">Waties Causeway(waties_causeway_1), SC</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-07-01 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.593925,33.852724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.54">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.61810775</SimpleData>
+            <SimpleData name="Longitude">-79.699751</SimpleData>
+            <SimpleData name="station_long_name">Cottingham Road N. at Crooked Creek (sc_secoora_4)</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-02-14 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.699751,34.61810775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.55">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.250619</SimpleData>
+            <SimpleData name="Longitude">-79.268542</SimpleData>
+            <SimpleData name="station_long_name">ICW at South Island Ferry, SC (sc_secoora_5)</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-02-14 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.268542,33.250619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.56">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.08058376</SimpleData>
+            <SimpleData name="Longitude">-79.46008809</SimpleData>
+            <SimpleData name="station_long_name">McClellanville Town Dock, SC (sc_secoora_6)</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">2023-04-07 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.46008809,33.08058376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.57">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.667998</SimpleData>
+            <SimpleData name="Longitude">-79.061198</SimpleData>
+            <SimpleData name="station_long_name">Enterprise Landing,Socastee, SC</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">2023-10-25 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.061198,33.667998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.58">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.1406</SimpleData>
+            <SimpleData name="Longitude">-79.20595</SimpleData>
+            <SimpleData name="station_long_name">Church Landing at Sandy Bluff Rd Nichols SC</SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-10-04 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.20595,34.1406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.59">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.2988</SimpleData>
+            <SimpleData name="Longitude">-80.581583</SimpleData>
+            <SimpleData name="station_long_name"><![CDATA[St Phillip's Island-SC PRT Dock]]></SimpleData>
+            <SimpleData name="Platform">fixed</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-10-01 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.581583,32.2988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.60">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.480043</SimpleData>
+            <SimpleData name="Longitude">-79.272502</SimpleData>
+            <SimpleData name="station_long_name">Georgetown County Hwy 701 Bridge, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-01-19 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.272502,33.480043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.61">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.661857</SimpleData>
+            <SimpleData name="Longitude">-79.943648</SimpleData>
+            <SimpleData name="station_long_name">Folly River Bridge, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-03-17 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.943648,32.661857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.62">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">36.01498</SimpleData>
+            <SimpleData name="Longitude">-75.687458</SimpleData>
+            <SimpleData name="station_long_name">Colington Creek Inn Dock, Kill Devil Hills, NC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-03-15 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.687458,36.01498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.63">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">36.22332</SimpleData>
+            <SimpleData name="Longitude">-75.772544</SimpleData>
+            <SimpleData name="station_long_name">Duck, NC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-05-11 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.772544,36.22332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.64">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">36.13097</SimpleData>
+            <SimpleData name="Longitude">-75.745303</SimpleData>
+            <SimpleData name="station_long_name">Southern Shores, NC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-05-14 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.745303,36.13097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.65">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.579739</SimpleData>
+            <SimpleData name="Longitude">-80.158322</SimpleData>
+            <SimpleData name="station_long_name">Seabrook Island, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-01-19 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.158322,32.579739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.66">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.37501186</SimpleData>
+            <SimpleData name="Longitude">-79.15614314</SimpleData>
+            <SimpleData name="station_long_name">DeBordieu Colony, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-04-03 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.15614314,33.37501186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.67">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.49371829</SimpleData>
+            <SimpleData name="Longitude">-80.33903038</SimpleData>
+            <SimpleData name="station_long_name">Edisto Beach, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-01-19 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.33903038,32.49371829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.68">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.91586</SimpleData>
+            <SimpleData name="Longitude">-78.269385</SimpleData>
+            <SimpleData name="station_long_name">Holden Beach, Brunswick County, NC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-05-10 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.269385,33.91586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.69">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.765404</SimpleData>
+            <SimpleData name="Longitude">-79.861356</SimpleData>
+            <SimpleData name="station_long_name"><![CDATA[Sullivan's Island, SC]]></SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-06-03 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.861356,32.765404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.70">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.365605</SimpleData>
+            <SimpleData name="Longitude">-77.632004</SimpleData>
+            <SimpleData name="station_long_name">Topsail Beach, NC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-08-20 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.632004,34.365605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.71">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.442528</SimpleData>
+            <SimpleData name="Longitude">-79.115142</SimpleData>
+            <SimpleData name="station_long_name">Pawleys Island, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-08-22 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.115142,33.442528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.72">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">26.520403</SimpleData>
+            <SimpleData name="Longitude">-82.188155</SimpleData>
+            <SimpleData name="station_long_name">Captiva Island, FL</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-08-02 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.188155,26.520403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.73">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.427238</SimpleData>
+            <SimpleData name="Longitude">-77.547393</SimpleData>
+            <SimpleData name="station_long_name">Surf City</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-09-10 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.547393,34.427238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.74">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.174874</SimpleData>
+            <SimpleData name="Longitude">-80.761078</SimpleData>
+            <SimpleData name="station_long_name">Hilton Head</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-03-15 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.761078,32.174874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.75">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">27.784509</SimpleData>
+            <SimpleData name="Longitude">-82.782025</SimpleData>
+            <SimpleData name="station_long_name"><![CDATA[John's Pass]]></SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-12-23 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.782025,27.784509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.76">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.671251</SimpleData>
+            <SimpleData name="Longitude">-81.465813</SimpleData>
+            <SimpleData name="station_long_name">Fernandina 2</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-10-25 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.465813,30.671251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.77">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">26.45342</SimpleData>
+            <SimpleData name="Longitude">-82.035519</SimpleData>
+            <SimpleData name="station_long_name">Sanibel</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-12-06 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.035519,26.45342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.78">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.374838</SimpleData>
+            <SimpleData name="Longitude">-80.83712</SimpleData>
+            <SimpleData name="station_long_name">Port Royal Sound Foundation SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-09-14 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.83712,32.374838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.79">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.67125</SimpleData>
+            <SimpleData name="Longitude">-81.465813</SimpleData>
+            <SimpleData name="station_long_name">Fernandina 1</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-10-17 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.465813,30.67125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.80">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.309716</SimpleData>
+            <SimpleData name="Longitude">-80.504325</SimpleData>
+            <SimpleData name="station_long_name">Fripp Island</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-03-26 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.504325,32.309716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.81">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.429904</SimpleData>
+            <SimpleData name="Longitude">-80.671913</SimpleData>
+            <SimpleData name="station_long_name">City of Beaufort SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-11-17 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.671913,32.429904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.82">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.613029</SimpleData>
+            <SimpleData name="Longitude">-76.531174</SimpleData>
+            <SimpleData name="station_long_name">Cape Lookout National Seashore</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-09-22 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.531174,34.613029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.83">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">29.952621</SimpleData>
+            <SimpleData name="Longitude">-85.424092</SimpleData>
+            <SimpleData name="station_long_name">Mexico Beach</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-05-11 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -85.424092,29.952621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.84">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.805938</SimpleData>
+            <SimpleData name="Longitude">-79.761179</SimpleData>
+            <SimpleData name="station_long_name">Isle of Palms, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-01-19 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.761179,32.805938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.85">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.877024</SimpleData>
+            <SimpleData name="Longitude">-77.999887</SimpleData>
+            <SimpleData name="station_long_name">Bald Head Island</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-12-13 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.999887,33.877024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.86">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.841315</SimpleData>
+            <SimpleData name="Longitude">-78.614711</SimpleData>
+            <SimpleData name="station_long_name">North Myrtle Beach, Cherry Grove</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-12-02 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.614711,33.841315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.87">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.89548</SimpleData>
+            <SimpleData name="Longitude">-78.43497</SimpleData>
+            <SimpleData name="station_long_name">Ocean Isle Beach</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-11-13 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.43497,33.89548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.88">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">36.369722</SimpleData>
+            <SimpleData name="Longitude">-75.829444</SimpleData>
+            <SimpleData name="station_long_name">Currituck Co</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-12-16 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.829444,36.369722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.89">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.34936807</SimpleData>
+            <SimpleData name="Longitude">-79.18889438</SimpleData>
+            <SimpleData name="station_long_name">Oyster Landing (N Inlet Estuary)</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-07-19 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.18889438,33.34936807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.90">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.79667</SimpleData>
+            <SimpleData name="Longitude">-79.96806</SimpleData>
+            <SimpleData name="station_long_name">The Citadel, Ashley River, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-10-05 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.96806,32.79667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.91">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.3396661</SimpleData>
+            <SimpleData name="Longitude">-77.7057389</SimpleData>
+            <SimpleData name="station_long_name">Washington Acres Boat Ramp</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-02-19 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.7057389,34.3396661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.92">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.33446844</SimpleData>
+            <SimpleData name="Longitude">-80.67190229</SimpleData>
+            <SimpleData name="station_long_name">Marine Corp Recruit Depot Parris Island</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-06-12 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.67190229,32.33446844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.93">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.669579</SimpleData>
+            <SimpleData name="Longitude">-77.143256</SimpleData>
+            <SimpleData name="station_long_name">Hammocks Beach State Park</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-07-21 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.143256,34.669579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.94">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.0554864</SimpleData>
+            <SimpleData name="Longitude">-77.89987</SimpleData>
+            <SimpleData name="station_long_name"><![CDATA[Snow's Cut Bridge]]></SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-08-15 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.89987,34.0554864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.95">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">35.120045</SimpleData>
+            <SimpleData name="Longitude">-77.060177</SimpleData>
+            <SimpleData name="station_long_name">New Bern, NC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-08-31 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.060177,35.120045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.96">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.497668</SimpleData>
+            <SimpleData name="Longitude">-77.413311</SimpleData>
+            <SimpleData name="station_long_name">North Topsail Beach</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-05-24 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.413311,34.497668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.97">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.61749008</SimpleData>
+            <SimpleData name="Longitude">-80.02300867</SimpleData>
+            <SimpleData name="station_long_name">Kiawah Island, SC</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-01-19 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.02300867,32.61749008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.98">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">35.9399</SimpleData>
+            <SimpleData name="Longitude">-75.7088</SimpleData>
+            <SimpleData name="station_long_name">Fort Raleigh National Historic Site</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-11-24 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.7088,35.9399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.99">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">33.36593</SimpleData>
+            <SimpleData name="Longitude">-79.283542</SimpleData>
+            <SimpleData name="station_long_name">Georgetown, South Carolina</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-09-02 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.283542,33.36593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.100">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">34.671117</SimpleData>
+            <SimpleData name="Longitude">-77.006619</SimpleData>
+            <SimpleData name="station_long_name">Emerald Isle</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-12-22 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.006619,34.671117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.101">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.138153</SimpleData>
+            <SimpleData name="Longitude">-81.495008</SimpleData>
+            <SimpleData name="station_long_name">UGA Marine Extension</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2023-07-15 00:00:00</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.495008,31.138153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.102">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.150563</SimpleData>
+            <SimpleData name="Longitude">-81.476143</SimpleData>
+            <SimpleData name="station_long_name">Southeast Adventure Outfitters</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.476143,31.150563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.103">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.122826</SimpleData>
+            <SimpleData name="Longitude">-81.47747</SimpleData>
+            <SimpleData name="station_long_name">GA DNR Coastal Resources Division</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.47747,31.122826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.104">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.754312</SimpleData>
+            <SimpleData name="Longitude">-81.474231</SimpleData>
+            <SimpleData name="station_long_name">Cumberland Island Ferry Dock</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.474231,30.754312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.105">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.845234</SimpleData>
+            <SimpleData name="Longitude">-81.559815</SimpleData>
+            <SimpleData name="station_long_name">Crooked River State Park Boat Ramp, East River</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.559815,30.845234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.106">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.733317</SimpleData>
+            <SimpleData name="Longitude">-81.538702</SimpleData>
+            <SimpleData name="station_long_name">Meeting Street Boat Ramp</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2022-06-25 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.538702,30.733317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.107">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.036772</SimpleData>
+            <SimpleData name="Longitude">-81.046414</SimpleData>
+            <SimpleData name="station_long_name">WE Honey Park, Thunderbolt GA</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.046414,32.036772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.108">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.164495</SimpleData>
+            <SimpleData name="Longitude">-81.156289</SimpleData>
+            <SimpleData name="station_long_name">Houlihan Boat Ramp</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.156289,32.164495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.109">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.94684</SimpleData>
+            <SimpleData name="Longitude">-81.066874</SimpleData>
+            <SimpleData name="station_long_name">Rodney J Hall Boat Ramp on Skidaway River</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.066874,31.94684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.110">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.983613</SimpleData>
+            <SimpleData name="Longitude">-81.182671</SimpleData>
+            <SimpleData name="station_long_name">Hwy 204 at Little Ogeechee River</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.182671,31.983613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.111">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.975591</SimpleData>
+            <SimpleData name="Longitude">-81.120039</SimpleData>
+            <SimpleData name="station_long_name">Truman Parkway at Vernon River</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">N</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.120039,31.975591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.112">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.671256</SimpleData>
+            <SimpleData name="Longitude">-81.465793</SimpleData>
+            <SimpleData name="station_long_name">Fernandina Harbor Marina, wooden walkway between marina office and restaurant.</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">Y</SimpleData>
+            <SimpleData name="station_deployment">2021-10-25 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.465793,30.671256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.113">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.719949</SimpleData>
+            <SimpleData name="Longitude">-81.548691</SimpleData>
+            <SimpleData name="station_long_name">St Marys Waterfront Pavilion</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-25 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.548691,30.719949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.114">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.759973</SimpleData>
+            <SimpleData name="Longitude">-81.525022</SimpleData>
+            <SimpleData name="station_long_name">North River Causeway</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2023-11-22 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.525022,30.759973,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.115">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">30.753778</SimpleData>
+            <SimpleData name="Longitude">-81.583501</SimpleData>
+            <SimpleData name="station_long_name">Kingsland St Marys Road</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.583501,30.753778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.116">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.993166</SimpleData>
+            <SimpleData name="Longitude">-81.101316</SimpleData>
+            <SimpleData name="station_long_name">Montgomery Cross Road at Vernon River</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2023-05-22 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.101316,31.993166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.117">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.006381</SimpleData>
+            <SimpleData name="Longitude">-80.851887</SimpleData>
+            <SimpleData name="station_long_name">Tybee Island 4 H Center Dock</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2021-10-02 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.851887,32.006381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.118">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.991563</SimpleData>
+            <SimpleData name="Longitude">-80.844731</SimpleData>
+            <SimpleData name="station_long_name">Tybee Island Pier</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.844731,31.991563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.119">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.997192</SimpleData>
+            <SimpleData name="Longitude">-80.855209</SimpleData>
+            <SimpleData name="station_long_name"><![CDATA[A-J's Dockside on Tybee Island]]></SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">TBD</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.855209,31.997192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.120">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.03997</SimpleData>
+            <SimpleData name="Longitude">-81.203883</SimpleData>
+            <SimpleData name="station_long_name">Hunt Drive at Burnside Island</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-04 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.203883,32.03997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.121">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.936685</SimpleData>
+            <SimpleData name="Longitude">-81.102928</SimpleData>
+            <SimpleData name="station_long_name">Shipyard Road</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-04 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.102928,31.936685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.122">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">31.993082</SimpleData>
+            <SimpleData name="Longitude">-81.055977</SimpleData>
+            <SimpleData name="station_long_name">Solomon Bridge</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-04 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.055977,31.993082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.123">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.01831</SimpleData>
+            <SimpleData name="Longitude">-80.850964</SimpleData>
+            <SimpleData name="station_long_name">Hwy 80 at Chimney Creek</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-12 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.850964,32.01831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.124">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.020471</SimpleData>
+            <SimpleData name="Longitude">-80.991889</SimpleData>
+            <SimpleData name="station_long_name">Turner Creek Boat Ramp</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-12 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.991889,32.020471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.125">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.018171</SimpleData>
+            <SimpleData name="Longitude">-80.962163</SimpleData>
+            <SimpleData name="station_long_name">Walthour Road</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-12 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.962163,32.018171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.126">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.014112</SimpleData>
+            <SimpleData name="Longitude">-80.884092</SimpleData>
+            <SimpleData name="station_long_name">Lazaretto Creek Fishing Pier</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-12 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.884092,32.014112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.127">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.006419</SimpleData>
+            <SimpleData name="Longitude">-80.866956</SimpleData>
+            <SimpleData name="station_long_name">Catalina Drive</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-02-12 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.866956,32.006419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="processed_inventory.128">
+        <ExtendedData>
+          <SchemaData schemaUrl="#processed_inventory.schema">
+            <SimpleData name="RA">SECOORA</SimpleData>
+            <SimpleData name="Latitude">32.03997</SimpleData>
+            <SimpleData name="Longitude">-81.203883</SimpleData>
+            <SimpleData name="station_long_name">Hwy 17 at Salt Creek</SimpleData>
+            <SimpleData name="Platform">water_level</SimpleData>
+            <SimpleData name="Operational">y</SimpleData>
+            <SimpleData name="station_deployment">2022-03-15 00:00:00</SimpleData>
+            <SimpleData name="Water_level">X</SimpleData>
+            <SimpleData name="Raw_Vars">water_surface_height_above_reference_datum</SimpleData>
+            <SimpleData name="file">SECOORA.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.203883,32.03997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
