@@ -1,6 +1,27 @@
 # assetInventory
 Building the IOOS asset inventory with Python. See the [REVIEW_PROCESS](https://github.com/ioos/ioos-asset-inventory/blob/main/REVIEW_PROCESS.md) for information on how the IOOS Office compiles the asset inventory.
 
+## Accessing asset inventory
+The compiled asset inventory can be found at multiple locations. Below is a table of those locations. All of the data is sourced from the data found in this repository.
+
+Access point | Description
+-------------|------------
+https://erddap.ioos.us/erddap/tabledap/processed_asset_inventory.html | IOOS Regional Association **processed** asset inventory from 2020-01-01 up to the end of the previous calendar year. This is a concatenation of all the inventories and a mapping of all the variables into specific categories. It is served as one large table for easier access.
+https://erddap.ioos.us/erddap/tabledap/raw_asset_inventory.html | IOOS Regional Association **raw** asset inventory from 2020-01-01 up to the end of the previous calendar year. This is a concatenation of all the inventories into one large table for easier access. Very minimal QA/QC has been done to these data.
+yearly directory in this repository (https://github.com/ioos/ioos-asset-inventory/) | The source data files for each year's asset inventory compilation
+
+See [REVIEW_PROCESS](https://github.com/ioos/ioos-asset-inventory/blob/main/REVIEW_PROCESS.md) for details on how the inventories are processed.
+
+```mermaid
+flowchart TD
+    A[RA compiles asset inventory] -->|Progress Report| B(IOOS)
+    B --> C{inventory creation}
+    C -->|processed| D[Yearly files as .geojson, .csv, .kml]
+    C -->|raw| E[Yearly files as .geojson, .csv, .kml]
+    D -->|combine all years| https://erddap.ioos.us/erddap/tabledap/processed_asset_inventory.html
+    E -->|combine all years| https://erddap.ioos.us/erddap/tabledap/raw_asset_inventory.html
+```
+
 ## Repository outline
 * For each year, an inventory directory is created (eg. [2020](https://github.com/ioos/ioos-asset-inventory/tree/main/2020)).
 * Within each year there are the following files and directories:
