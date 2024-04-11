@@ -64,6 +64,61 @@
       <SimpleField name="Additional_notes" type="string"/>
       <SimpleField name="file" type="string"/>
     </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station_ID" type="string"/>
+      <SimpleField name="WMO_CMAN_ID" type="string"/>
+      <SimpleField name="Station_Long_Name" type="string"/>
+      <SimpleField name="Station_Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform_Type" type="string"/>
+      <SimpleField name="Station_Deployment" type="string"/>
+      <SimpleField name="Currently_Operational" type="string"/>
+      <SimpleField name="Platform_Funder" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Platform_Operator" type="string"/>
+      <SimpleField name="Operator_Sector" type="string"/>
+      <SimpleField name="Platform_Maintainer" type="string"/>
+      <SimpleField name="Data_Manager" type="string"/>
+      <SimpleField name="Variable_Names" type="string"/>
+      <SimpleField name="Additional_notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="Station Description (Optional)" type="string"/>
+      <SimpleField name="Currently Operational? (Y, N, O, U)   Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)" type="string"/>
+      <SimpleField name="RA Funding Involvement  (Yf = Fully funds.  Yp = Partially funds.  N = No funding)" type="string"/>
+      <SimpleField name="Additional Notes" type="string"/>
+      <SimpleField name="CARICOOS Contact (Name and Email)" type="string"/>
+    </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station_ID" type="string"/>
+      <SimpleField name="WMO_CMAN_ID" type="string"/>
+      <SimpleField name="Station_Long_Name" type="string"/>
+      <SimpleField name="Station_Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform_Type" type="string"/>
+      <SimpleField name="Station_Deployment" type="string"/>
+      <SimpleField name="Currently_Operational" type="string"/>
+      <SimpleField name="Platform_Funder" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Platform_Operator" type="string"/>
+      <SimpleField name="Operator_Sector" type="string"/>
+      <SimpleField name="Platform_Maintainer" type="string"/>
+      <SimpleField name="Data_Manager" type="string"/>
+      <SimpleField name="Variable_Names" type="string"/>
+      <SimpleField name="Additional_notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="Station Description (Optional)" type="string"/>
+      <SimpleField name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)" type="string"/>
+      <SimpleField name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)" type="string"/>
+      <SimpleField name="Additional Notes" type="string"/>
+      <SimpleField name="CARICOOS Contact
+(Name and Email)" type="string"/>
+    </Schema>
     <Document id="combined_raw_inventory">
       <name>combined_raw_inventory</name>
       <Placemark id="combined_raw_inventory.1">
@@ -4205,6 +4260,1103 @@
       <Placemark id="combined_raw_inventory.141">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">PR1</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">42085</SimpleData>
+            <SimpleData name="Station_Long_Name">Ponce Buoy</SimpleData>
+            <SimpleData name="Latitude">17.8687</SimpleData>
+            <SimpleData name="Longitude">-66.532</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">06/2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">Neil Pettigrew/CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS/University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_speed (2.5 - 16) m, sea_water_to_direction (2.5 -16) m, eastward_sea_water_velocity (2.5 - 16) m, northward_sea_water_velocity (2.5 - 16) m, sea_surface_temperature, air_temperature (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Julio Morell (julio.morell@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -66.532,17.8687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.142">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">PR2</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">41053</SimpleData>
+            <SimpleData name="Station_Long_Name">San Juan Buoy</SimpleData>
+            <SimpleData name="Latitude">17.4743</SimpleData>
+            <SimpleData name="Longitude">-66.0994</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">07/2010 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">Neil Pettigrew/CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS/University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_speed (2.5 - 29) m, sea_water_to_direction (2.5 -29) m, eastward_sea_water_velocity (2.5 - 29) m, northward_sea_water_velocity (2.5 - 29) m, sea_surface_temperature, air_temperature (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Julio Morell (julio.morell@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -66.0994,17.4743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.143">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">PR3</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">41056</SimpleData>
+            <SimpleData name="Station_Long_Name">Vieques Buoy</SimpleData>
+            <SimpleData name="Latitude">18.2609</SimpleData>
+            <SimpleData name="Longitude">-65.464</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">09/2013 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">Neil Pettigrew/CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS/University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_speed (2.5 - 28 m), sea_water_to_direction  (2.5 - 28 m), eastward_sea_water_velocity  (2.5 - 28 m), northward_sea_water_velocity  (2.5 - 28 m), sea_surface_temperature, air_temperature (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m),sea_water_electrical_conductivity (1 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Julio Morell (julio.morell@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.464,18.2609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.144">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">VI1</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">41052</SimpleData>
+            <SimpleData name="Station_Long_Name">St. John Buoy </SimpleData>
+            <SimpleData name="Latitude">18.2491</SimpleData>
+            <SimpleData name="Longitude">-64.7637</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">04/2011 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">Neil Pettigrew/CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS/University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_speed (2.5 - 40 m), sea_water_to_direction  (2.5 - 40 m), eastward_sea_water_velocity (2.5 - 40 m), northward_sea_water_velocity (2.5 - 40 m), sea_surface_temperature, air_temperature (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m),sea_water_electrical_conductivity (1 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Julio Morell (julio.morell@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.7637,18.2491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.145">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">VI2</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">41051</SimpleData>
+            <SimpleData name="Station_Long_Name">North of St. Thomas</SimpleData>
+            <SimpleData name="Latitude">18.4761</SimpleData>
+            <SimpleData name="Longitude">-65.1568</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">08/2017-09/2017</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">Neil Pettigrew/CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS/University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_speed (2.5 - 22 m), sea_water_to_direction  (2.5 - 22 m), eastward_sea_water_velocity (2.5 - 22 m), northward_sea_water_velocity (2.5 - 22 m), sea_surface_temperature, air_temperature (-3 m), relative_humidity (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m),sea_water_electrical_conductivity (1 m), dissolved_oxygen (1 m), mass_concentration_of_chlorophyll_in_sea_water (1 m), sea_water_turbidity (1 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Offline</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="Additional Notes">Damaged by Hurricane Irma. A new oceanographic data buoy will be deployed in 2022.</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Julio Morell (julio.morell@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.1568,18.4761,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.146">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">VIA</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">41051</SimpleData>
+            <SimpleData name="Station_Long_Name">North of St. Thomas</SimpleData>
+            <SimpleData name="Latitude">18.2574</SimpleData>
+            <SimpleData name="Longitude">-65.004</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">03/2013-03/2015</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">Neil Pettigrew/CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Virgin Islands</SimpleData>
+            <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_speed (2.5 - 22 m), sea_water_to_direction  (2.5 - 22 m), eastward_sea_water_velocity (2.5 - 22 m), northward_sea_water_velocity (2.5 - 22 m), sea_surface_temperature, air_temperature (-3 m), relative_humidity (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m),sea_water_electrical_conductivity (1 m), dissolved_oxygen (1 m), mass_concentration_of_chlorophyll_in_sea_water (1 m), sea_water_turbidity (1 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">No</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="Additional Notes">Redeployed in another location. Now is identified as VI2.</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Julio Morell (julio.morell@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.004,18.2574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.147">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">181p1</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">41115</SimpleData>
+            <SimpleData name="Station_Long_Name">Rincón Waverider Buoy</SimpleData>
+            <SimpleData name="Latitude">18.3764</SimpleData>
+            <SimpleData name="Longitude">-67.2799</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">05/2011 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS/CDIP</SimpleData>
+            <SimpleData name="Platform_Operator">Coastal Data Information Program, SIO/UCSD/CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Coastal Data Information Program </SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment, sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, wave_frequency, sea_surface_wave_variance_spectral_density, sea_surface_wave_from_direction, sea_surface_temperature, platform_orientation, sea_floor_depth_below_sea_surface</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">N</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Miguel Canals(miguelf.canals@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.2799,18.3764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.148">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">249p1</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">41121</SimpleData>
+            <SimpleData name="Station_Long_Name">Arecibo Waverider Buoy</SimpleData>
+            <SimpleData name="Latitude">18.4909</SimpleData>
+            <SimpleData name="Longitude">-66.7005</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">05/2021 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS/CDIP/NREL</SimpleData>
+            <SimpleData name="Platform_Operator">Coastal Data Information Program, SIO/UCSD/CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Government-Federal/Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Coastal Data Information Program </SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment, sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, wave_frequency, sea_surface_wave_variance_spectral_density, sea_surface_wave_from_direction, sea_surface_temperature, platform_orientation, sea_floor_depth_below_sea_surface</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Miguel Canalsmiguelf.canals@upr.edu</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -66.7005,18.4909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.149">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">MAPCO2</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">NCEI Accession 0117354</SimpleData>
+            <SimpleData name="Station_Long_Name">La Parguera MapCO2 buoy</SimpleData>
+            <SimpleData name="Latitude">17.9536666666667</SimpleData>
+            <SimpleData name="Longitude">-66.0512</SimpleData>
+            <SimpleData name="Platform_Type">Moored buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">PMEL/CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">PMEL</SimpleData>
+            <SimpleData name="Operator_Sector">Academia</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">PMEL/CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">SST, SSS, Atm. press, xCO2water, xCO2air,fCO2water,fCO2air, pH on total scale</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Station Description (Optional)">NCEI Accession 0117354</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yp</SimpleData>
+            <SimpleData name="Additional Notes">OAP</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Julio Morell (julio.morell@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -66.0512,17.9536666666667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.150">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">PUNTAS</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">PTRP4</SimpleData>
+            <SimpleData name="Station_Long_Name">Rincón, PR</SimpleData>
+            <SimpleData name="Latitude">18.3667</SimpleData>
+            <SimpleData name="Longitude">-67.2514</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">11/2012 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS </SimpleData>
+            <SimpleData name="Operator_Sector">Academia/Non-Profit</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">NDBC / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (15 m), wind_speed_of_gust (15 m), wind_from_direction (15 m), air_temperature (15 m), air_pressure (15 m), relative_humidity (15 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Offline</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="Additional Notes">Issues with the data logger. CARICOOS will repair and should be online by the end of February 2023.</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.2514,18.3667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.151">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">MAGUEYES</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">IMGP4</SimpleData>
+            <SimpleData name="Station_Long_Name">Isla Magueyes, PR</SimpleData>
+            <SimpleData name="Latitude">17.9694</SimpleData>
+            <SimpleData name="Longitude">-67.0442</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">10/2015 - 9/2017</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS </SimpleData>
+            <SimpleData name="Operator_Sector">Academia/Non-Profit</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">NDBC  / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">No</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">N</SimpleData>
+            <SimpleData name="Additional Notes">Damaged by Hurricane Maria</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.0442,17.9694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.152">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">MAGUEYES</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">F2397</SimpleData>
+            <SimpleData name="Station_Long_Name">Isla Magueyes, PR</SimpleData>
+            <SimpleData name="Latitude">17.9644</SimpleData>
+            <SimpleData name="Longitude">-67.0442</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">10/2018 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS </SimpleData>
+            <SimpleData name="Operator_Sector">Academia/Non-Profit</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Gladstone / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (8 m), wind_speed_of_gust (8 m), wind_from_direction (8 m), air_temperature (8 m), air_pressure (8 m), relative_humidity (8 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Offline</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="Additional Notes">Replace IMGP4 station</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.0442,17.9644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.153">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">PYC</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">E7791</SimpleData>
+            <SimpleData name="Station_Long_Name">Ponce Yatch Club - Ponce - Puerto Rico</SimpleData>
+            <SimpleData name="Latitude">17.9644</SimpleData>
+            <SimpleData name="Longitude">-66.6177</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">12/2018 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS </SimpleData>
+            <SimpleData name="Operator_Sector">Academia/Non-Profit</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Gladstone / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (15 m), wind_speed_of_gust (15 m), wind_from_direction (15 m), air_temperature (15 m), air_pressure (15 m), relative_humidity (15 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="Additional Notes">Replace by XIMG (WaetherFlow)</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -66.6177,17.9644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.154">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">FCR</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">E7866</SimpleData>
+            <SimpleData name="Station_Long_Name">Faro de Cabo Rojo - Cabo Rojo - Puerto Rico</SimpleData>
+            <SimpleData name="Latitude">17.9335</SimpleData>
+            <SimpleData name="Longitude">-67.192</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">12/2018 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS </SimpleData>
+            <SimpleData name="Operator_Sector">Academia/Non-Profit</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Gladstone / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (3 m), wind_speed_of_gust (3 m), wind_from_direction (3 m), air_temperature (3 m), air_pressure (3 m), relative_humidity (3 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Offline</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="Additional Notes">Replace by XCRL (Weatherflow Inc.)</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.192,17.9335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.155">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">TPR</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">E9889</SimpleData>
+            <SimpleData name="Station_Long_Name">Tres Palmas Reserve - Rincon - Puerto Rico</SimpleData>
+            <SimpleData name="Latitude">18.347</SimpleData>
+            <SimpleData name="Longitude">-67.2613</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">12/2018 - present</SimpleData>
+            <SimpleData name="Platform_Funder">CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS </SimpleData>
+            <SimpleData name="Operator_Sector">Academia/Non-Profit</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Gladstone / CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (3 m), wind_speed_of_gust (3 m), wind_from_direction (3 m), air_temperature (3 m), air_pressure (3 m), relative_humidity (3 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.2613,18.347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.156">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XAGU</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TJGU</SimpleData>
+            <SimpleData name="Station_Long_Name">Jetty Aguadilla, PR</SimpleData>
+            <SimpleData name="Latitude">18.43295</SimpleData>
+            <SimpleData name="Longitude">-67.15663</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.15663,18.43295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.157">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XAMA</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TIMA</SimpleData>
+            <SimpleData name="Station_Long_Name">Charlotte Amalie Harbor, USVI</SimpleData>
+            <SimpleData name="Latitude">18.3303</SimpleData>
+            <SimpleData name="Longitude">-64.9264</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - 2015</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">No</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">N</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.9264,18.3303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.158">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XBRO</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TIRO</SimpleData>
+            <SimpleData name="Station_Long_Name">Two Brothers, USVI</SimpleData>
+            <SimpleData name="Latitude">18.34291</SimpleData>
+            <SimpleData name="Longitude">-64.8173</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.8173,18.34291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.159">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XBUK</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TIUK</SimpleData>
+            <SimpleData name="Station_Long_Name">Buck Island, USVI</SimpleData>
+            <SimpleData name="Latitude">18.27823</SimpleData>
+            <SimpleData name="Longitude">-64.8926</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.8926,18.27823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.160">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XCDP</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TJDP</SimpleData>
+            <SimpleData name="Station_Long_Name">Cabo Rojo, PR (CWOP EW7866)</SimpleData>
+            <SimpleData name="Latitude">18.09995</SimpleData>
+            <SimpleData name="Longitude">-67.18887</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">JUR</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.18887,18.09995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.161">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XCRX</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TIRX</SimpleData>
+            <SimpleData name="Station_Long_Name">Sandy Point NWR, USVI</SimpleData>
+            <SimpleData name="Latitude">17.67771</SimpleData>
+            <SimpleData name="Longitude">-64.89989</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.89989,17.67771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.162">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XCUL</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TJUL</SimpleData>
+            <SimpleData name="Station_Long_Name">Culebrita Island</SimpleData>
+            <SimpleData name="Latitude">18.3137</SimpleData>
+            <SimpleData name="Longitude">-65.22742</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2016 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.22742,18.3137,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.163">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XGUR</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TJUR</SimpleData>
+            <SimpleData name="Station_Long_Name">Gurabo, PR</SimpleData>
+            <SimpleData name="Latitude">18.25623</SimpleData>
+            <SimpleData name="Longitude">-65.99167</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.99167,18.25623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.164">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XJUA</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TJUA</SimpleData>
+            <SimpleData name="Station_Long_Name">San Juan, PR</SimpleData>
+            <SimpleData name="Latitude">18.45512</SimpleData>
+            <SimpleData name="Longitude">-66.12846</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -66.12846,18.45512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.165">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XMRS</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TJRS</SimpleData>
+            <SimpleData name="Station_Long_Name">Las Mareas, Guayama, PR</SimpleData>
+            <SimpleData name="Latitude">17.92859</SimpleData>
+            <SimpleData name="Longitude">-66.1597</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -66.1597,17.92859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.166">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XREY</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TJEY</SimpleData>
+            <SimpleData name="Station_Long_Name">Marina Puerto del Rey, Fajardo, PR</SimpleData>
+            <SimpleData name="Latitude">18.28938</SimpleData>
+            <SimpleData name="Longitude">-65.632</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.632,18.28938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.167">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XRUP</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TIMA</SimpleData>
+            <SimpleData name="Station_Long_Name">Ruperts Rock, USVI</SimpleData>
+            <SimpleData name="Latitude">18.32817</SimpleData>
+            <SimpleData name="Longitude">-64.92661</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2015 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.92661,18.32817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.168">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XSAV</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TIAC</SimpleData>
+            <SimpleData name="Station_Long_Name">Savanah Island, USVI</SimpleData>
+            <SimpleData name="Latitude">18.33737</SimpleData>
+            <SimpleData name="Longitude">-65.083</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - 2017</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">No</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">N</SimpleData>
+            <SimpleData name="Additional Notes">Decomissioned by Weatherflow because it got damaged by Hurricane Maria.</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.083,18.33737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.169">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XWGO</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TIGO</SimpleData>
+            <SimpleData name="Station_Long_Name">Crown Mountain, USVI</SimpleData>
+            <SimpleData name="Latitude">18.35537</SimpleData>
+            <SimpleData name="Longitude">-64.96693</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - 2017</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">No</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="Additional Notes">Damaged by Hurricane Maria. A new station will be installed in a new location.</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.96693,18.35537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.170">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XYAB</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">TJAB</SimpleData>
+            <SimpleData name="Station_Long_Name">Yabucoa-El Negro, PR</SimpleData>
+            <SimpleData name="Latitude">18.05245</SimpleData>
+            <SimpleData name="Longitude">-65.82809</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009 - present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.82809,18.05245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.171">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">*</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">-</SimpleData>
+            <SimpleData name="Station_Long_Name">Mountain Top, USVI</SimpleData>
+            <SimpleData name="Latitude">18.36</SimpleData>
+            <SimpleData name="Longitude">-64.95</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2019-present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS/OCOVI</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS/OCOVI</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Offline</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="Additional Notes">This station replace Crown Mountain Station however, close vegetation is affecting the equipment. CARICOOS is currently assessing new location to relocate the station.</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.95,18.36,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.172">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XIMG</SimpleData>
+            <SimpleData name="Station_Long_Name">Isla Magueyes, PR</SimpleData>
+            <SimpleData name="Latitude">17.9689</SimpleData>
+            <SimpleData name="Longitude">-67.0438</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2023/09-present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.0438,17.9689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.173">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XCRL</SimpleData>
+            <SimpleData name="Station_Long_Name">Faro de Cabo Rojo,PR</SimpleData>
+            <SimpleData name="Latitude">17.9333</SimpleData>
+            <SimpleData name="Longitude">-67.1919</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2023/09-present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.1919,17.9333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.174">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">CARICOOS</SimpleData>
+            <SimpleData name="Station_ID">XWTR</SimpleData>
+            <SimpleData name="Station_Long_Name">Water Island, USVI</SimpleData>
+            <SimpleData name="Latitude">18.3075</SimpleData>
+            <SimpleData name="Longitude">-64.95667</SimpleData>
+            <SimpleData name="Platform_Type">Fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2023/03-present</SimpleData>
+            <SimpleData name="Platform_Funder">Weatherflow /CARICOOS/OCOVI</SimpleData>
+            <SimpleData name="Platform_Operator">CARICOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">CARICOOS</SimpleData>
+            <SimpleData name="Data_Manager">Weatherflow /CARICOOS/OCOVI</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m),precipitation (accumulated)</SimpleData>
+            <SimpleData name="file">CARICOOS.xlsx</SimpleData>
+            <SimpleData name="Currently Operational? (Y, N, O, U)  
+Y = Yes (this includes seasonal buoys intended for redeployment).  N = No (it was uninstalled/removed, or is offline with no intent to repair).  O =  Offline (temporary outage, with intent to repair or redeploy).  U = Unknown (e.g. funding uncertainty for repair/redeployment, or operator's plans are unknown).  If O or U, please indicate why in the notes column.)">Operational</SimpleData>
+            <SimpleData name="RA Funding Involvement 
+(Yf = Fully funds.  Yp = Partially funds.  N = No funding)">Yf</SimpleData>
+            <SimpleData name="CARICOOS Contact
+(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.95667,18.3075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.175">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
             <SimpleData name="Station_ID">CAP2</SimpleData>
             <SimpleData name="WMO_CMAN_ID">41029</SimpleData>
@@ -4231,7 +5383,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.142">
+      <Placemark id="combined_raw_inventory.176">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4260,7 +5412,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.143">
+      <Placemark id="combined_raw_inventory.177">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4290,7 +5442,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.144">
+      <Placemark id="combined_raw_inventory.178">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4319,7 +5471,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.145">
+      <Placemark id="combined_raw_inventory.179">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4348,7 +5500,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.146">
+      <Placemark id="combined_raw_inventory.180">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4378,7 +5530,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.147">
+      <Placemark id="combined_raw_inventory.181">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4408,7 +5560,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.148">
+      <Placemark id="combined_raw_inventory.182">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4438,7 +5590,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.149">
+      <Placemark id="combined_raw_inventory.183">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4468,7 +5620,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.150">
+      <Placemark id="combined_raw_inventory.184">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4497,7 +5649,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.151">
+      <Placemark id="combined_raw_inventory.185">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4526,7 +5678,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.152">
+      <Placemark id="combined_raw_inventory.186">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4556,7 +5708,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.153">
+      <Placemark id="combined_raw_inventory.187">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4585,7 +5737,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.154">
+      <Placemark id="combined_raw_inventory.188">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4613,7 +5765,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.155">
+      <Placemark id="combined_raw_inventory.189">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4641,7 +5793,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.156">
+      <Placemark id="combined_raw_inventory.190">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4670,7 +5822,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.157">
+      <Placemark id="combined_raw_inventory.191">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4699,7 +5851,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.158">
+      <Placemark id="combined_raw_inventory.192">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4728,7 +5880,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.159">
+      <Placemark id="combined_raw_inventory.193">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4758,7 +5910,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.160">
+      <Placemark id="combined_raw_inventory.194">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4788,7 +5940,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.161">
+      <Placemark id="combined_raw_inventory.195">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4818,7 +5970,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.162">
+      <Placemark id="combined_raw_inventory.196">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4848,7 +6000,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.163">
+      <Placemark id="combined_raw_inventory.197">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4877,7 +6029,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.164">
+      <Placemark id="combined_raw_inventory.198">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4906,7 +6058,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.165">
+      <Placemark id="combined_raw_inventory.199">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4935,7 +6087,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.166">
+      <Placemark id="combined_raw_inventory.200">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4964,7 +6116,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.167">
+      <Placemark id="combined_raw_inventory.201">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -4993,7 +6145,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.168">
+      <Placemark id="combined_raw_inventory.202">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5022,7 +6174,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.169">
+      <Placemark id="combined_raw_inventory.203">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5051,7 +6203,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.170">
+      <Placemark id="combined_raw_inventory.204">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5081,7 +6233,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.171">
+      <Placemark id="combined_raw_inventory.205">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5111,7 +6263,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.172">
+      <Placemark id="combined_raw_inventory.206">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5140,7 +6292,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.173">
+      <Placemark id="combined_raw_inventory.207">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5169,7 +6321,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.174">
+      <Placemark id="combined_raw_inventory.208">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5199,7 +6351,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.175">
+      <Placemark id="combined_raw_inventory.209">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5228,7 +6380,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.176">
+      <Placemark id="combined_raw_inventory.210">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5257,7 +6409,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.177">
+      <Placemark id="combined_raw_inventory.211">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5286,7 +6438,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.178">
+      <Placemark id="combined_raw_inventory.212">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5315,7 +6467,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.179">
+      <Placemark id="combined_raw_inventory.213">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5344,7 +6496,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.180">
+      <Placemark id="combined_raw_inventory.214">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5373,7 +6525,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.181">
+      <Placemark id="combined_raw_inventory.215">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5402,7 +6554,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.182">
+      <Placemark id="combined_raw_inventory.216">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5431,7 +6583,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.183">
+      <Placemark id="combined_raw_inventory.217">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5460,7 +6612,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.184">
+      <Placemark id="combined_raw_inventory.218">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5489,7 +6641,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.185">
+      <Placemark id="combined_raw_inventory.219">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5517,7 +6669,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.186">
+      <Placemark id="combined_raw_inventory.220">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5545,7 +6697,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.187">
+      <Placemark id="combined_raw_inventory.221">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5573,7 +6725,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.188">
+      <Placemark id="combined_raw_inventory.222">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5601,7 +6753,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.189">
+      <Placemark id="combined_raw_inventory.223">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5629,7 +6781,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.190">
+      <Placemark id="combined_raw_inventory.224">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5657,7 +6809,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.191">
+      <Placemark id="combined_raw_inventory.225">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5685,7 +6837,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.192">
+      <Placemark id="combined_raw_inventory.226">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5713,7 +6865,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.193">
+      <Placemark id="combined_raw_inventory.227">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5741,7 +6893,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.194">
+      <Placemark id="combined_raw_inventory.228">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5769,7 +6921,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.195">
+      <Placemark id="combined_raw_inventory.229">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5797,7 +6949,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.196">
+      <Placemark id="combined_raw_inventory.230">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5825,7 +6977,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.197">
+      <Placemark id="combined_raw_inventory.231">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5853,7 +7005,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.198">
+      <Placemark id="combined_raw_inventory.232">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5881,7 +7033,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.199">
+      <Placemark id="combined_raw_inventory.233">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5909,7 +7061,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.200">
+      <Placemark id="combined_raw_inventory.234">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5938,7 +7090,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.201">
+      <Placemark id="combined_raw_inventory.235">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5966,7 +7118,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.202">
+      <Placemark id="combined_raw_inventory.236">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -5995,7 +7147,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.203">
+      <Placemark id="combined_raw_inventory.237">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6024,7 +7176,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.204">
+      <Placemark id="combined_raw_inventory.238">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6053,7 +7205,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.205">
+      <Placemark id="combined_raw_inventory.239">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6082,7 +7234,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.206">
+      <Placemark id="combined_raw_inventory.240">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6111,7 +7263,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.207">
+      <Placemark id="combined_raw_inventory.241">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6140,7 +7292,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.208">
+      <Placemark id="combined_raw_inventory.242">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6169,7 +7321,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.209">
+      <Placemark id="combined_raw_inventory.243">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6198,7 +7350,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.210">
+      <Placemark id="combined_raw_inventory.244">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6227,7 +7379,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.211">
+      <Placemark id="combined_raw_inventory.245">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6256,7 +7408,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.212">
+      <Placemark id="combined_raw_inventory.246">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6285,7 +7437,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.213">
+      <Placemark id="combined_raw_inventory.247">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6314,7 +7466,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.214">
+      <Placemark id="combined_raw_inventory.248">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6343,7 +7495,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.215">
+      <Placemark id="combined_raw_inventory.249">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6372,7 +7524,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.216">
+      <Placemark id="combined_raw_inventory.250">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6401,7 +7553,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.217">
+      <Placemark id="combined_raw_inventory.251">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6430,7 +7582,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.218">
+      <Placemark id="combined_raw_inventory.252">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6459,7 +7611,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.219">
+      <Placemark id="combined_raw_inventory.253">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6488,7 +7640,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.220">
+      <Placemark id="combined_raw_inventory.254">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6517,7 +7669,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.221">
+      <Placemark id="combined_raw_inventory.255">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6546,7 +7698,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.222">
+      <Placemark id="combined_raw_inventory.256">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6575,7 +7727,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.223">
+      <Placemark id="combined_raw_inventory.257">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6604,7 +7756,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.224">
+      <Placemark id="combined_raw_inventory.258">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6633,7 +7785,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.225">
+      <Placemark id="combined_raw_inventory.259">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6662,7 +7814,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.226">
+      <Placemark id="combined_raw_inventory.260">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6691,7 +7843,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.227">
+      <Placemark id="combined_raw_inventory.261">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6720,7 +7872,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.228">
+      <Placemark id="combined_raw_inventory.262">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6749,7 +7901,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.229">
+      <Placemark id="combined_raw_inventory.263">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6778,7 +7930,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.230">
+      <Placemark id="combined_raw_inventory.264">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6807,7 +7959,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.231">
+      <Placemark id="combined_raw_inventory.265">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6836,7 +7988,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.232">
+      <Placemark id="combined_raw_inventory.266">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6865,7 +8017,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.233">
+      <Placemark id="combined_raw_inventory.267">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6894,7 +8046,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.234">
+      <Placemark id="combined_raw_inventory.268">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6923,7 +8075,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.235">
+      <Placemark id="combined_raw_inventory.269">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6952,7 +8104,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.236">
+      <Placemark id="combined_raw_inventory.270">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -6981,7 +8133,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.237">
+      <Placemark id="combined_raw_inventory.271">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7010,7 +8162,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.238">
+      <Placemark id="combined_raw_inventory.272">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7039,7 +8191,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.239">
+      <Placemark id="combined_raw_inventory.273">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7068,7 +8220,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.240">
+      <Placemark id="combined_raw_inventory.274">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7097,7 +8249,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.241">
+      <Placemark id="combined_raw_inventory.275">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7126,7 +8278,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.242">
+      <Placemark id="combined_raw_inventory.276">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7153,7 +8305,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.243">
+      <Placemark id="combined_raw_inventory.277">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7180,7 +8332,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.244">
+      <Placemark id="combined_raw_inventory.278">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7207,7 +8359,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.245">
+      <Placemark id="combined_raw_inventory.279">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7234,7 +8386,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.246">
+      <Placemark id="combined_raw_inventory.280">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7261,7 +8413,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.247">
+      <Placemark id="combined_raw_inventory.281">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7288,7 +8440,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.248">
+      <Placemark id="combined_raw_inventory.282">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7315,7 +8467,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.249">
+      <Placemark id="combined_raw_inventory.283">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7342,7 +8494,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.250">
+      <Placemark id="combined_raw_inventory.284">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7369,7 +8521,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.251">
+      <Placemark id="combined_raw_inventory.285">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7396,7 +8548,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.252">
+      <Placemark id="combined_raw_inventory.286">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7423,7 +8575,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.253">
+      <Placemark id="combined_raw_inventory.287">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7450,7 +8602,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.254">
+      <Placemark id="combined_raw_inventory.288">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7477,7 +8629,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.255">
+      <Placemark id="combined_raw_inventory.289">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7504,7 +8656,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.256">
+      <Placemark id="combined_raw_inventory.290">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7531,7 +8683,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.257">
+      <Placemark id="combined_raw_inventory.291">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7558,7 +8710,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.258">
+      <Placemark id="combined_raw_inventory.292">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7585,7 +8737,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.259">
+      <Placemark id="combined_raw_inventory.293">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7612,7 +8764,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.260">
+      <Placemark id="combined_raw_inventory.294">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7639,7 +8791,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.261">
+      <Placemark id="combined_raw_inventory.295">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7666,7 +8818,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.262">
+      <Placemark id="combined_raw_inventory.296">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7693,7 +8845,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.263">
+      <Placemark id="combined_raw_inventory.297">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7720,7 +8872,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.264">
+      <Placemark id="combined_raw_inventory.298">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7747,7 +8899,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.265">
+      <Placemark id="combined_raw_inventory.299">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7774,7 +8926,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.266">
+      <Placemark id="combined_raw_inventory.300">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7801,7 +8953,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.267">
+      <Placemark id="combined_raw_inventory.301">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -7828,7 +8980,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.268">
+      <Placemark id="combined_raw_inventory.302">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
