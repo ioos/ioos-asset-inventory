@@ -1,6 +1,6 @@
 # assetInventory Review Process
 
-The Observing Asset Inventory requirements can be found on the bottom of page 4 of the [Cooperative Agreement Progress Report Guidance document](https://cdn.ioos.noaa.gov/attachments/2018/11/Cooperative-Agreement-Progress-Report-Guidance-November-2018.pdf). In this document, guidance is provided on what assets to include, what assets not to include, and what specific fields should be populated. The inventories cover the entire calendar year (CY), for the year they are reporting (eg. for 2020 the period of time is Jan 1 2020 -  Dec 31 2020).
+The Observing Asset Inventory requirements can be found on the bottom of page 4 of the [Cooperative Agreement Progress Report Guidance document](https://cdn.ioos.noaa.gov/media/2021/12/2021-Cooperative-Agreement-Progress-Report-Guidance.pdf). In this document, guidance is provided on what assets to include, what assets not to include, and what specific fields should be populated. The inventories cover the entire calendar year (CY), for the year they are reporting (eg. for 2020 the period of time is Jan 1 2020 -  Dec 31 2020).
 
 ## Process for IOOS initial Asset Inventory review:
 When the inventories are received for the progress reports, they will be made available through Google Drive. Below is a step-by-step walkthrough of the initial review for an Asset Inventory.
