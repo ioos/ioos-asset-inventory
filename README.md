@@ -9,6 +9,7 @@ Access point | Description
 https://erddap.ioos.us/erddap/tabledap/processed_asset_inventory.html | IOOS Regional Association **processed** asset inventory from 2020-01-01 up to the end of the previous calendar year. This is a concatenation of all the inventories and a mapping of all the variables into specific categories. It is served as one large table for easier access.
 https://erddap.ioos.us/erddap/tabledap/raw_asset_inventory.html | IOOS Regional Association **raw** asset inventory from 2020-01-01 up to the end of the previous calendar year. This is a concatenation of all the inventories into one large table for easier access. Very minimal QA/QC has been done to these data.
 yearly directory in this repository (https://github.com/ioos/ioos-asset-inventory/) | The source data files for each year's asset inventory compilation
+https://ioos.github.io/ioos_metrics/asset_inventory.html | IOOS Asset Inventory website which reflects the most recent calendar year's collection of Asset Inventories.
 
 See [REVIEW_PROCESS](https://github.com/ioos/ioos-asset-inventory/blob/main/REVIEW_PROCESS.md) for details on how the inventories are processed.
 
