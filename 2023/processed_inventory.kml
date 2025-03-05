@@ -482,6 +482,43 @@
       <SimpleField name="Raw_Vars" type="string"/>
       <SimpleField name="file" type="string"/>
     </Schema>
+    <Schema id="processed_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="station_long_name" type="string"/>
+      <SimpleField name="Platform" type="string"/>
+      <SimpleField name="Operational" type="string"/>
+      <SimpleField name="station_deployment" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Water_temp" type="string"/>
+      <SimpleField name="Salinity" type="string"/>
+      <SimpleField name="Wtr_press" type="string"/>
+      <SimpleField name="Dew_pt" type="string"/>
+      <SimpleField name="Rel_hum" type="string"/>
+      <SimpleField name="Air_temp" type="string"/>
+      <SimpleField name="Winds" type="string"/>
+      <SimpleField name="Air_press" type="string"/>
+      <SimpleField name="Precip" type="string"/>
+      <SimpleField name="Solar_radn" type="string"/>
+      <SimpleField name="Water_level" type="string"/>
+      <SimpleField name="Waves" type="string"/>
+      <SimpleField name="Currents" type="string"/>
+      <SimpleField name="Turbidity" type="string"/>
+      <SimpleField name="DO" type="string"/>
+      <SimpleField name="pCO2_water" type="string"/>
+      <SimpleField name="pCO2_air" type="string"/>
+      <SimpleField name="TCO2" type="string"/>
+      <SimpleField name="pH" type="string"/>
+      <SimpleField name="OmgArag_st" type="string"/>
+      <SimpleField name="Chl" type="string"/>
+      <SimpleField name="Nitrate" type="string"/>
+      <SimpleField name="CDOM" type="string"/>
+      <SimpleField name="Alkalinity" type="string"/>
+      <SimpleField name="Acoustics" type="string"/>
+      <SimpleField name="Raw_Vars" type="string"/>
+      <SimpleField name="file" type="string"/>
+    </Schema>
     <Document id="processed_inventory">
       <name>processed_inventory</name>
       <Placemark id="processed_inventory.1">
@@ -4875,7 +4912,7 @@
       <Placemark id="processed_inventory.175">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">41.06</SimpleData>
             <SimpleData name="Longitude">-124.15</SimpleData>
             <SimpleData name="station_long_name">Trinidad Pier</SimpleData>
@@ -4902,7 +4939,7 @@
       <Placemark id="processed_inventory.176">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">40.78</SimpleData>
             <SimpleData name="Longitude">-124.2</SimpleData>
             <SimpleData name="station_long_name">Humboldt Bay: Chevron Dock</SimpleData>
@@ -4929,7 +4966,7 @@
       <Placemark id="processed_inventory.177">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">40.43</SimpleData>
             <SimpleData name="Longitude">-124.13</SimpleData>
             <SimpleData name="station_long_name">Humboldt Bay: South Bay</SimpleData>
@@ -4956,7 +4993,7 @@
       <Placemark id="processed_inventory.178">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">40.81</SimpleData>
             <SimpleData name="Longitude">-124.15</SimpleData>
             <SimpleData name="station_long_name">Tuluwat Island</SimpleData>
@@ -4983,7 +5020,7 @@
       <Placemark id="processed_inventory.179">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">40.79394</SimpleData>
             <SimpleData name="Longitude">-124.192885</SimpleData>
             <SimpleData name="station_long_name">Cal Poly Humboldt IFCB</SimpleData>
@@ -5003,7 +5040,7 @@
       <Placemark id="processed_inventory.180">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">39.6</SimpleData>
             <SimpleData name="Longitude">-123.79</SimpleData>
             <SimpleData name="station_long_name">Kibisilla Hill</SimpleData>
@@ -5027,7 +5064,7 @@
       <Placemark id="processed_inventory.181">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">38.32</SimpleData>
             <SimpleData name="Longitude">-123.07</SimpleData>
             <SimpleData name="station_long_name">Bodega Head</SimpleData>
@@ -5051,7 +5088,7 @@
       <Placemark id="processed_inventory.182">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">38.32</SimpleData>
             <SimpleData name="Longitude">-123.07</SimpleData>
             <SimpleData name="station_long_name">Bodega</SimpleData>
@@ -5076,7 +5113,7 @@
       <Placemark id="processed_inventory.183">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">38.3185</SimpleData>
             <SimpleData name="Longitude">-123.0716</SimpleData>
             <SimpleData name="station_long_name">Bodega IFCB163</SimpleData>
@@ -5096,7 +5133,7 @@
       <Placemark id="processed_inventory.184">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">38.19</SimpleData>
             <SimpleData name="Longitude">-122.93</SimpleData>
             <SimpleData name="station_long_name">Tomales Bay</SimpleData>
@@ -5121,7 +5158,7 @@
       <Placemark id="processed_inventory.185">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">36.162</SimpleData>
             <SimpleData name="Longitude">-122.8939</SimpleData>
             <SimpleData name="station_long_name">Hog Island</SimpleData>
@@ -5147,7 +5184,7 @@
       <Placemark id="processed_inventory.186">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">38.07</SimpleData>
             <SimpleData name="Longitude">-122.23</SimpleData>
             <SimpleData name="station_long_name">Carquinez</SimpleData>
@@ -5174,7 +5211,7 @@
       <Placemark id="processed_inventory.187">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">37.89</SimpleData>
             <SimpleData name="Longitude">-122.45</SimpleData>
             <SimpleData name="station_long_name">Tiburon</SimpleData>
@@ -5201,7 +5238,7 @@
       <Placemark id="processed_inventory.188">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">37.81</SimpleData>
             <SimpleData name="Longitude">-122.47</SimpleData>
             <SimpleData name="station_long_name">Fort Point</SimpleData>
@@ -5226,7 +5263,7 @@
       <Placemark id="processed_inventory.189">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">37.8</SimpleData>
             <SimpleData name="Longitude">-122.397</SimpleData>
             <SimpleData name="station_long_name">Exploritorium</SimpleData>
@@ -5260,7 +5297,7 @@
       <Placemark id="processed_inventory.190">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">37.8</SimpleData>
             <SimpleData name="Longitude">-122.397</SimpleData>
             <SimpleData name="station_long_name">San Francisco Pier 17 IFCB</SimpleData>
@@ -5280,7 +5317,7 @@
       <Placemark id="processed_inventory.191">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">36.96</SimpleData>
             <SimpleData name="Longitude">-122.02</SimpleData>
             <SimpleData name="station_long_name">Santa Cruz Wharf</SimpleData>
@@ -5307,7 +5344,7 @@
       <Placemark id="processed_inventory.192">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">36.96</SimpleData>
             <SimpleData name="Longitude">-122.02</SimpleData>
             <SimpleData name="station_long_name">Santa Cruz Municipal Wharf IFCB</SimpleData>
@@ -5327,7 +5364,7 @@
       <Placemark id="processed_inventory.193">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">36.8</SimpleData>
             <SimpleData name="Longitude">-121.79</SimpleData>
             <SimpleData name="station_long_name">Moss Landing</SimpleData>
@@ -5358,7 +5395,7 @@
       <Placemark id="processed_inventory.194">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">36.758</SimpleData>
             <SimpleData name="Longitude">-122.029</SimpleData>
             <SimpleData name="station_long_name">M1</SimpleData>
@@ -5389,7 +5426,7 @@
       <Placemark id="processed_inventory.195">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">36.61</SimpleData>
             <SimpleData name="Longitude">-121.89</SimpleData>
             <SimpleData name="station_long_name">Monterey Wharf</SimpleData>
@@ -5416,7 +5453,7 @@
       <Placemark id="processed_inventory.196">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">36.6186</SimpleData>
             <SimpleData name="Longitude">-121.9015</SimpleData>
             <SimpleData name="station_long_name">Monterey Bay Aquarium</SimpleData>
@@ -5440,7 +5477,7 @@
       <Placemark id="processed_inventory.197">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">35.37</SimpleData>
             <SimpleData name="Longitude">-120.86</SimpleData>
             <SimpleData name="station_long_name">Morro Bay</SimpleData>
@@ -5474,7 +5511,7 @@
       <Placemark id="processed_inventory.198">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">35.33382</SimpleData>
             <SimpleData name="Longitude">-120.84725</SimpleData>
             <SimpleData name="station_long_name">Morro Back Bay BS1</SimpleData>
@@ -5505,7 +5542,7 @@
       <Placemark id="processed_inventory.199">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Latitude">35.17</SimpleData>
             <SimpleData name="Longitude">-122.89</SimpleData>
             <SimpleData name="station_long_name">San Luis Bay</SimpleData>
@@ -18664,7 +18701,7 @@
       <Placemark id="processed_inventory.709">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.433</SimpleData>
             <SimpleData name="Longitude">-157.7863</SimpleData>
             <SimpleData name="station_long_name">Coconut Island Weather Station</SimpleData>
@@ -18691,7 +18728,7 @@
       <Placemark id="processed_inventory.710">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.2962</SimpleData>
             <SimpleData name="Longitude">-157.8687</SimpleData>
             <SimpleData name="station_long_name">Pier 1 Honolulu Weather Station</SimpleData>
@@ -18717,7 +18754,7 @@
       <Placemark id="processed_inventory.711">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.415</SimpleData>
             <SimpleData name="Longitude">-157.6783</SimpleData>
             <SimpleData name="station_long_name">Mokapu Point, Oahu, Hawaii</SimpleData>
@@ -18740,7 +18777,7 @@
       <Placemark id="processed_inventory.712">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.6705</SimpleData>
             <SimpleData name="Longitude">-158.1172</SimpleData>
             <SimpleData name="station_long_name">Waimea Bay, Oahu, Hawaii</SimpleData>
@@ -18763,7 +18800,7 @@
       <Placemark id="processed_inventory.713">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">13.3542</SimpleData>
             <SimpleData name="Longitude">144.7883</SimpleData>
             <SimpleData name="station_long_name">Ipan, Guam</SimpleData>
@@ -18786,7 +18823,7 @@
       <Placemark id="processed_inventory.714">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">7.0835</SimpleData>
             <SimpleData name="Longitude">171.3918</SimpleData>
             <SimpleData name="station_long_name">Kalo, Majuro, Marshall Islands</SimpleData>
@@ -18809,7 +18846,7 @@
       <Placemark id="processed_inventory.715">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.0182</SimpleData>
             <SimpleData name="Longitude">-156.4252</SimpleData>
             <SimpleData name="station_long_name">Pauwela, Maui, Hawaii</SimpleData>
@@ -18832,7 +18869,7 @@
       <Placemark id="processed_inventory.716">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">19.78</SimpleData>
             <SimpleData name="Longitude">-154.97</SimpleData>
             <SimpleData name="station_long_name">Hilo, Hawaii</SimpleData>
@@ -18855,7 +18892,7 @@
       <Placemark id="processed_inventory.717">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">-14.2645</SimpleData>
             <SimpleData name="Longitude">-170.4934</SimpleData>
             <SimpleData name="station_long_name">Aunuu, American Samoa</SimpleData>
@@ -18878,7 +18915,7 @@
       <Placemark id="processed_inventory.718">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">13.6837</SimpleData>
             <SimpleData name="Longitude">144.8121</SimpleData>
             <SimpleData name="station_long_name">Ritidian Point, Guam</SimpleData>
@@ -18901,7 +18938,7 @@
       <Placemark id="processed_inventory.719">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">15.2685</SimpleData>
             <SimpleData name="Longitude">145.6623</SimpleData>
             <SimpleData name="station_long_name">Tanapag, Saipan, CNMI</SimpleData>
@@ -18924,7 +18961,7 @@
       <Placemark id="processed_inventory.720">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.4775</SimpleData>
             <SimpleData name="Longitude">-157.7526</SimpleData>
             <SimpleData name="station_long_name">Kaneohe Bay, Oahu, Hawaii</SimpleData>
@@ -18947,7 +18984,7 @@
       <Placemark id="processed_inventory.721">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">22.2847</SimpleData>
             <SimpleData name="Longitude">-159.5742</SimpleData>
             <SimpleData name="station_long_name">Hanalei, Kauai,  Hawaii</SimpleData>
@@ -18970,7 +19007,7 @@
       <Placemark id="processed_inventory.722">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.4774</SimpleData>
             <SimpleData name="Longitude">-157.7558</SimpleData>
             <SimpleData name="station_long_name">Kaneohe WETS, Oahu, Hawaii</SimpleData>
@@ -18993,7 +19030,7 @@
       <Placemark id="processed_inventory.723">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.2974</SimpleData>
             <SimpleData name="Longitude">-157.9589</SimpleData>
             <SimpleData name="station_long_name">Pearl Harbor Entrance, Hawaii</SimpleData>
@@ -19017,7 +19054,7 @@
       <Placemark id="processed_inventory.724">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.3233</SimpleData>
             <SimpleData name="Longitude">-158.1497</SimpleData>
             <SimpleData name="station_long_name">Kalaeloa, Barbers Point, HI</SimpleData>
@@ -19041,7 +19078,7 @@
       <Placemark id="processed_inventory.725">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">20.7502</SimpleData>
             <SimpleData name="Longitude">-157.0034</SimpleData>
             <SimpleData name="station_long_name">Lanai SW, HI</SimpleData>
@@ -19065,7 +19102,7 @@
       <Placemark id="processed_inventory.726">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">7.6296</SimpleData>
             <SimpleData name="Longitude">134.6704</SimpleData>
             <SimpleData name="station_long_name">Ngaraard, Babeldaob, Palau</SimpleData>
@@ -19089,7 +19126,7 @@
       <Placemark id="processed_inventory.727">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.28641</SimpleData>
             <SimpleData name="Longitude">-157.8428</SimpleData>
             <SimpleData name="station_long_name">Hawaii Yacht Club NSS</SimpleData>
@@ -19115,7 +19152,7 @@
       <Placemark id="processed_inventory.728">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.28042</SimpleData>
             <SimpleData name="Longitude">-157.8381</SimpleData>
             <SimpleData name="station_long_name">Hilton Hawiian Village NSS</SimpleData>
@@ -19141,7 +19178,7 @@
       <Placemark id="processed_inventory.729">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.26588</SimpleData>
             <SimpleData name="Longitude">-157.8228</SimpleData>
             <SimpleData name="station_long_name">Waikiki Aquarium NSS</SimpleData>
@@ -19167,7 +19204,7 @@
       <Placemark id="processed_inventory.730">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">-14.2766</SimpleData>
             <SimpleData name="Longitude">-170.6908</SimpleData>
             <SimpleData name="station_long_name">Pago Pago NSS</SimpleData>
@@ -19193,7 +19230,7 @@
       <Placemark id="processed_inventory.731">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">6.873681</SimpleData>
             <SimpleData name="Longitude">158.2245</SimpleData>
             <SimpleData name="station_long_name">Pohnpei NSS</SimpleData>
@@ -19219,7 +19256,7 @@
       <Placemark id="processed_inventory.732">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">7.106</SimpleData>
             <SimpleData name="Longitude">171.3728</SimpleData>
             <SimpleData name="station_long_name">Majuro NSS</SimpleData>
@@ -19245,7 +19282,7 @@
       <Placemark id="processed_inventory.733">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.28009</SimpleData>
             <SimpleData name="Longitude">-157.711</SimpleData>
             <SimpleData name="station_long_name">Maunalua Bay NSS</SimpleData>
@@ -19271,7 +19308,7 @@
       <Placemark id="processed_inventory.734">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">20.73121</SimpleData>
             <SimpleData name="Longitude">-156.455</SimpleData>
             <SimpleData name="station_long_name">Kalama Beach Park, Maui NSS</SimpleData>
@@ -19297,7 +19334,7 @@
       <Placemark id="processed_inventory.735">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">13.42059</SimpleData>
             <SimpleData name="Longitude">144.78604</SimpleData>
             <SimpleData name="station_long_name">Pago Bay, Guam NSS</SimpleData>
@@ -19323,7 +19360,7 @@
       <Placemark id="processed_inventory.736">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">6.985556</SimpleData>
             <SimpleData name="Longitude">158.221111</SimpleData>
             <SimpleData name="station_long_name">Pohnpei CSP PP</SimpleData>
@@ -19349,7 +19386,7 @@
       <Placemark id="processed_inventory.737">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">7.522778</SimpleData>
             <SimpleData name="Longitude">135.501389</SimpleData>
             <SimpleData name="station_long_name">Ebiil, Palau PP</SimpleData>
@@ -19375,7 +19412,7 @@
       <Placemark id="processed_inventory.738">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.330094</SimpleData>
             <SimpleData name="Longitude">-157.894258</SimpleData>
             <SimpleData name="station_long_name"><![CDATA[Ke'ehi Lagoon NSS]]></SimpleData>
@@ -19401,7 +19438,7 @@
       <Placemark id="processed_inventory.739">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.329019</SimpleData>
             <SimpleData name="Longitude">-157.893419</SimpleData>
             <SimpleData name="station_long_name"><![CDATA[Ke'ehi Lagoon NSS]]></SimpleData>
@@ -19427,7 +19464,7 @@
       <Placemark id="processed_inventory.740">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.326989</SimpleData>
             <SimpleData name="Longitude">-157.898711</SimpleData>
             <SimpleData name="station_long_name"><![CDATA[Ke'ehi Lagoon NSS]]></SimpleData>
@@ -19453,7 +19490,7 @@
       <Placemark id="processed_inventory.741">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">19.7342</SimpleData>
             <SimpleData name="Longitude">-155.0817</SimpleData>
             <SimpleData name="station_long_name">Hilo Bay, Hawaii</SimpleData>
@@ -19479,7 +19516,7 @@
       <Placemark id="processed_inventory.742">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">20.0241</SimpleData>
             <SimpleData name="Longitude">-155.8285</SimpleData>
             <SimpleData name="station_long_name">Pelekane Bay, Hawaii</SimpleData>
@@ -19505,7 +19542,7 @@
       <Placemark id="processed_inventory.743">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.2887</SimpleData>
             <SimpleData name="Longitude">-157.865</SimpleData>
             <SimpleData name="station_long_name">Kilo Nalu Buoy</SimpleData>
@@ -19535,7 +19572,7 @@
       <Placemark id="processed_inventory.744">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.2799</SimpleData>
             <SimpleData name="Longitude">-157.848</SimpleData>
             <SimpleData name="station_long_name">Ala Wai Buoy</SimpleData>
@@ -19565,7 +19602,7 @@
       <Placemark id="processed_inventory.745">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">-14.3645</SimpleData>
             <SimpleData name="Longitude">-170.7629</SimpleData>
             <SimpleData name="station_long_name">Fagatele Bay, Tutuila, Am Samoa</SimpleData>
@@ -19595,7 +19632,7 @@
       <Placemark id="processed_inventory.746">
         <ExtendedData>
           <SchemaData schemaUrl="#processed_inventory.schema">
-            <SimpleData name="RA">PacIOOS</SimpleData>
+            <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Latitude">21.87</SimpleData>
             <SimpleData name="Longitude">-159.47</SimpleData>
             <SimpleData name="station_long_name">Poʻipū, Kauaʻi</SimpleData>
