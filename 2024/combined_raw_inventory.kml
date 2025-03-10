@@ -143,6 +143,31 @@
       <SimpleField name="file" type="string"/>
       <SimpleField name="Unnamed: 18" type="string"/>
       <SimpleField name="Time Period" type="string"/>
+      <SimpleField name="CARICOOS Contact (Name and Email)" type="string"/>
+      <SimpleField name="Dataset (ERDDAP) ID" type="string"/>
+    </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station_ID" type="string"/>
+      <SimpleField name="WMO_CMAN_ID" type="string"/>
+      <SimpleField name="Station_Long_Name" type="string"/>
+      <SimpleField name="Station_Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform_Type" type="string"/>
+      <SimpleField name="Station_Deployment" type="string"/>
+      <SimpleField name="Currently_Operational" type="string"/>
+      <SimpleField name="Platform_Funder" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Platform_Operator" type="string"/>
+      <SimpleField name="Operator_Sector" type="string"/>
+      <SimpleField name="Platform_Maintainer" type="string"/>
+      <SimpleField name="Data_Manager" type="string"/>
+      <SimpleField name="Variable_Names" type="string"/>
+      <SimpleField name="Additional_notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="Unnamed: 18" type="string"/>
+      <SimpleField name="Time Period" type="string"/>
       <SimpleField name="CARICOOS Contact
 (Name and Email)" type="string"/>
       <SimpleField name="Dataset (ERDDAP) ID" type="string"/>
@@ -22530,6 +22555,1316 @@
       <Placemark id="combined_raw_inventory.798">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">AWS-HIMB</SimpleData>
+            <SimpleData name="Station_Long_Name">Coconut Island Weather Station</SimpleData>
+            <SimpleData name="Latitude">21.433</SimpleData>
+            <SimpleData name="Longitude">-157.7863</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2005-01-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Platform_Operator">Hawaii Institute of Marine Biology</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">Hawaii Institute of Marine Biology</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, rainfall_amount, wind_speed, wind_from_direction, downwelling_shortwave_flux_in_air, sea_water_temperature, surface_downwelling_photosynthetic_photon_flux_in_air, altitude</SimpleData>
+            <SimpleData name="Additional_notes">No WMO ID because asset is land-based.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.7863,21.433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.799">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">WS- Pier 1</SimpleData>
+            <SimpleData name="Station_Long_Name">Pier 1 Honolulu Weather Station</SimpleData>
+            <SimpleData name="Station_Description">Davis Weather Station</SimpleData>
+            <SimpleData name="Latitude">21.2962</SimpleData>
+            <SimpleData name="Longitude">-157.8687</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2019-08-14 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder"><![CDATA[Hawaii Pilot's Assoc.]]></SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Private/Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, rainfall_amount, wind_speed, wind_from_direction, relative_humidity, air_pressure</SimpleData>
+            <SimpleData name="Additional_notes">No WMO ID because asset is land-based.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.8687,21.2962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.800">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 098</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51202</SimpleData>
+            <SimpleData name="Station_Long_Name">Mokapu Point, Oahu, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">21.415</SimpleData>
+            <SimpleData name="Longitude">-157.6783</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2000-08-09 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.6783,21.415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.801">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 106</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51201</SimpleData>
+            <SimpleData name="Station_Long_Name">Waimea Bay, Oahu, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">21.6705</SimpleData>
+            <SimpleData name="Longitude">-158.1172</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2001-12-15 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -158.1172,21.6705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.802">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 121</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">52200</SimpleData>
+            <SimpleData name="Station_Long_Name">Ipan, Guam</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">13.3542</SimpleData>
+            <SimpleData name="Longitude">144.7883</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2003-07-15 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.7883,13.3542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.803">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 163</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">52201</SimpleData>
+            <SimpleData name="Station_Long_Name">Kalo, Majuro, Marshall Islands</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">7.0835</SimpleData>
+            <SimpleData name="Longitude">171.3918</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2016-05-04 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            171.3918,7.0835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.804">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 187</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51205</SimpleData>
+            <SimpleData name="Station_Long_Name">Pauwela, Maui, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">21.0182</SimpleData>
+            <SimpleData name="Longitude">-156.4252</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2011-12-03 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -156.4252,21.0182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.805">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 188</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51206</SimpleData>
+            <SimpleData name="Station_Long_Name">Hilo, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">19.78</SimpleData>
+            <SimpleData name="Longitude">-154.97</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2012-03-04 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">O</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="Additional_notes">Due to be redeployed in May 2024; </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -154.97,19.78,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.806">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 189</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51209</SimpleData>
+            <SimpleData name="Station_Long_Name">Aunuu, American Samoa</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">-14.2645</SimpleData>
+            <SimpleData name="Longitude">-170.4934</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2014-10-23 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">O</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="Additional_notes">Due to be redeployed in May 2024; </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -170.4934,-14.2645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.807">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 196</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">52202</SimpleData>
+            <SimpleData name="Station_Long_Name">Ritidian Point, Guam</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">13.6837</SimpleData>
+            <SimpleData name="Longitude">144.8121</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2012-10-20 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">O</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="Additional_notes">Replacement buoy on-site.  Waiting on weather window to redeploy.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.8121,13.6837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.808">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 197</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">52211</SimpleData>
+            <SimpleData name="Station_Long_Name">Tanapag, Saipan, CNMI</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">15.2685</SimpleData>
+            <SimpleData name="Longitude">145.6623</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2012-10-24 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">O</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="Additional_notes">Buoy communications failure. Replacement buoy on its way; redeployment in May / June 2024</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            145.6623,15.2685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.809">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 198</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51207</SimpleData>
+            <SimpleData name="Station_Long_Name">Kaneohe Bay, Oahu, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">21.4775</SimpleData>
+            <SimpleData name="Longitude">-157.7526</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2012-10-16 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.7526,21.4775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.810">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 202</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51208</SimpleData>
+            <SimpleData name="Station_Long_Name">Hanalei, Kauai,  Hawaii</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">22.2847</SimpleData>
+            <SimpleData name="Longitude">-159.5742</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2013-10-02 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -159.5742,22.2847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.811">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 225</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51210</SimpleData>
+            <SimpleData name="Station_Long_Name">Kaneohe WETS, Oahu, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">21.4774</SimpleData>
+            <SimpleData name="Longitude">-157.7558</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2017-10-26 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.7558,21.4774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.812">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 233</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51211</SimpleData>
+            <SimpleData name="Station_Long_Name">Pearl Harbor Entrance, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider DM4</SimpleData>
+            <SimpleData name="Latitude">21.2974</SimpleData>
+            <SimpleData name="Longitude">-157.9589</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2017-06-06 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_significant_height, sea_water_speed, sea_water_temperature, sea_water_to_direction</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.9589,21.2974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.813">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 238</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51212</SimpleData>
+            <SimpleData name="Station_Long_Name">Kalaeloa, Barbers Point, HI</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">21.3233</SimpleData>
+            <SimpleData name="Longitude">-158.1497</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2018-05-31 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_significant_height, sea_water_speed, sea_water_temperature, sea_water_to_direction</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -158.1497,21.3233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.814">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 239</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51213</SimpleData>
+            <SimpleData name="Station_Long_Name">Lanai SW, HI</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">20.7502</SimpleData>
+            <SimpleData name="Longitude">-157.0034</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2018-06-20 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_significant_height, sea_water_speed, sea_water_temperature, sea_water_to_direction</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.0034,20.7502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.815">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 219</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">52212</SimpleData>
+            <SimpleData name="Station_Long_Name">Ngaraard, Babeldaob, Palau</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">7.6296</SimpleData>
+            <SimpleData name="Longitude">134.6704</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2022-04-29 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">UNDP / PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_significant_height, sea_water_speed, sea_water_temperature, sea_water_to_direction</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            134.6704,7.6296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.816">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 178</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">52213</SimpleData>
+            <SimpleData name="Station_Long_Name">North Point, Pohnpei, FSM</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">7.0815</SimpleData>
+            <SimpleData name="Longitude">158.2442</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2023-12-14 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">O</SimpleData>
+            <SimpleData name="Platform_Funder">State Dept / PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_significant_height, sea_water_speed, sea_water_temperature, sea_water_to_direction</SimpleData>
+            <SimpleData name="Additional_notes">Awaiting additional community outreach before redeployment</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            158.2442,7.0815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.817">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 272</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">52214</SimpleData>
+            <SimpleData name="Station_Long_Name">Rumung, Yap, FSM</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">9.677</SimpleData>
+            <SimpleData name="Longitude">138.178</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2024-04-17 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">State Dept / PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_significant_height, sea_water_speed, sea_water_temperature, sea_water_to_direction</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            138.178,9.677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.818">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CDIP 276</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">52215</SimpleData>
+            <SimpleData name="Station_Long_Name">Utwe, Kosrae</SimpleData>
+            <SimpleData name="Station_Description">Datawell Waverider</SimpleData>
+            <SimpleData name="Latitude">5.2404</SimpleData>
+            <SimpleData name="Longitude">163.0008</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2024-07-25 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">State Dept / PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">CDIP</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_from_direction, sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_significant_height, sea_water_speed, sea_water_temperature, sea_water_to_direction</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            163.0008,5.2404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.819">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS02</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">HYCH1</SimpleData>
+            <SimpleData name="Station_Long_Name">Hawaii Yacht Club NSS</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">21.28641</SimpleData>
+            <SimpleData name="Longitude">-157.8428</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2008-07-28 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.8428,21.28641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.820">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS03</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">HLTH1</SimpleData>
+            <SimpleData name="Station_Long_Name">Hilton Hawiian Village NSS</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+</SimpleData>
+            <SimpleData name="Latitude">21.28042</SimpleData>
+            <SimpleData name="Longitude">-157.8381</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009-01-15 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.8381,21.28042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.821">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS04</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">WQMH1</SimpleData>
+            <SimpleData name="Station_Long_Name">Waikiki Aquarium NSS</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+</SimpleData>
+            <SimpleData name="Latitude">21.26588</SimpleData>
+            <SimpleData name="Longitude">-157.8228</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2009-09-25 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.8228,21.26588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.822">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS05</SimpleData>
+            <SimpleData name="Station_Long_Name">Pago Pago NSS</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">-14.2766</SimpleData>
+            <SimpleData name="Longitude">-170.6908</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2010-06-08 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes"><![CDATA[In water logging, doesn't report in real-time.]]></SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -170.6908,-14.2766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.823">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS06</SimpleData>
+            <SimpleData name="Station_Long_Name">Pohnpei NSS</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">6.873681</SimpleData>
+            <SimpleData name="Longitude">158.2245</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2010-05-07 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">O</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Awaiting redeploment</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            158.2245,6.873681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.824">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS07</SimpleData>
+            <SimpleData name="Station_Long_Name">Majuro NSS</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">7.106</SimpleData>
+            <SimpleData name="Longitude">171.3728</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2010-05-02 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes"><![CDATA[In water logging, doesn't report in real-time.]]></SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            171.3728,7.106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.825">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS10</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">MNBH1</SimpleData>
+            <SimpleData name="Station_Long_Name">Maunalua Bay NSS</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">21.28009</SimpleData>
+            <SimpleData name="Longitude">-157.711</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2011-05-30 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.711,21.28009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.826">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS12</SimpleData>
+            <SimpleData name="Station_Long_Name">Kalama Beach Park, Maui NSS</SimpleData>
+            <SimpleData name="Station_Description">YSI-6600V2</SimpleData>
+            <SimpleData name="Latitude">20.73121</SimpleData>
+            <SimpleData name="Longitude">-156.455</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2014-08-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes"><![CDATA[In water logging, doesn't report in real-time.]]></SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -156.455,20.73121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.827">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">NS17</SimpleData>
+            <SimpleData name="Station_Long_Name">Pago Bay, Guam NSS</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">13.42059</SimpleData>
+            <SimpleData name="Longitude">144.78604</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2019-02-02 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Out of water; awaiting mooring repair</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.78604,13.42059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.828">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">FG01 </SimpleData>
+            <SimpleData name="Station_Long_Name">Pohnpei CSP PP</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">6.985556</SimpleData>
+            <SimpleData name="Longitude">158.221111</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2018-12-09 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">O</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Nonprofit</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Out of water; awaiting redeployment</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            158.221111,6.985556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.829">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">PP07</SimpleData>
+            <SimpleData name="Station_Long_Name">Ebiil, Palau PP</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">7.522778</SimpleData>
+            <SimpleData name="Longitude">135.501389</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2019-12-15 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">N</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Nonprofit</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Project complete</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            135.501389,7.522778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.830">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">PP08</SimpleData>
+            <SimpleData name="Station_Long_Name">Maalaea Harbor, Maui PP</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">20.73121</SimpleData>
+            <SimpleData name="Longitude">-156.455</SimpleData>
+            <SimpleData name="Platform_Type">rotating locations in harbor</SimpleData>
+            <SimpleData name="Station_Deployment">2020-08-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">N</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Nonprofit</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Project complete</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -156.455,20.73121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.831">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">PP09</SimpleData>
+            <SimpleData name="Station_Long_Name">Nomilo Fish Pond, Kauai PP</SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">13.42059</SimpleData>
+            <SimpleData name="Longitude">144.78604</SimpleData>
+            <SimpleData name="Platform_Type">rotating locations in fishpond</SimpleData>
+            <SimpleData name="Station_Deployment">2021-09-22 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">N</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Nonprofit</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Project complete</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.78604,13.42059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.832">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CWB-A</SimpleData>
+            <SimpleData name="Station_Long_Name"><![CDATA[Ke'ehi Lagoon NSS]]></SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">21.330094</SimpleData>
+            <SimpleData name="Longitude">-157.894258</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2021-09-07 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">N</SimpleData>
+            <SimpleData name="Platform_Funder">HI DOH CWB</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Project complete</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.894258,21.330094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.833">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CWB-B</SimpleData>
+            <SimpleData name="Station_Long_Name"><![CDATA[Ke'ehi Lagoon NSS]]></SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">21.329019</SimpleData>
+            <SimpleData name="Longitude">-157.893419</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2021-09-07 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">N</SimpleData>
+            <SimpleData name="Platform_Funder">HI DOH CWB</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Project complete</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.893419,21.329019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.834">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">CWB-C</SimpleData>
+            <SimpleData name="Station_Long_Name"><![CDATA[Ke'ehi Lagoon NSS]]></SimpleData>
+            <SimpleData name="Station_Description">SBE-16V2+, Wetlabs ECOFLNTUS</SimpleData>
+            <SimpleData name="Latitude">21.326989</SimpleData>
+            <SimpleData name="Longitude">-157.898711</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2021-09-07 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">N</SimpleData>
+            <SimpleData name="Platform_Funder">HI DOH CWB</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, sea_water_pressure,  mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity </SimpleData>
+            <SimpleData name="Additional_notes">Project complete</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.898711,21.326989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.835">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">WQB-04</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51045</SimpleData>
+            <SimpleData name="Station_Long_Name">Hilo Bay, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">YSI-EMM-68</SimpleData>
+            <SimpleData name="Latitude">19.7342</SimpleData>
+            <SimpleData name="Longitude">-155.0817</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2010-10-23 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">O</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_turbidity, mass_concentration_of_chlorophyll_a_in_sea_water</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -155.0817,19.7342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.836">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">WQB-05</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51046</SimpleData>
+            <SimpleData name="Station_Long_Name">Pelekane Bay, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">YSI-EMM-68; YSI SONDE 6600 V2-4</SimpleData>
+            <SimpleData name="Latitude">20.0241</SimpleData>
+            <SimpleData name="Longitude">-155.8285</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2018-03-09 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">PacIOOS </SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_turbidity, mass_concentration_of_chlorophyll_a_in_sea_water</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -155.8285,20.0241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.837">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">WQB-KN</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51043</SimpleData>
+            <SimpleData name="Station_Long_Name">Kilo Nalu Buoy</SimpleData>
+            <SimpleData name="Station_Description">SBE-37-SMP, YSI-6600, LICOR-820-NDIR</SimpleData>
+            <SimpleData name="Latitude">21.2887</SimpleData>
+            <SimpleData name="Longitude">-157.865</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">39667</SimpleData>
+            <SimpleData name="Currently_Operational">N</SimpleData>
+            <SimpleData name="Platform_Funder">OAP</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Platform_Operator">University of Hawaii</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Hawaii</SimpleData>
+            <SimpleData name="Data_Manager">University of Hawaii</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, mass_concentration_of_oxygen_in_sea_water, mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity, surface_air_pressure, sea_water_ph_reported_on_total_scale, mole_fraction_of_carbon_dioxide_in_sea_water, mole_fraction_of_carbon_dioxide_in_air</SimpleData>
+            <SimpleData name="Additional_notes">Chris Sabine oversees buoy; PMEL manages pCO2 data, etc.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.865,21.2887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.838">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">WQB-AW</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">51042</SimpleData>
+            <SimpleData name="Station_Long_Name">Ala Wai Buoy</SimpleData>
+            <SimpleData name="Station_Description">SBE-37-SMP, YSI-6600, LICOR-820-NDIR</SimpleData>
+            <SimpleData name="Latitude">21.2799</SimpleData>
+            <SimpleData name="Longitude">-157.848</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">39667</SimpleData>
+            <SimpleData name="Currently_Operational">N</SimpleData>
+            <SimpleData name="Platform_Funder">OAP</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Platform_Operator">University of Hawaii</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Hawaii</SimpleData>
+            <SimpleData name="Data_Manager">University of Hawaii</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, mass_concentration_of_oxygen_in_sea_water, mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity, surface_air_pressure, sea_water_ph_reported_on_total_scale, mole_fraction_of_carbon_dioxide_in_sea_water, mole_fraction_of_carbon_dioxide_in_air</SimpleData>
+            <SimpleData name="Additional_notes">Chris Sabine oversees buoy; PMEL manages pCO2 data, etc.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -157.848,21.2799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.839">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">WQB-AmSamoa</SimpleData>
+            <SimpleData name="Station_Long_Name">Fagatele Bay, Tutuila, Am Samoa</SimpleData>
+            <SimpleData name="Station_Description">SBE-19plus-CTD, LICOR-820-NDIR, SAMI pH, SBE DO, SBE Fluorometry-NTU</SimpleData>
+            <SimpleData name="Latitude">-14.3645</SimpleData>
+            <SimpleData name="Longitude">-170.7629</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2019-05-20 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">OAP</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">PacIOOS</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">PacIOOS</SimpleData>
+            <SimpleData name="Data_Manager">PacIOOS</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, mass_concentration_of_oxygen_in_sea_water, mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity, surface_air_pressure, sea_water_ph_reported_on_total_scale, mole_fraction_of_carbon_dioxide_in_sea_water, mole_fraction_of_carbon_dioxide_in_air</SimpleData>
+            <SimpleData name="Additional_notes"> PMEL manages pCO2 data, etc.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -170.7629,-14.3645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.840">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">mapco2_kauai</SimpleData>
+            <SimpleData name="Station_Long_Name">Poʻipū, Kauaʻi</SimpleData>
+            <SimpleData name="Station_Description">SBE-37-SMP, YSI-6600, LICOR-820-NDIR</SimpleData>
+            <SimpleData name="Latitude">21.87</SimpleData>
+            <SimpleData name="Longitude">-159.47</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2023-07-30 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">OAP</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Platform_Operator">University of Hawaii</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Hawaii</SimpleData>
+            <SimpleData name="Data_Manager">University of Hawaii</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, mass_concentration_of_oxygen_in_sea_water, mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity, surface_air_pressure, sea_water_ph_reported_on_total_scale, mole_fraction_of_carbon_dioxide_in_sea_water, mole_fraction_of_carbon_dioxide_in_air</SimpleData>
+            <SimpleData name="Additional_notes">Chris Sabine oversees buoy; PMEL manages pCO2 data, etc.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -159.47,21.87,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.841">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">mapco2_maui</SimpleData>
+            <SimpleData name="Station_Long_Name">Olowalu, Maui, Hawaii</SimpleData>
+            <SimpleData name="Station_Description">MapCO2</SimpleData>
+            <SimpleData name="Latitude">20.8</SimpleData>
+            <SimpleData name="Longitude">-156.6</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2023-06-07 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">OAP / Private funding</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Platform_Operator">University of Hawaii</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Hawaii</SimpleData>
+            <SimpleData name="Data_Manager">University of Hawaii</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, mass_concentration_of_oxygen_in_sea_water, mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity, surface_air_pressure, sea_water_ph_reported_on_total_scale, mole_fraction_of_carbon_dioxide_in_sea_water, mole_fraction_of_carbon_dioxide_in_air</SimpleData>
+            <SimpleData name="Additional_notes">Chris Sabine oversees buoy; PMEL manages pCO2 data, etc.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -156.6,20.8,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.842">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">PACIOOS</SimpleData>
+            <SimpleData name="Station_ID">mapco2_hawaii</SimpleData>
+            <SimpleData name="Station_Long_Name"><![CDATA[Ma'ihi, Hawaii]]></SimpleData>
+            <SimpleData name="Station_Description">MapCO2</SimpleData>
+            <SimpleData name="Latitude">19.5487</SimpleData>
+            <SimpleData name="Longitude">-155.9628</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2024-01-24 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">OAP / Private funding</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Platform_Operator">University of Hawaii</SimpleData>
+            <SimpleData name="Operator_Sector">Academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Hawaii</SimpleData>
+            <SimpleData name="Data_Manager">University of Hawaii</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_salinity, mass_concentration_of_oxygen_in_sea_water, mass_concentration_of_chlorophyll_in_sea_water, sea_water_turbidity, surface_air_pressure, sea_water_ph_reported_on_total_scale, mole_fraction_of_carbon_dioxide_in_sea_water, mole_fraction_of_carbon_dioxide_in_air</SimpleData>
+            <SimpleData name="Additional_notes">Chris Sabine oversees buoy; PMEL manages pCO2 data, etc.</SimpleData>
+            <SimpleData name="file">PacIOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -155.9628,19.5487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.843">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
             <SimpleData name="Station_ID">CAP2</SimpleData>
             <SimpleData name="WMO_CMAN_ID">41029</SimpleData>
@@ -22556,7 +23891,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.799">
+      <Placemark id="combined_raw_inventory.844">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22585,7 +23920,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.800">
+      <Placemark id="combined_raw_inventory.845">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22615,7 +23950,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.801">
+      <Placemark id="combined_raw_inventory.846">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22644,7 +23979,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.802">
+      <Placemark id="combined_raw_inventory.847">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22673,7 +24008,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.803">
+      <Placemark id="combined_raw_inventory.848">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22702,7 +24037,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.804">
+      <Placemark id="combined_raw_inventory.849">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22732,7 +24067,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.805">
+      <Placemark id="combined_raw_inventory.850">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22762,7 +24097,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.806">
+      <Placemark id="combined_raw_inventory.851">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22792,7 +24127,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.807">
+      <Placemark id="combined_raw_inventory.852">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22822,7 +24157,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.808">
+      <Placemark id="combined_raw_inventory.853">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22851,7 +24186,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.809">
+      <Placemark id="combined_raw_inventory.854">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22880,7 +24215,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.810">
+      <Placemark id="combined_raw_inventory.855">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22910,7 +24245,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.811">
+      <Placemark id="combined_raw_inventory.856">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22939,7 +24274,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.812">
+      <Placemark id="combined_raw_inventory.857">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22967,7 +24302,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.813">
+      <Placemark id="combined_raw_inventory.858">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -22995,7 +24330,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.814">
+      <Placemark id="combined_raw_inventory.859">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23024,7 +24359,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.815">
+      <Placemark id="combined_raw_inventory.860">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23053,7 +24388,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.816">
+      <Placemark id="combined_raw_inventory.861">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23082,7 +24417,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.817">
+      <Placemark id="combined_raw_inventory.862">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23112,7 +24447,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.818">
+      <Placemark id="combined_raw_inventory.863">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23141,7 +24476,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.819">
+      <Placemark id="combined_raw_inventory.864">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23171,7 +24506,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.820">
+      <Placemark id="combined_raw_inventory.865">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23201,7 +24536,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.821">
+      <Placemark id="combined_raw_inventory.866">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23230,7 +24565,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.822">
+      <Placemark id="combined_raw_inventory.867">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23259,7 +24594,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.823">
+      <Placemark id="combined_raw_inventory.868">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23288,7 +24623,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.824">
+      <Placemark id="combined_raw_inventory.869">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23317,7 +24652,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.825">
+      <Placemark id="combined_raw_inventory.870">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23345,7 +24680,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.826">
+      <Placemark id="combined_raw_inventory.871">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23374,7 +24709,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.827">
+      <Placemark id="combined_raw_inventory.872">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23403,7 +24738,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.828">
+      <Placemark id="combined_raw_inventory.873">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23432,7 +24767,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.829">
+      <Placemark id="combined_raw_inventory.874">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23462,7 +24797,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.830">
+      <Placemark id="combined_raw_inventory.875">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23492,7 +24827,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.831">
+      <Placemark id="combined_raw_inventory.876">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23522,7 +24857,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.832">
+      <Placemark id="combined_raw_inventory.877">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23552,7 +24887,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.833">
+      <Placemark id="combined_raw_inventory.878">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23581,7 +24916,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.834">
+      <Placemark id="combined_raw_inventory.879">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23610,7 +24945,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.835">
+      <Placemark id="combined_raw_inventory.880">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23639,7 +24974,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.836">
+      <Placemark id="combined_raw_inventory.881">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23668,7 +25003,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.837">
+      <Placemark id="combined_raw_inventory.882">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23697,7 +25032,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.838">
+      <Placemark id="combined_raw_inventory.883">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23726,7 +25061,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.839">
+      <Placemark id="combined_raw_inventory.884">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23755,7 +25090,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.840">
+      <Placemark id="combined_raw_inventory.885">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23784,7 +25119,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.841">
+      <Placemark id="combined_raw_inventory.886">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23813,7 +25148,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.842">
+      <Placemark id="combined_raw_inventory.887">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23842,7 +25177,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.843">
+      <Placemark id="combined_raw_inventory.888">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23870,7 +25205,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.844">
+      <Placemark id="combined_raw_inventory.889">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23898,7 +25233,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.845">
+      <Placemark id="combined_raw_inventory.890">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23926,7 +25261,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.846">
+      <Placemark id="combined_raw_inventory.891">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23954,7 +25289,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.847">
+      <Placemark id="combined_raw_inventory.892">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23982,7 +25317,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.848">
+      <Placemark id="combined_raw_inventory.893">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24010,7 +25345,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.849">
+      <Placemark id="combined_raw_inventory.894">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24038,7 +25373,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.850">
+      <Placemark id="combined_raw_inventory.895">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24066,7 +25401,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.851">
+      <Placemark id="combined_raw_inventory.896">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24094,7 +25429,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.852">
+      <Placemark id="combined_raw_inventory.897">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24122,7 +25457,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.853">
+      <Placemark id="combined_raw_inventory.898">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24150,7 +25485,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.854">
+      <Placemark id="combined_raw_inventory.899">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24178,7 +25513,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.855">
+      <Placemark id="combined_raw_inventory.900">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24206,7 +25541,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.856">
+      <Placemark id="combined_raw_inventory.901">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24234,7 +25569,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.857">
+      <Placemark id="combined_raw_inventory.902">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24262,7 +25597,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.858">
+      <Placemark id="combined_raw_inventory.903">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24290,7 +25625,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.859">
+      <Placemark id="combined_raw_inventory.904">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24319,7 +25654,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.860">
+      <Placemark id="combined_raw_inventory.905">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24347,7 +25682,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.861">
+      <Placemark id="combined_raw_inventory.906">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24376,7 +25711,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.862">
+      <Placemark id="combined_raw_inventory.907">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24405,7 +25740,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.863">
+      <Placemark id="combined_raw_inventory.908">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24434,7 +25769,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.864">
+      <Placemark id="combined_raw_inventory.909">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24463,7 +25798,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.865">
+      <Placemark id="combined_raw_inventory.910">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24492,7 +25827,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.866">
+      <Placemark id="combined_raw_inventory.911">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24521,7 +25856,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.867">
+      <Placemark id="combined_raw_inventory.912">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24550,7 +25885,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.868">
+      <Placemark id="combined_raw_inventory.913">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24579,7 +25914,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.869">
+      <Placemark id="combined_raw_inventory.914">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24608,7 +25943,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.870">
+      <Placemark id="combined_raw_inventory.915">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24637,7 +25972,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.871">
+      <Placemark id="combined_raw_inventory.916">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24666,7 +26001,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.872">
+      <Placemark id="combined_raw_inventory.917">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24695,7 +26030,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.873">
+      <Placemark id="combined_raw_inventory.918">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24724,7 +26059,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.874">
+      <Placemark id="combined_raw_inventory.919">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24753,7 +26088,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.875">
+      <Placemark id="combined_raw_inventory.920">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24782,7 +26117,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.876">
+      <Placemark id="combined_raw_inventory.921">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24811,7 +26146,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.877">
+      <Placemark id="combined_raw_inventory.922">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24840,7 +26175,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.878">
+      <Placemark id="combined_raw_inventory.923">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24869,7 +26204,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.879">
+      <Placemark id="combined_raw_inventory.924">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24898,7 +26233,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.880">
+      <Placemark id="combined_raw_inventory.925">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24927,7 +26262,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.881">
+      <Placemark id="combined_raw_inventory.926">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24956,7 +26291,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.882">
+      <Placemark id="combined_raw_inventory.927">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24985,7 +26320,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.883">
+      <Placemark id="combined_raw_inventory.928">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25014,7 +26349,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.884">
+      <Placemark id="combined_raw_inventory.929">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25043,7 +26378,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.885">
+      <Placemark id="combined_raw_inventory.930">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25072,7 +26407,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.886">
+      <Placemark id="combined_raw_inventory.931">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25101,7 +26436,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.887">
+      <Placemark id="combined_raw_inventory.932">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25130,7 +26465,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.888">
+      <Placemark id="combined_raw_inventory.933">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25159,7 +26494,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.889">
+      <Placemark id="combined_raw_inventory.934">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25188,7 +26523,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.890">
+      <Placemark id="combined_raw_inventory.935">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25217,7 +26552,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.891">
+      <Placemark id="combined_raw_inventory.936">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25246,7 +26581,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.892">
+      <Placemark id="combined_raw_inventory.937">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25275,7 +26610,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.893">
+      <Placemark id="combined_raw_inventory.938">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25304,7 +26639,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.894">
+      <Placemark id="combined_raw_inventory.939">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25333,7 +26668,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.895">
+      <Placemark id="combined_raw_inventory.940">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25362,7 +26697,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.896">
+      <Placemark id="combined_raw_inventory.941">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25391,7 +26726,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.897">
+      <Placemark id="combined_raw_inventory.942">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25420,7 +26755,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.898">
+      <Placemark id="combined_raw_inventory.943">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25449,7 +26784,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.899">
+      <Placemark id="combined_raw_inventory.944">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25478,7 +26813,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.900">
+      <Placemark id="combined_raw_inventory.945">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25507,7 +26842,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.901">
+      <Placemark id="combined_raw_inventory.946">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25536,7 +26871,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.902">
+      <Placemark id="combined_raw_inventory.947">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25565,7 +26900,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.903">
+      <Placemark id="combined_raw_inventory.948">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25594,7 +26929,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.904">
+      <Placemark id="combined_raw_inventory.949">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25623,7 +26958,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.905">
+      <Placemark id="combined_raw_inventory.950">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25652,7 +26987,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.906">
+      <Placemark id="combined_raw_inventory.951">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25681,7 +27016,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.907">
+      <Placemark id="combined_raw_inventory.952">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
