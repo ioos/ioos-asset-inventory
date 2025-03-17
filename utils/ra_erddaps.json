@@ -11,6 +11,7 @@
   "cencoos": "http://erddap.cencoos.org/erddap" ,
   "nanoos": "http://data.nanoos.org/erddap" ,
   "caricoos": "http://dm3.caricoos.org:8002/erddap" ,
-  "neracoos": "http://www.neracoos.org/erddap",
+  "neracoos": "https://data.neracoos.org/erddap",
+  "neracoos2": "http://www.neracoos.org/erddap",
   "sccoos": "https://erddap.sccoos.org/erddap"
 }
