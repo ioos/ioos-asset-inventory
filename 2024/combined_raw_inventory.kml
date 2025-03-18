@@ -193,9 +193,29 @@
       <SimpleField name="file" type="string"/>
       <SimpleField name="Unnamed: 18" type="string"/>
       <SimpleField name="Time Period" type="string"/>
-      <SimpleField name="CARICOOS Contact
-(Name and Email)" type="string"/>
+      <SimpleField name="CARICOOS Contact (Name and Email)" type="string"/>
       <SimpleField name="Dataset (ERDDAP) ID" type="string"/>
+    </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station_ID" type="string"/>
+      <SimpleField name="WMO_CMAN_ID" type="string"/>
+      <SimpleField name="Station_Long_Name" type="string"/>
+      <SimpleField name="Station_Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform_Type" type="string"/>
+      <SimpleField name="Station_Deployment" type="string"/>
+      <SimpleField name="Currently_Operational" type="string"/>
+      <SimpleField name="Platform_Funder" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Platform_Operator" type="string"/>
+      <SimpleField name="Operator_Sector" type="string"/>
+      <SimpleField name="Platform_Maintainer" type="string"/>
+      <SimpleField name="Data_Manager" type="string"/>
+      <SimpleField name="Variable_Names" type="string"/>
+      <SimpleField name="Additional_notes" type="string"/>
+      <SimpleField name="file" type="string"/>
     </Schema>
     <Document id="combined_raw_inventory">
       <name>combined_raw_inventory</name>
@@ -3290,9 +3310,8 @@
             <SimpleData name="Platform_Maintainer">JOA Surveys, AOOS</SimpleData>
             <SimpleData name="Data_Manager">JOA Surveys, AOOS</SimpleData>
             <SimpleData name="Variable_Names">sea_surface_height_above_sea_level</SimpleData>
-            <SimpleData name="Additional_notes"><![CDATA[Install completed end of Nov 2021, but non-iced data not reporting until March 2022. There are two water level gauges using two different technologies currently deployed at Dillingham, AK — Gauge 1 and Guage 2. Having two gauges is typical practice for long term stations so there is redundancy in the observations in order to reduce the potential for data gaps.Despite this redundancy, Dillingham is an extremely challenging site since the dock goes dry, making data gaps still likely and expected, even with redundant technologies. Gauge 1 is a bubbler system secured to the seawall. It goes dry during spring tides, and also can freeze-up during winter. Gauge 2, is a downward looking radar that is co-located with Gauge 1, and also secured to the seawall. During winter, ice fast to the seawall can block the radar's view of the water, invalidating measurements until after the ice goes away. For both gauges, care should be taken to verify data collected during the months of October through April.]]></SimpleData>
+            <SimpleData name="Additional_notes"><![CDATA[Install completed end of Nov 2021, but non-iced data not reporting until March 2022. There are two water level gauges using two different technologies currently deployed at Dillingham, AK — Gauge 1 and Guage 2. Having two gauges is typical practice for long term stations so there is redundancy in the observations in order to reduce the potential for data gaps.Despite this redundancy, Dillingham is an extremely challenging site since the dock goes dry, making data gaps still likely and expected, even with redundant technologies. Gauge 1 is a bubbler system secured to the seawall. It goes dry during spring tides, and also can freeze-up during winter. Gauge 2, is a downward looking radar that is co-located with Gauge 1, and also secured to the seawall. During winter, ice fast to the seawall can block the radar's view of the water, invalidating measurements until after the ice goes away. For both gauges, care should be taken to verify data collected during the months of October through April.This station was reporting but the data was not being received at Axiom during 2024, so data will be backfilled to included 2024 data. This station is operational, but there is not flagging routine at Axiox to alert when a station is not reporting data. The data provider is going to create one on their end.]]></SimpleData>
             <SimpleData name="file">AOOS.xlsx</SimpleData>
-            <SimpleData name="Unnamed: 18">This station was reporting but the data was not being received at Axiom during 2024, so data will be backfilled to included 2024 data. This station is operational, but there is not flagging routine at Axiox to alert when a station is not reporting data. The data provider is going to create one on their end.</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -3321,9 +3340,8 @@
             <SimpleData name="Platform_Maintainer">JOA Surveys, AOOS</SimpleData>
             <SimpleData name="Data_Manager">JOA Surveys, AOOS</SimpleData>
             <SimpleData name="Variable_Names">sea_surface_height_above_sea_level</SimpleData>
-            <SimpleData name="Additional_notes"><![CDATA[Install completed end of Nov 2021, but non-iced data not reporting until March 2022. There are two water level gauges using two different technologies currently deployed at Dillingham, AK — Gauge 1 and Guage 2. Having two gauges is typical practice for long term stations so there is redundancy in the observations in order to reduce the potential for data gaps.Despite this redundancy, Dillingham is an extremely challenging site since the dock goes dry, making data gaps still likely and expected, even with redundant technologies. Gauge 1 is a bubbler system secured to the seawall. It goes dry during spring tides, and also can freeze-up during winter. Gauge 2, is a downward looking radar that is co-located with Gauge 1, and also secured to the seawall. During winter, ice fast to the seawall can block the radar's view of the water, invalidating measurements until after the ice goes away. For both gauges, care should be taken to verify data collected during the months of October through April.]]></SimpleData>
+            <SimpleData name="Additional_notes"><![CDATA[Install completed end of Nov 2021, but non-iced data not reporting until March 2022. There are two water level gauges using two different technologies currently deployed at Dillingham, AK — Gauge 1 and Guage 2. Having two gauges is typical practice for long term stations so there is redundancy in the observations in order to reduce the potential for data gaps.Despite this redundancy, Dillingham is an extremely challenging site since the dock goes dry, making data gaps still likely and expected, even with redundant technologies. Gauge 1 is a bubbler system secured to the seawall. It goes dry during spring tides, and also can freeze-up during winter. Gauge 2, is a downward looking radar that is co-located with Gauge 1, and also secured to the seawall. During winter, ice fast to the seawall can block the radar's view of the water, invalidating measurements until after the ice goes away. For both gauges, care should be taken to verify data collected during the months of October through April.This station was reporting but the data was not being received at Axiom during 2024, so data will be backfilled to included 2024 data. This station is operational, but there is not flagging routine at Axiox to alert when a station is not reporting data. The data provider is going to create one on their end.]]></SimpleData>
             <SimpleData name="file">AOOS.xlsx</SimpleData>
-            <SimpleData name="Unnamed: 18">This station was reporting but the data was not being received at Axiom during 2024, so data will be backfilled to included 2024 data. This station is operational, but there is not flagging routine at Axiox to alert when a station is not reporting data. The data provider is going to create one on their end.</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5139,9 +5157,6 @@
             <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">sea_water_speed (2.5 - 16) m, sea_water_to_direction (2.5 -16) m, eastward_sea_water_velocity (2.5 - 16) m, northward_sea_water_velocity (2.5 - 16) m, sea_surface_temperature, air_temperature (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">06/2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonadopatricia.chardon@caricoos.orgJulio Morell (julio.morell@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5170,9 +5185,6 @@
             <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">sea_water_speed (2.5 - 29) m, sea_water_to_direction (2.5 -29) m, eastward_sea_water_velocity (2.5 - 29) m, northward_sea_water_velocity (2.5 - 29) m, sea_surface_temperature, air_temperature (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">07/2010 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonadopatricia.chardon@caricoos.orgJulio Morell (julio.morell@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5201,9 +5213,6 @@
             <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">sea_water_speed (2.5 - 28 m), sea_water_to_direction  (2.5 - 28 m), eastward_sea_water_velocity  (2.5 - 28 m), northward_sea_water_velocity  (2.5 - 28 m), sea_surface_temperature, air_temperature (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m),sea_water_electrical_conductivity (1 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">09/2013 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonadopatricia.chardon@caricoos.orgJulio Morell (julio.morell@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5232,9 +5241,6 @@
             <SimpleData name="Data_Manager">Department of Physical Oceanography, School of Marine Sciences, University of Maine / CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">sea_water_speed (2.5 - 40 m), sea_water_to_direction  (2.5 - 40 m), eastward_sea_water_velocity (2.5 - 40 m), northward_sea_water_velocity (2.5 - 40 m), sea_surface_temperature, air_temperature (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m),sea_water_electrical_conductivity (1 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">04/2011 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonadopatricia.chardon@caricoos.orgJulio Morell (julio.morell@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5264,9 +5270,6 @@
             <SimpleData name="Variable_Names">sea_water_speed (2.5 - 22 m), sea_water_to_direction  (2.5 - 22 m), eastward_sea_water_velocity (2.5 - 22 m), northward_sea_water_velocity (2.5 - 22 m), sea_surface_temperature, air_temperature (-3 m), relative_humidity (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m),sea_water_electrical_conductivity (1 m), dissolved_oxygen (1 m), mass_concentration_of_chlorophyll_in_sea_water (1 m), sea_water_turbidity (1 m)</SimpleData>
             <SimpleData name="Additional_notes">Damaged by Hurricane Irma. A new oceanographic data buoy will be deployed in 2022.</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">08/2017-09/2017</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonadopatricia.chardon@caricoos.orgJulio Morell (julio.morell@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5296,9 +5299,6 @@
             <SimpleData name="Variable_Names">sea_water_speed (2.5 - 22 m), sea_water_to_direction  (2.5 - 22 m), eastward_sea_water_velocity (2.5 - 22 m), northward_sea_water_velocity (2.5 - 22 m), sea_surface_temperature, air_temperature (-3 m), relative_humidity (-3 m), barometric_altitude (-3 m),  wind_speed (-4 m), wind_speed_of_gust (-4 m), wind_from_direction (-4 m), sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period,  sea_surface_wave_directional_spread,  sea_water_electrical_conductivity (1 m), sea_surface_temperature (1 m), sea_surface_salinity (1 m), sea_surface_density (1 m),sea_water_electrical_conductivity (1 m), dissolved_oxygen (1 m), mass_concentration_of_chlorophyll_in_sea_water (1 m), sea_water_turbidity (1 m)</SimpleData>
             <SimpleData name="Additional_notes">Redeployed in another location. Now is identified as VI2.</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">03/2013-03/2015</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonadopatricia.chardon@caricoos.orgJulio Morell (julio.morell@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5327,9 +5327,6 @@
             <SimpleData name="Data_Manager">Coastal Data Information Program </SimpleData>
             <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment, sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, wave_frequency, sea_surface_wave_variance_spectral_density, sea_surface_wave_from_direction, sea_surface_temperature, platform_orientation, sea_floor_depth_below_sea_surface</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">05/2011 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonadopatricia.chardon@caricoos.orgMiguel Canals(miguelf.canals@upr.edu) </SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5358,9 +5355,6 @@
             <SimpleData name="Data_Manager">Coastal Data Information Program </SimpleData>
             <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment, sea_surface_wave_from_direction, sea_surface_wave_zero_upcrossing_period, wave_frequency, sea_surface_wave_variance_spectral_density, sea_surface_wave_from_direction, sea_surface_temperature, platform_orientation, sea_floor_depth_below_sea_surface</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">05/2021 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonadopatricia.chardon@caricoos.orgMiguel Canals(miguelf.canals@upr.edu) </SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5390,9 +5384,6 @@
             <SimpleData name="Data_Manager">PMEL/CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">SST, SSS, Atm. press, xCO2water, xCO2air,fCO2water,fCO2air, pH on total scale</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Julio Morell (julio.morell@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5422,9 +5413,6 @@
             <SimpleData name="Variable_Names">wind_speed (15 m), wind_speed_of_gust (15 m), wind_from_direction (15 m), air_temperature (15 m), air_pressure (15 m), relative_humidity (15 m)</SimpleData>
             <SimpleData name="Additional_notes">Issues with the data logger. Due to manufacture changes, new equipment needs to be installed and make changes to the setup. CARICOOS is actively working to acquire the equipment and install it.</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">11/2012 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5454,9 +5442,6 @@
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="Additional_notes">Damaged by Hurricane Maria</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">10/2015 - 9/2017</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5486,9 +5471,6 @@
             <SimpleData name="Variable_Names">wind_speed (8 m), wind_speed_of_gust (8 m), wind_from_direction (8 m), air_temperature (8 m), air_pressure (8 m), relative_humidity (8 m)</SimpleData>
             <SimpleData name="Additional_notes">Replaced IMGP4 station</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">10/2018 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5518,9 +5500,6 @@
             <SimpleData name="Variable_Names">wind_speed (15 m), wind_speed_of_gust (15 m), wind_from_direction (15 m), air_temperature (15 m), air_pressure (15 m), relative_humidity (15 m)</SimpleData>
             <SimpleData name="Additional_notes">Replaced by XIMG (WaetherFlow)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">12/2018 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5550,9 +5529,6 @@
             <SimpleData name="Variable_Names">wind_speed (3 m), wind_speed_of_gust (3 m), wind_from_direction (3 m), air_temperature (3 m), air_pressure (3 m), relative_humidity (3 m)</SimpleData>
             <SimpleData name="Additional_notes">Replaced by XCRL (Weatherflow Inc.)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">12/2018 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5581,9 +5557,6 @@
             <SimpleData name="Data_Manager">Gladstone / CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (3 m), wind_speed_of_gust (3 m), wind_from_direction (3 m), air_temperature (3 m), air_pressure (3 m), relative_humidity (3 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">12/2018 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5612,9 +5585,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5643,9 +5613,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - 2015</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5674,9 +5641,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5705,9 +5669,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5736,9 +5697,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">JUR</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5767,9 +5725,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5798,9 +5753,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2016 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5829,9 +5781,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m),precipitation (accumulated)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5860,9 +5809,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5891,9 +5837,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5922,9 +5865,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m),precipitation (accumulated)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5953,9 +5893,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2015 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -5985,9 +5922,6 @@
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="Additional_notes">Decomissioned by Weatherflow because it got damaged by Hurricane Maria.</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - 2017</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -6017,9 +5951,6 @@
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="Additional_notes">This station was replaced with Crown Mountain, St. Thomas, USVI (XWGO) and later with Water Island, St. Thomas, USVI (XWTR) station.</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - 2017</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -6048,9 +5979,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m),precipitation (accumulated)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2009 - present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -6078,9 +6006,6 @@
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="Additional_notes">This station was relocated to Water Island, St. Thomas, USVI identified now as XWTR.</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2019-present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -6108,9 +6033,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m),precipitation (accumulated)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2023/09-present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -6138,9 +6060,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2023/09-present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -6168,9 +6087,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS/OCOVI</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m),precipitation (accumulated)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2023/03-present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -6198,9 +6114,6 @@
             <SimpleData name="Data_Manager">Weatherflow /CARICOOS</SimpleData>
             <SimpleData name="Variable_Names">wind_speed (10 m), wind_speed_of_gust (10 m), wind_from_direction (10 m), air_temperature (10 m), air_pressure (10 m), relative_humidity (10 m),precipitation (accumulated)</SimpleData>
             <SimpleData name="file">CARICOOS.xlsx</SimpleData>
-            <SimpleData name="Time Period">2024/07- present</SimpleData>
-            <SimpleData name="CARICOOS Contact
-(Name and Email)">Patricia Chardón-Maldonado (patricia.chardon@upr.edu)</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -13983,7 +13896,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names"><![CDATA[wind_from_direction, wind_speed,  wind_speed_of_gust,  air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature (sfc, 1m, 2m, 3m, 4m, 5m, 6m, 7m, 8m, 9m, 10m, 11m, 12m, 13m, 14m, 15m, 16m, 17m, 18m), Relative_humidity, surface_downwelling_shortwave_flux_in_air, sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_mean_height_of_highest_tenth, sea_surface_wave_from_direction, sea_water_turbidity, "sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C)"", sea_water_ph_reported_on_total_scale, mass_concentration_of_oxygen_in_sea_water , chlorophyll_fluorescence, phycocyanin_fluorescence, mass_concentration_of_chlorophyll_in_sea_water, fractional_saturation_of_oxygen_in_sea_water,  eastward_sea_water_velocity + northward_sea_water_velocity (3m,5m,7m,9m,11m,13m,15m,17m,19m, 21m), time, latitude, longitude, depth, battery_voltage]]></SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_2</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14010,7 +13922,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names"><![CDATA[wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature,   air_pressure_at_mean_sea_level, sea_water_temperature (sfc,1m, 2m, 3m, 4m, 5m, 6m, 7m, 8m, 9m, 10m, 11m, 12m, 13m), relative_humidity,  surface_downwelling_shortwave_flux_in_air, sea_surface_wave_significant_height, sea_water_turbidity, sea_water_ph_reported_on_total_scale, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C)"", chlorophyll_fluorescence, battery_voltage, mass_concentration_of_oxygen_in_sea_water , fractional_saturation_of_oxygen_in_sea_water,  northward_sea_water_velocity + eastward_sea_water_velocity(1m, 3m,5m,7m,9m,11m, 13m), phycocyanin_fluorescence, phycocyanin_concentration, mass_concentration_of_chlorophyll_in_sea_water, fluorescent_dissolved_organic_matter, sea_surface_wave_maximum_height, sea_surface_wave_mean_height_of_highest_tenth, sea_surface_wave_from_direction_at_variance_spectral_density_maximum, sea_surface_wave_period_at_variance_spectral_density_maximum, time, latitude, longitude, depth]]></SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_43</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14037,7 +13948,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level,  sea_water_temperature (sfc, 3m, 7m, 11m, 15m, 19m, 23m, 27m, 31m, 33m), dew_point_temperature,  surface_downwelling_shortwave_flux_in_air, sea_surface_wave_significant_height, sea_surface_wave_period_at_spectral_density_maximum, sea_surface_wave_from_direction, battery_voltage, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_61</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14064,7 +13974,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed,  wind_speed_of_gust,  air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature (sfc, 2.4m, 4m, 5.6m, 7.2m, 8.8m, 10.4m, 12m, 13.6m, 15.2m), Relative_Humidity,  surface_downwelling_shortwave_flux_in_air, sea_surface_wave_significant_height, sea_surface_wind_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_from_direction,  battery_voltage,  time, latitude, longitude, depth, eastward_sea_water_velocity + northward_sea_water_velocity (2m, 3m, 4m, 5m, 6m, 7m, 8m, 9m, 10m, 11m, 12m, 13m, 14m, 15m, 16m, 17m, 18m, 19m, 20m) , sea_surface_wave_maximum_height, sea_surface_wave_maximum_Period, sea_surface_wave_mean_height_of_highest_tenth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_44</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14090,7 +13999,6 @@
             <SimpleData name="Platform_Operator">University of Michigan CIGLR</SimpleData>
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_62</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14118,7 +14026,6 @@
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature (sfc, 2.4m, 4m, 5.6m, 7.2m, 8.8m, 10.4m, 12m, 13.6m, 15.2m), Relative_humidity, surface_downwelling_shortwave_flux_in_air, sea_surface_wave_significant_height, sea_surface_wave_maximum_period, sea_surface_wave_from_direction, sea_surface_wave_maximum_height, sea_surface_wave_maximum_period, sea_surface_wave_mean_height_of_highest_tenth, sea_surface_wave_period_at_variance_spectral_density_maximum, battery_voltage time, latitude, longitude, depth</SimpleData>
             <SimpleData name="Additional_notes"> </SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_46</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14145,7 +14052,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level,  dew_point_temperature, sea_surface_wave_significant_height, sea_surface_wave_from_direction, time, latitude, longitude, depth, sea_surface_wave_period_at_variance_spectral_density_maximum</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_33</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14172,7 +14078,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust,  air_temperature, air_pressure_at_mean_sea_level,  sea_water_temperature (sfc,  3m, 5m, 10m, 15m, 20m, 25m, 30m, 35m, 40m), dew_point_temperature, surface_downwelling_shortwave_flux_in_air, chlorophyll_fluorescence, sea_water_turbidity, phycocyanin_fluorescence, sea_surface_wave_from_direction,  time, latitude, longitude, depth, air_pressure, sea_water_ph_reported-on_total_scale, sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_from_direction</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_42</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14199,7 +14104,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, air_pressure, sea_water_temperature (sfc, 3m, 5.5m, 8m, 13m, 18m, 23m, 28m, 33m, 38m, 43m), dew_point_temperature, surface_downwelling_shortwave_flux_in_air, sea_surface_wave_significant_height,   time, latitude, longitude, depth, chlorophyll_fluorescence, sea_water_ph_reported_on_total_scale, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_turbidity, phycocyanin_fluorescence, sea_surface_wave_from_direction</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_45</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14226,7 +14130,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust,  air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature (1m dew_point_temperature, sea_surface_wave_significant_height, sea_surface_wave_from_direction, time, latitude, longitude, depth, sea_surface_wave_period_at_variance_spectral_density_maximum</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_3</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14253,7 +14156,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, sea_water_temperature (sfc,19m), sea_surface_wave_significant_height, sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_from_direction, sea_surface_wave_maximum_height, air_pressure_at_mean_sea_level, fluorescence_dissolved_organic_matter (19m), sea_water_turbidity (19m), fractional_saturation_of_oxygen_in_sea_water (19m),  chlorophyll_fluorescence (19m), mass_concentration_of_oxygen_in_sea_water (19m), phycocyanin_fluorescence (19m), surface_downwelling_photosynthetic_photon_flux_in_air, sea_water_electrical_conductivity (19m), sea_water_ph_reported_on_total_scale (1m, 19m), sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C) (19m), time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_67</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14280,7 +14182,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, sea_water_temperature (1m, 13m), sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_maximum_height, sea_water_electrical_conductivity (1m, 13m),  sea_water_turbidity (1m, 13m), sea_water_ph_reported_on_total_scale (1m, 13m), chlorophyll_fluorescence (1m, 13m), mass_concentration_of_oxygen_in_sea_water (1m, 13m), fractional_saturation_of_oxygen_in_sea_water (1m, 13m), air_pressure_at_mean_sea_level, fluorescent_dissolved_organic_matter (1m, 13m), surface_downwelling_photosynthetic_photon_flux_in_air, sea_surface_wave_period_at_spectral_density_maximum, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C) (1m, 13m), time, latitude, longitude, depth, phycocyanin_fluorescence (1m, 13m)</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_68</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14307,7 +14208,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, sea_water_temperature(1m), sea_surface_wave_significant_height,   time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_70</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14334,7 +14234,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, sea_water_temperature, sea_surface_wave_significant_height,  time, latitude, longitude, depth, sea_surface_wave_period_at_variance_spectral_density_maximum</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_71</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14361,7 +14260,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_surface_wave_period_at_spectral_density_maximum, air_temperature, sea_water_temperature (1m), wind_speed, wind_from_direction, wind_speed_of_gust, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, sea_water_turbidity, sea_water_ph_reported_on_total_scale, air_pressure_at_mean_sea_level, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C), surface_downwelling_shortwave_flux_in_air, latitude, longitude, time, depth, relative_humidity, sea_surface_wave_from_direction</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_99</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14388,7 +14286,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed,  wind_speed_of_gust , air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature (sfc, 1m), dew_point_temperature, sea_surface_wave_significant_height, sea_surface_wave_mean_period, sea_surface_wave_from_direction, time, latitude, longitude, depth, sea_surface_wave_period_at_variance_spectral_density_maximum</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_37</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14415,7 +14312,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction,  wind_speed,  wind_speed_of_gust, ,air_temperature, sea_water_temperature (1m, 2m, 3m, 4m, 5m, 6m, 7m, 8m, 9m, 10m, 11m, 12m, 13m, 14m, 15m, 16m, 17m), dew_point_temperature,  sea_surface_wave_significant_height, sea_surface_wave_period_at_spectral_density_maximum, ,sea_surface_wave_from_direction, surface_downwelling_shortwave_flux_in_air, battery_voltage, time, latitude, longitude, depth, air_pressure_at_mean_sea_level, sea_surface_wave_maximum_height</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_47</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14442,7 +14338,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed,  wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level,  sea_water_temperature (1m, 3m, 5m, 7m, 9m), dew_point_temperature, sea_surface_wave_mean_period, sea_surface_wave_significant_height, sea_surface_wave_from_direction,  surface_downwelling_shortwave_flux_in_air, battery_voltage , time, latitude, longitude, depth,  relative_humidity</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_57</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14469,7 +14364,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust,  air_temperature,  air_pressure_at_mean_sea_level, sea_water_temperature (1m), dew_point_temperature,  Relative_humidity, sea_surface_wave_significant_height, sea_surface_wave_period_at_spectral_density_maximum, sea_surface_wave_from_direction,sea_surface_wave_maximum_height , surface_downwelling_shortwave_flux_in_air, battery_voltage,  time, latitude, longitude, depth, sea_surface_wave_maximum_period, sea_surface_wave_mean_height_of_highest_tenth, northward_sea_water_velocity + eastward_sea_water_velocity (2m,3m,4m,5m,6m,7m,8m,9m,10m,11m,12m,13m,14m,15m,16m,17m,18m,19m,20m,21m,22m,23m,24m,25m,26m,27m,28m,29m)</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_38</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14496,7 +14390,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, dew_point_temperature, sea_water_temperature (1.5m, sea_surface_wave_significant_height, time, latitude, longitude, depth, sea_surface_wave_period_at_variance_spectral_density_maximum</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_72</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14548,7 +14441,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, Relative_Humidity,  sea_water_temperature (0.5m, 1m, 2m, 3m, 4m, 5m, 6m, 7m, 8m, 9m), surface_downwelling_shortwave_flux_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C), sea_water_turbidity, sea_water_ph_reported_on_total_scale, fractional_saturation_of_oxygen_in_sea_water, time, latitude, longitude, depth, battery_voltage, sea_surface_wave_from_direction, mass_concentration_of_oxygen_in_sea_water</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_58</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14575,7 +14467,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, sea_water_temperature, sea_water_electrical_conductivity, sea_water_pH_reported_on_total_scale, sea_water_turbidity, phycocyanin_fluorescence, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, battery_voltage, photosynthetic_available_radiation, fluorescent_dissolved_organic_matter, latitude, longitude, depth, time</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_60</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14602,7 +14493,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, sea_water_temperature, sea_water_electrical_conductivity, sea_water_pH_reported_on_total_scale, sea_water_turbidity, phycocyanin_fluorescence, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, battery_voltage, photosynthetic_available_radiation, fluorescent_dissolved_organic_matter, latitude, longitude, depth, time</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_59</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14628,7 +14518,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">Wind_from_direction; Wind_speed; Wind_speed_of_gust; Air_temperature; sea_water_temperature (1m), eastward_sea_water_velocity + Northward_sea_water_velocity ( 2m); sea_surface_wave_significant_height; sea_surface_wave_mean_period,; sea_surface_wave_from_direction, sea_surface_wave_maximum_height, Battery_voltage; sea_surface_wave_maximum_period, sea_surface_wave_mean_height_of_highest_tenth, air_pressure_at_mean_sea_level</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_87</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14654,7 +14543,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">Wind_from_direction; Wind_speed; Wind_speed_of_gust; Air_temperature; sea_water_temperature (1m), eastward_sea_water_velocity + Northward_sea_water_velocity ( 2m); sea_surface_wave_significant_height; sea_surface_wave_mean_period,; sea_surface_wave_from_direction, sea_surface_wave_maximum_height, Battery_voltage; sea_surface_wave_maximum_period, sea_surface_wave_mean_height_of_highest_tenth, air_pressure_at_mean_sea_level</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_88</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14681,7 +14569,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature(sfc,1m,2m,3m,4m,5m,6m,7m,8m,9m,10m,11m,12m,13m,14m,15m,16m,17m,18m,19m), Relative_humidity, surface_downwelling_shortwave_flux_in_air, sea_water_electrical_conductivity, time, latitude, longitude, depth, sea_water_turbidity, sea_surface_wave_mean_period, sea_surface_wave_significant_height, sea_surface_wave_maximum_height, sea_surface_wave_from_direction, northward_sea_water_velocity+eastward_sea_water_velocity (1m,2m,3m,4m,5m,6m,7m,8m,9m,10m,11m,12m,13m,14m,15m,16m,17m,18m,19m)</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_74</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14708,7 +14595,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">relative_humidity, wind_from_direction, air_temperature, air_pressure_at_mean_sea_level, wind_speed, wind_speed_of_gust, sea_water_temperature (1m, 2m, 3m, 4m, 5m, 6m), surface_downwelling_shortwave_flux_in_air, sea_water_electrical_conductivity, sea_water_turbidity,  sea_surface_wave_from_direction, sea_surface_wave_maximum_period, sea_surface_wave_significant_height, sea_surface_wave_mean_period, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_75</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14735,7 +14621,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature (1m, 2m, 3m, 4m, 5m, 6m,7m, 8m, 9m, 10m, 11m, 12m, 13m, 14m, 15m, 16m, 17m, 18m, 19m), wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, relative_humidity, surface_downwelling_shortwave_flux_in_air, sea_water_turbidity, sea_water_electrical_conductivity, sea_surface_wave_significant_period, sea_surface_wave_significant_height, sea_surface_wave_from_direction, sea_surface_wave_mean_period, eastward_sea_water_velocity+ northward_sea_water_velocity (1m, 2m, 3m, 4m, 5m, 6m,7m, 8m, 9m, 10m, 11m, 12m, 13m, 14m, 15m, 16m, 17m, 18m, 19m), latitude, longitude, time, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_100</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14761,7 +14646,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">air_temperature, air_pressure_at_mean_sea_level, sea_surface_wave_period_at_variance_spectral_density_maximum, wind_from_direction, wind_speed_of_gust, wind_speed, sea_water_temperature (1m), sea_surface_wave_significant_height, latitude, longitude, time, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_96</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14787,7 +14671,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">air_temperature, air_pressure_at_mean_sea_level, sea_surface_wave_period_at_variance_spectral_density_maximum, wind_from_direction, wind_speed_of_gust, wind_speed, sea_water_temperature (sfc), sea_surface_wave_significant_height, latitude, longitude, time, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_97</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14813,7 +14696,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_speed, wind_speed_gust, wind_from_direction, air_temperature, air_pressure_at_mean_sea_level, relative_humidity, surface_downwelling_shortwave_flux_in_air, sea_water_temperature(sfc, 1m, 3m, 5m, 7m, 9m), sea_surface_wave_from_direction, sea_surface_wave_mean_period, sea_surface_wave_significant_height, latitude, longitude,, time, depth, dew_point_temperature, battery_voltage, sea_surface_wave_period_at_variance_spectral_density_maximum</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_98</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -14940,7 +14822,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature (1m), wind_speed, wind_from_direction, air_temperature, air_pressure_at_mean_sea_level, relative_humidity, precipitation, time, depth, latitude, longitude</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">wmo</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15014,7 +14895,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">surface_downwelling_shortwave_flux_in_air, wind_from_direction, wind_speed, wind_speed_of_gust, air_temperature, relative_humidity, latitude, longitude, time</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_4</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15064,7 +14944,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C), sea_water_turbidity, chlorophyll_fluorescence,   sea_water_ph_reported_on_total_scale,  mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, phycocyanin_fluorescence, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_79</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15452,7 +15331,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction,wind_speed,wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature, sea_water_electrical_conductivity, sea_water_turbidity,  chlorophyll_fluorescence,   fractional_saturation_of_oxygen_in_sea_water, phycocyanin_fluorescence, battery_voltage, time, latitude, longitude, depth, mass_concentration_of_oxygen_in_sea_water</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_80</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15478,7 +15356,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction,wind_speed,wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature, sea_water_electrical_conductivity, sea_water_turbidity,  chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, phycocyanin_fluorescence, battery_voltage, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_81</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15504,7 +15381,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction,wind_speed,wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature, sea_water_electrical_conductivity, sea_water_turbidity,  chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water,  fractional_saturation_of_oxygen_in_sea_water, phycocyanin_fluorescence, battery_voltage, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_82</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15529,7 +15405,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_gust, air_temperature, air_pressure_at_mean_sea_level, battery_voltage, dew_point_temperature, surface_downwelling_shortwave_flux_in_air, surface_downwelling_photosynthetic_photon_flux_in_air, latitude, longitude, time, depth, wind_chill_of_air_temperature, relative_humidity</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_29</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15942,7 +15817,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_turbidity, sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water,fractional_saturation_of_oxygen_in_sea_water,  phycocyanin_fluorescence, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_17</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15968,7 +15842,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water,  phycocyanin_fluorescence, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_18</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -15994,7 +15867,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature,sea_water_ph_reported_on_total_scale, sea_water_turbidity, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, phycocyanin_fluorescence, time, latitude, longitude, depth, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C)</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_20</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16020,7 +15892,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_ph_reported_on_total_scale, sea_water_turbidity, chlorophyll_fluorescence,  phycocyanin_fluorescence, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_19</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16046,7 +15917,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_ph_reported_on_total_scale, sea_water_turbidity, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, phycocyanin_fluorescence, time, latitude, longitude, depth, fluorescent_dissolved_organic_matter</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_21</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16072,7 +15942,6 @@
             <SimpleData name="Operator_Sector">industry</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_turbidity, sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water , fractional_saturation_of_oxygen_in_sea_water,  phycocyanin_fluorescence, time, latitude, longitude, depth, fluorescent_dissolved_organic_matter</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_16</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16098,7 +15967,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature (1m), sea_water_electrical_conductivity, sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence,  phycocyanin_fluorescence, time, latitude, longitude, depth, oxidation_reduction_potential, mass_concentration_of_chlrophyll_in_sea_water</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_14</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16124,7 +15992,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature (1m), sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water,  phycocyanin_fluorescence, time, latitude, longitude, depth, mass_concentration_of_chlrophyll_in_sea_water, phycocyanin_concentration, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C)</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_22</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16150,7 +16017,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature (1m), sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, sea_water_turbidity, phycocyanin_fluorescence, time, latitude, longitude, depth, fluorescent_dissolved_organic_matter, oxidation_reduction_potential, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C)</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_15</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16295,7 +16161,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">air_temperature, surface_downwelling_shortwave_flux_in_air, lwe_thickness_of_precipitation_amount, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, relative_humidity, lighting_strike_count, lightning_strike_distance, wind_gust_from_direction, water_vapor_partial_pressure_in_air, battery_voltage, solar_battery_voltage, cellular_signal_quality, time, latitude, longitude </SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">glos</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16371,7 +16236,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">eastward_sea_water_velocity + northward_sea_water_velocity + upward_sea_water_velocity (sfc, 0.01, 0.1, 1, 2, 3 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17m), sea_water_turbidity (sfc, 7m), mass_concentration_of_chlorophyll_in_sea_water (sfc, 7m), phycocyanin_concentration (sfc, 7m), sea_water_electrical_conductivity (sfc, 7, 13m, 17.5m), sea_water_pressure_due to_sea_water (sfc, 7, 17.5m), upward_sea_water_velocity, sea_water_temperature (sfcm, 7m, 13m, 17.5m), fractional_saturation_of_oxygen_in_sea_water (sfc, 7m, 17.5m), latitude, longitude, depth, time</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_93</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16447,7 +16311,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">chlorophyll_fluorescence, Relative_Humidity, air_temperature, sea_water_temperature (sfc, 1m), wind_from_direction, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C), wind_speed, fractional_saturation_of_oxygen_in_sea_water, sea_water_turbidity, sea_water_ph_reported_on_total_scale, air_pressure_at_mean_sea_level, time, latitude, longitude, depth, phycocyanin_fluorescence</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_56</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16473,7 +16336,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity,  sea_water_turbidity, sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence,  phycocyanin_fluorescence, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_55</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16498,7 +16360,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature_Depths, sea_water_ph_reported_on_total_scale, sea_water_turbidity, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, chlorophyll_fluorescence, phycocyanin_fluorescence, time, latitude, longitude, depth, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C)</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_85</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16548,7 +16409,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_turbidity, sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water , fractional_saturation_of_oxygen_in_sea_water,  phycocyanin_fluorescence, battery_voltage,  time, latitude, longitude, depth,eastward_sea_water_velocity + northward_sea_water_velocity (3m)</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_83</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16574,7 +16434,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity, sea_water_turbidity, sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water , fractional_saturation_of_oxygen_in_sea_water,  phycocyanin_fluorescence, battery_voltage,  time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_84</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16625,7 +16484,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, wind_speed_of_gust, air_pressure_at_mean_sea_level,  sea_water_temperature, sea_water_electrial_conductivity, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C), sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, sea_water_turbidity, phycocyanin_fluorescence, time, latitude, longitude, depth,  air_temperature, dew_point_temperature, relative_humidity, battery_voltage, oxidation_reduction_potential, surface_downwelling_shortwave_flux_in_air</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_24</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16651,7 +16509,6 @@
             <SimpleData name="Operator_Sector">gov_municipal</SimpleData>
             <SimpleData name="Variable_Names">sea_water_temperature, sea_water_electrical_conductivity_at_reference_temperature (ref_temp = 25 degrees C), chlorophyll_fluorescence, sea_water_ph_reported_on_total_scale, sea_water_turbidity, phycocyanin_fluorescence, time, latitude, longitude, depth, oxidation_reduction_potential</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_23</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16676,7 +16533,6 @@
             <SimpleData name="Operator_Sector">nonprofit</SimpleData>
             <SimpleData name="Variable_Names">surface_downwelling_shortwave_flux_in_air, wind_from_direction, wind_speed, air_temperature, relative_humidity, air_pressure, time, latitude, longitude, altitude</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_5</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16727,7 +16583,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction,  wind_speed, wind_speed_of_gust , air_temperature, air_pressure, sea_water_temperature (sfc, 5.5m, 7.5m, 9.5m, 11.5m, 13.5m, 17.6m, 20m),dew_point_temperature,surface_downwelling_shortwave_flux_in_air, sea_water_electrical_conductivity, Relative humidity, sea_water_turbidity,  sea_water_ph_reported_on_total_scale, chlorophyll_fluorescence, mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, phycocyanin_fluorescence, battery_voltage ,time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_63</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16753,7 +16608,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed,  air_temperature, air_pressure, sea_water_temperature, sea_water_electrical_conductivity, chlorophyll_fluorescence, sea_water_turbidity, sea_water_ph_reported_on_total_scale,  mass_concentration_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water, phycocyanin_fluorescence, battery_voltage, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_54</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -16778,7 +16632,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">air_temperature,  air_pressure_at_mean_sea_level, wind_from_direction, wind_speed, wind_speed_of_gust, sea_surface_wave_significant_height, sea_surface_wave_mean_period, sea_surface_wave_from_direction, eastward_sea_water_velocity +northward_sea_water_velocity (1m, 2m, 3m, 4m, 5m, 6m, 7m, 8m), sea_water_temperature (1m, 2m, 3m, 4m, 5m, 6m, 7m, 8m, 9m), longitude, latitude, depth, time</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">glos</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -17298,7 +17151,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction,wind_speed,wind_speed_of_gust, air_temperature, air_pressure_at_mean_sea_level, sea_water_temperature, sea_water_electrical_conductivity, sea_water_turbidity,  chlorophyll_fluorescence,   fractional_saturation_of_oxygen_in_sea_water, mass_concentration_of_oxygen_in_sea_water,  phycocyanin_fluorescence, battery_voltage, time, latitude, longitude, depth</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_89</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -17325,7 +17177,6 @@
             <SimpleData name="Operator_Sector">gov_federal</SimpleData>
             <SimpleData name="Variable_Names">wind_from_direction, wind_speed, air_pressure_at_mean_sea_level, air_temperature, surface_downwelling_shortwave_flux_in_air, dew_point_temperature, time, latitude, longitude, depth, relative_humidy, altitude, sea_surface_temperature</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_10</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
@@ -17832,7 +17683,6 @@
             <SimpleData name="Operator_Sector">academic</SimpleData>
             <SimpleData name="Variable_Names">Wind_from_direction;Wind_speed; sea_water_temperature (sfc); sea_surface_wave_significant_height; sea_surface_wave_period_at_variance_spectral_density_maximum, sea_surface_wave_from_direction, latitude, longitude</SimpleData>
             <SimpleData name="file">GLOS.xlsx</SimpleData>
-            <SimpleData name="Dataset (ERDDAP) ID">obs_40</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
