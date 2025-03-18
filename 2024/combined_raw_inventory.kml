@@ -168,6 +168,31 @@
       <SimpleField name="file" type="string"/>
       <SimpleField name="Unnamed: 18" type="string"/>
       <SimpleField name="Time Period" type="string"/>
+      <SimpleField name="CARICOOS Contact (Name and Email)" type="string"/>
+      <SimpleField name="Dataset (ERDDAP) ID" type="string"/>
+    </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station_ID" type="string"/>
+      <SimpleField name="WMO_CMAN_ID" type="string"/>
+      <SimpleField name="Station_Long_Name" type="string"/>
+      <SimpleField name="Station_Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform_Type" type="string"/>
+      <SimpleField name="Station_Deployment" type="string"/>
+      <SimpleField name="Currently_Operational" type="string"/>
+      <SimpleField name="Platform_Funder" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Platform_Operator" type="string"/>
+      <SimpleField name="Operator_Sector" type="string"/>
+      <SimpleField name="Platform_Maintainer" type="string"/>
+      <SimpleField name="Data_Manager" type="string"/>
+      <SimpleField name="Variable_Names" type="string"/>
+      <SimpleField name="Additional_notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="Unnamed: 18" type="string"/>
+      <SimpleField name="Time Period" type="string"/>
       <SimpleField name="CARICOOS Contact
 (Name and Email)" type="string"/>
       <SimpleField name="Dataset (ERDDAP) ID" type="string"/>
@@ -22555,6 +22580,786 @@
       <Placemark id="combined_raw_inventory.798">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">WHG</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44090</SimpleData>
+            <SimpleData name="Station_Long_Name">Cape Cod Bay Wave Buoy</SimpleData>
+            <SimpleData name="Station_Description">CDIP wave buoy</SimpleData>
+            <SimpleData name="Latitude">41.84</SimpleData>
+            <SimpleData name="Longitude">-70.329</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2016-05-23 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS, MassDEP</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">Woods Hole Group</SimpleData>
+            <SimpleData name="Operator_Sector">industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">Woods Hole Group</SimpleData>
+            <SimpleData name="Data_Manager">Woods Hole Group, CDIP, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_surface_wave_significant_height, sea_surface_swell_wave_mean_period, sea_water_to_direction, sea_water_speed</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.329,41.84,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.799">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">WHG</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44085</SimpleData>
+            <SimpleData name="Station_Long_Name">Buzzards Bay Wave Buoy</SimpleData>
+            <SimpleData name="Station_Description">CDIP wave buoy</SimpleData>
+            <SimpleData name="Latitude">41.3871</SimpleData>
+            <SimpleData name="Longitude">-71.03</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2022-07-14 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS, MassDEP</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">Woods Hole Group</SimpleData>
+            <SimpleData name="Operator_Sector">industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">Woods Hole Group</SimpleData>
+            <SimpleData name="Data_Manager">Woods Hole Group, CDIP, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_surface_wave_significant_height, sea_surface_swell_wave_mean_period, sea_water_to_direction, sea_water_speed</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.03,41.3871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.800">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">WHG</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">ca0101</SimpleData>
+            <SimpleData name="Station_Long_Name">Cape Cod Canal, West End</SimpleData>
+            <SimpleData name="Station_Description">NOAA currents station</SimpleData>
+            <SimpleData name="Latitude">41.84</SimpleData>
+            <SimpleData name="Longitude">-70.329</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2019</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS, MassDEP</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">Woods Hole Group</SimpleData>
+            <SimpleData name="Operator_Sector">industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">Woods Hole Group</SimpleData>
+            <SimpleData name="Data_Manager">Woods Hole Group, NOAA CO-OPS, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_to_direction, sea_water_speed</SimpleData>
+            <SimpleData name="Additional_notes">per CO-OPS station data: H-ADCP mounted at a depth of -4m/13.1ft (MLLW), measurements from pier, across channel (130T), in 28 bins of 4m/13ft width.  https://tidesandcurrents.noaa.gov/ports/ports.html?id=ca0101</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.329,41.84,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.801">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">URI/GSO</SimpleData>
+            <SimpleData name="Station_Long_Name">Greenwich Bay</SimpleData>
+            <SimpleData name="Station_Description">NBFSMN station</SimpleData>
+            <SimpleData name="Latitude">41.685</SimpleData>
+            <SimpleData name="Longitude">-71.446</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">6/1/2017 report to NERACOOS( 2003 historical)</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS (partial) URI/GSO (partial)</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">URI/GSO</SimpleData>
+            <SimpleData name="Operator_Sector">gov_state</SimpleData>
+            <SimpleData name="Platform_Maintainer">URI/GSO</SimpleData>
+            <SimpleData name="Data_Manager">RIDEM</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water</SimpleData>
+            <SimpleData name="Additional_notes">https://dem.ri.gov/environmental-protection-bureau/water-resources/research-monitoring/narraganset-bay-assessment-0</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.446,41.685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.802">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">URI/GSO</SimpleData>
+            <SimpleData name="Station_Long_Name">GSO Dock</SimpleData>
+            <SimpleData name="Station_Description">NBFSMN station</SimpleData>
+            <SimpleData name="Latitude">41.492</SimpleData>
+            <SimpleData name="Longitude">-71.419</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">6/1/2017 report to NERACOOS( 1995 historical)</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS (partial) URI/GSO (partial)</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">URI/GSO</SimpleData>
+            <SimpleData name="Operator_Sector">gov_state</SimpleData>
+            <SimpleData name="Platform_Maintainer">URI/GSO</SimpleData>
+            <SimpleData name="Data_Manager">RIDEM</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.419,41.492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.803">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">URI/GSO</SimpleData>
+            <SimpleData name="Station_Long_Name">Conimicut Pt</SimpleData>
+            <SimpleData name="Station_Description">NBFSMN station</SimpleData>
+            <SimpleData name="Latitude">41.7129</SimpleData>
+            <SimpleData name="Longitude">-71.34411667</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">6/1/2019 report to NERACOOS( 2003 historical)</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">RIDEM/URI/GSO</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">URI/GSO</SimpleData>
+            <SimpleData name="Operator_Sector">gov_state</SimpleData>
+            <SimpleData name="Platform_Maintainer">URI/GSO</SimpleData>
+            <SimpleData name="Data_Manager">RIDEM</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water</SimpleData>
+            <SimpleData name="Additional_notes">https://dem.ri.gov/environmental-protection-bureau/water-resources/research-monitoring/narraganset-bay-assessment-0</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.34411667,41.7129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.804">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">URI/GSO</SimpleData>
+            <SimpleData name="Station_Long_Name">North Prudence</SimpleData>
+            <SimpleData name="Station_Description">NBFSMN station</SimpleData>
+            <SimpleData name="Latitude">41.6704</SimpleData>
+            <SimpleData name="Longitude">-71.354716</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">6/1/2019 report to NERACOOS( 2001 historical)</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">RIDEM/URI/GSO</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">URI/GSO</SimpleData>
+            <SimpleData name="Operator_Sector">gov_state</SimpleData>
+            <SimpleData name="Platform_Maintainer">URI/GSO</SimpleData>
+            <SimpleData name="Data_Manager">RIDEM</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water</SimpleData>
+            <SimpleData name="Additional_notes">https://dem.ri.gov/environmental-protection-bureau/water-resources/research-monitoring/narraganset-bay-assessment-0</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.354716,41.6704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.805">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">URI/GSO</SimpleData>
+            <SimpleData name="Station_Long_Name">Poppasquash Pt</SimpleData>
+            <SimpleData name="Station_Description">NBFSMN station</SimpleData>
+            <SimpleData name="Latitude">41.65655</SimpleData>
+            <SimpleData name="Longitude">-71.3185</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">6/1/2019 report to NERACOOS( 2005 historical)</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">RIDEM/URI/GSO</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">URI/GSO</SimpleData>
+            <SimpleData name="Operator_Sector">gov_state</SimpleData>
+            <SimpleData name="Platform_Maintainer">URI/GSO</SimpleData>
+            <SimpleData name="Data_Manager">RIDEM</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water</SimpleData>
+            <SimpleData name="Additional_notes">https://dem.ri.gov/environmental-protection-bureau/water-resources/research-monitoring/narraganset-bay-assessment-0</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.3185,41.65655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.806">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">URI/GSO</SimpleData>
+            <SimpleData name="Station_Long_Name">Mt View</SimpleData>
+            <SimpleData name="Station_Description">NBFSMN station</SimpleData>
+            <SimpleData name="Latitude">41.637466</SimpleData>
+            <SimpleData name="Longitude">-71.390566</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">6/1/2006 report to NERACOOS ( 2005 historical)</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">RIDEM/URI/GSO</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">URI/GSO</SimpleData>
+            <SimpleData name="Operator_Sector">gov_state</SimpleData>
+            <SimpleData name="Platform_Maintainer">URI/GSO</SimpleData>
+            <SimpleData name="Data_Manager">RIDEM</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water</SimpleData>
+            <SimpleData name="Additional_notes">https://dem.ri.gov/environmental-protection-bureau/water-resources/research-monitoring/narraganset-bay-assessment-0</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.390566,41.637466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.807">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">URI/GSO</SimpleData>
+            <SimpleData name="Station_Long_Name">Quonset Pt</SimpleData>
+            <SimpleData name="Station_Description">NBFSMN station</SimpleData>
+            <SimpleData name="Latitude">41.58761667</SimpleData>
+            <SimpleData name="Longitude">-71.38003333</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">6/1/2006 report to NERACOOS ( 2005 historical)</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">RIDEM/URI/GSO</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">URI/GSO</SimpleData>
+            <SimpleData name="Operator_Sector">gov_state</SimpleData>
+            <SimpleData name="Platform_Maintainer">URI/GSO</SimpleData>
+            <SimpleData name="Data_Manager">RIDEM</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water</SimpleData>
+            <SimpleData name="Additional_notes">https://dem.ri.gov/environmental-protection-bureau/water-resources/research-monitoring/narraganset-bay-assessment-0</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.38003333,41.58761667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.808">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">UNH</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">COOA GREAT_BAY - Great Bay, NH</SimpleData>
+            <SimpleData name="Station_Long_Name">Great Bay Buoy</SimpleData>
+            <SimpleData name="Station_Description">Moored buoy.</SimpleData>
+            <SimpleData name="Latitude">43.07</SimpleData>
+            <SimpleData name="Longitude">-70.86</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2005-04-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">University of New Hampshire</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of New Hampshire</SimpleData>
+            <SimpleData name="Data_Manager">University of New Hampshire, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity,  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_ph_reported_on_total_scale, mass_concentration_of_chlorophyll_in_sea_water, mole_concentration_of_nitrate_in_sea_water,fractional_saturation_of_oxygen_in_sea_water,mole_concentration_of_phosphate_in_sea_water,   wind_speed, wind_to_direction, wind_speed_of_gust, air_temperature,  air_pressure, solar_irradiance, sea_water_turbidity, concentration_of_colored_dissolved_organic_matter_in_sea_water_expressed_as_equivalent_mass_fraction_of_quinine_sulfate_dihydrate, partial_pressure_of_carbon_dioxide_in_sea_water</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.86,43.07,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.809">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">UNH</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">CMLN3</SimpleData>
+            <SimpleData name="Station_Long_Name">Coastal Marine Lab</SimpleData>
+            <SimpleData name="Station_Description">Coastal monitoring station.</SimpleData>
+            <SimpleData name="Latitude">43.07</SimpleData>
+            <SimpleData name="Longitude">-70.7</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2010-03-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS, NOAA OAP</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">University of New Hampshire</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of New Hampshire</SimpleData>
+            <SimpleData name="Data_Manager">University of New Hampshire, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, partial_pressure_of_carbon_dioxide_in_seawater,downwelling_photosynthetic_radiance_in_sea_water, wind_speed, wind_to_direction, wind_speed_of_gust, air_temperature, air_pressure</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.7,43.07,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.810">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">UNH</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44073</SimpleData>
+            <SimpleData name="Station_Long_Name">Appledore Island - C02 Buoy</SimpleData>
+            <SimpleData name="Station_Description">Moored buoy.</SimpleData>
+            <SimpleData name="Latitude">43.02</SimpleData>
+            <SimpleData name="Longitude">-70.54</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2006-04-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS, NOAA OAP</SimpleData>
+            <SimpleData name="RA_Funded">N</SimpleData>
+            <SimpleData name="Platform_Operator">University of New Hampshire</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of New Hampshire</SimpleData>
+            <SimpleData name="Data_Manager">University of New Hampshire, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed, wind_to_direction, wind_speed_of_gust, air_temperature, air_pressure, sea_water_temperature, sea_water_salinity, dissolved oxygen, sea_water_turbidity, mass_concentration_of_chlorophyll_in_sea_water, surface_partial_pressure_of_carbon_dioxide_in_air, partial_pressure_of_carbon_dioxide_in_sea_water</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.54,43.02,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.811">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">UNH</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44098</SimpleData>
+            <SimpleData name="Station_Long_Name"><![CDATA[Jeffrey's Ledge]]></SimpleData>
+            <SimpleData name="Station_Description">CDIP wave buoy</SimpleData>
+            <SimpleData name="Latitude">42.8</SimpleData>
+            <SimpleData name="Longitude">-70.16</SimpleData>
+            <SimpleData name="Platform_Type">wave_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2008-09-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">University of New Hampshire</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of New Hampshire</SimpleData>
+            <SimpleData name="Data_Manager">University of New Hampshire, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">sea_surface_wave_significant_height, sea_water_to_direction, sea_water_temperature</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.16,42.8,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.812">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">Umaine N01</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44024</SimpleData>
+            <SimpleData name="Station_Long_Name">Northeast Channel</SimpleData>
+            <SimpleData name="Station_Description">South of Browns Bank</SimpleData>
+            <SimpleData name="Latitude">42.34</SimpleData>
+            <SimpleData name="Longitude">-65.91</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2004-06-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">U</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">University of Maine</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">University of Maine, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m 100 m, 150 m, 180 m), sea_water_to_direction (2 m, 18 m, 26 m, 34 m, 42 m, 50 m, 58 m, 66 m, 74 m, 82 m, 90 m, 98 m, 106 m, 114 m, 122 m, 130 m, 138 m, 146 m, 154 m, 162 m, 170 m, 178 m, 186 m, 194 m, 202 m), sea_water_speed (2 m, 18 m, 26 m, 34 m, 42 m, 50 m, 58 m, 66 m, 74 m, 82 m, 90 m, 98 m, 106 m, 114 m, 122 m, 130 m, 138 m, 146 m, 154 m, 162 m, 170 m, 178 m, 186 m, 194 m, 202 m), sea_water_salinity (1 m, 20 m, 50 m, 100 m, 150 m, 180 m), sea_water_density (1 m, 20 m, 50 m, 100 m, 150 m, 180 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.91,42.34,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.813">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">Umaine M01</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44037</SimpleData>
+            <SimpleData name="Station_Long_Name">Jordan Basin</SimpleData>
+            <SimpleData name="Station_Description">Jordan Basin</SimpleData>
+            <SimpleData name="Latitude">43.49</SimpleData>
+            <SimpleData name="Longitude">-67.88</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2003-08-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">University of Maine</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">University of Maine, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m, 100 m, 150 m, 200 m, 250 m), sea_water_to_direction (2 m, 18 m, 26 m, 43 m, 42 m, 50 m, 58 m, 66 m, 74 m, 82 m, 90 m, 98 m, 106 m, 114 m, 122 m, 130 m, 138 m, 146 m, 154 m, 162 m, 170 m, 178 m, 186 m, 194 m, 202 m, 210 m, 218 m, 226 m, 234 m, 242 m, 250 m, 258 m), sea_water_speed (2 m, 18 m, 26 m, 43 m, 42 m, 50 m, 58 m, 66 m, 74 m, 82 m, 90 m, 98 m, 106 m, 114 m, 122 m, 130 m, 138 m, 146 m, 154 m, 162 m, 170 m, 178 m, 186 m, 194 m, 202 m, 210 m, 218 m, 226 m, 234 m, 242 m, 250 m, 258 m), sea_water_salinity (1 m, 20 m, 50 m, 100 m, 150 m, 200 m, 250 m),  sea_water_density (1 m, 20 m, 50 m, 100 m, 150 m, 200 m, 250 m), mole_concentration_of_nitrate_in_sea_water (1m, 50m, 100m, 150m, 200m, 250m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -67.88,43.49,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.814">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">Umaine I01</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44034</SimpleData>
+            <SimpleData name="Station_Long_Name">Eastern Maine Shelf</SimpleData>
+            <SimpleData name="Station_Description">Acadia</SimpleData>
+            <SimpleData name="Latitude">44.1</SimpleData>
+            <SimpleData name="Longitude">-68.1</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2001-08-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">University of Maine</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">University of Maine, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -68.1,44.1,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.815">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">Umaine F01</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44033</SimpleData>
+            <SimpleData name="Station_Long_Name">Penobscot Bay</SimpleData>
+            <SimpleData name="Station_Description">Between Owls Head and Vinalhaven</SimpleData>
+            <SimpleData name="Latitude">44.05</SimpleData>
+            <SimpleData name="Longitude">-68.99</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2001-08-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">University of Maine</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">University of Maine, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m, 94 m, 98 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m, 94 m, 98 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -68.99,44.05,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.816">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">Umaine E01</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44032</SimpleData>
+            <SimpleData name="Station_Long_Name">Central Maine Shelf</SimpleData>
+            <SimpleData name="Station_Description">SSE of Port Clyde</SimpleData>
+            <SimpleData name="Latitude">43.71</SimpleData>
+            <SimpleData name="Longitude">-69.35</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2002-02-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">University of Maine</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">University of Maine, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m, 62 m, 66 m, 70 m, 74 m, 78 m, 82 m, 86 m, 90 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -69.35,43.71,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.817">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">Umaine B01</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44030</SimpleData>
+            <SimpleData name="Station_Long_Name">Western Maine Shelf</SimpleData>
+            <SimpleData name="Station_Description">East of Cape Neddick (York)</SimpleData>
+            <SimpleData name="Latitude">43.18</SimpleData>
+            <SimpleData name="Longitude">-70.42</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2001-08-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">University of Maine</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">University of Maine, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.42,43.18,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.818">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">Umaine A01</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44029</SimpleData>
+            <SimpleData name="Station_Long_Name">Massachusetts Bay</SimpleData>
+            <SimpleData name="Station_Description">SE of Gloucester</SimpleData>
+            <SimpleData name="Latitude">42.52</SimpleData>
+            <SimpleData name="Longitude">-70.56</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2001-08-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS, MWRA</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">University of Maine</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Maine</SimpleData>
+            <SimpleData name="Data_Manager">University of Maine, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">air_temperature, wind_speed, wind_from_direction, wind_speed_of_gust, air_pressure, visibility_in_air, sea_surface_wave_significant_height,  sea_surface_wave_period_at_variance_spectral_density_maximum, sea_water_temperature (1 m, 2 m, 20 m, 50 m), sea_water_to_direction (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m), sea_water_speed (2 m, 10 m, 14 m, 18 m, 22 m, 26 m, 30 m, 34 m, 38 m, 42 m, 46 m, 50 m, 54 m, 58 m), sea_water_salinity (1 m, 20 m, 50 m),  sea_water_density (1 m, 20 m, 50 m), sea_water_turbidity (3 m), mass_concentration_of_chlorophyll_in_sea_water (3 m), mole_concentration_of_dissolved_molecular_oxygen_in_sea_water (51 m), mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_saturation (51 m)</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.56,42.52,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.819">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">UCONN</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44022</SimpleData>
+            <SimpleData name="Station_Long_Name">Execution Rocks</SimpleData>
+            <SimpleData name="Station_Description">Moored buoy.</SimpleData>
+            <SimpleData name="Latitude">40.88</SimpleData>
+            <SimpleData name="Longitude">-73.73</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2004-09-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">University of Connecticut</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Connecticut</SimpleData>
+            <SimpleData name="Data_Manager">University of Connecticut, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed, wind_to_direction, barometric_altitude, air_temperature, relative_humidity, sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_speed, seawater_turbidity, photosynthetically_available_radiation, water_pressure, nitrate</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.73,40.88,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.820">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">UCONN</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44040</SimpleData>
+            <SimpleData name="Station_Long_Name">Western Long Island Sound</SimpleData>
+            <SimpleData name="Station_Description">Moored buoy.</SimpleData>
+            <SimpleData name="Latitude">40.95</SimpleData>
+            <SimpleData name="Longitude">-73.58</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2001-08-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">University of Connecticut</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Connecticut</SimpleData>
+            <SimpleData name="Data_Manager">University of Connecticut, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed, wind_to_direction, barometric_altitude, air_temperature, relative_humidity, sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_speed, downwelling_photosynthetic_radiance_in_sea_water, sea_surface_wave_significant_height, sea_surface_swell_wave_mean_period,seawater_turbidity, photosynthetically_available_radiation, water_pressure, nitrate, pCO2, phosphate</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.58,40.95,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.821">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">UCONN</SimpleData>
+            <SimpleData name="WMO_CMAN_ID">44039</SimpleData>
+            <SimpleData name="Station_Long_Name">Central Long Island Sound</SimpleData>
+            <SimpleData name="Station_Description">Moored buoy.</SimpleData>
+            <SimpleData name="Latitude">41.13</SimpleData>
+            <SimpleData name="Longitude">-72.65</SimpleData>
+            <SimpleData name="Platform_Type">moored_buoy</SimpleData>
+            <SimpleData name="Station_Deployment">2002-02-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yp</SimpleData>
+            <SimpleData name="Platform_Operator">University of Connecticut</SimpleData>
+            <SimpleData name="Operator_Sector">academic</SimpleData>
+            <SimpleData name="Platform_Maintainer">University of Connecticut</SimpleData>
+            <SimpleData name="Data_Manager">University of Connecticut, Gulf of Maine Research Institute</SimpleData>
+            <SimpleData name="Variable_Names">wind_speed, wind_to_direction, barometric_altitude, air_temperature, relative_humidity, sea_water_temperature, sea_water_salinity, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, sea_water_speed, downwelling_photosynthetic_radiance_in_sea_water,  sea_surface_wave_significant_height, sea_surface_swell_wave_mean_period, sea_water_to_direction,seawater_turbidity, photosynthetically_available_radiation, water_pressure, nitrate, pCO2</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.65,41.13,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.822">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">CG/SCI-01</SimpleData>
+            <SimpleData name="Station_Long_Name">Scituate Harbor</SimpleData>
+            <SimpleData name="Station_Description">Microwave Radar Tide Gauge </SimpleData>
+            <SimpleData name="Latitude">42.199369</SimpleData>
+            <SimpleData name="Longitude">-70.719956</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2008-07-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NOAA-NWS/NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">Charybdis Group LLC</SimpleData>
+            <SimpleData name="Operator_Sector">industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">Charybdis Group LLC</SimpleData>
+            <SimpleData name="Data_Manager">Charybdis Group LLC/GMRI</SimpleData>
+            <SimpleData name="Variable_Names">depth_below_MLLW</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.719956,42.199369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.823">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">CG/HAM-01</SimpleData>
+            <SimpleData name="Station_Long_Name">Hampton Bay</SimpleData>
+            <SimpleData name="Station_Description">Microwave Radar Tide Gauge </SimpleData>
+            <SimpleData name="Latitude">42.900112</SimpleData>
+            <SimpleData name="Longitude">-70.818634</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2014-12-04 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NH-DES/NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">Charybdis Group LLC</SimpleData>
+            <SimpleData name="Operator_Sector">industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">Charybdis Group LLC</SimpleData>
+            <SimpleData name="Data_Manager">Charybdis Group LLC/GMRI</SimpleData>
+            <SimpleData name="Variable_Names">depth_below_MLLW, sea_water_temperature</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.818634,42.900112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.824">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
+            <SimpleData name="RA">NERACOOS</SimpleData>
+            <SimpleData name="Station_ID">CG/GLO-01</SimpleData>
+            <SimpleData name="Station_Long_Name">Glochester Harbor</SimpleData>
+            <SimpleData name="Station_Description">Microwave Radar Tide Gauge </SimpleData>
+            <SimpleData name="Latitude">42.61026</SimpleData>
+            <SimpleData name="Longitude">-70.660576</SimpleData>
+            <SimpleData name="Platform_Type">fixed</SimpleData>
+            <SimpleData name="Station_Deployment">2013-10-01 00:00:00</SimpleData>
+            <SimpleData name="Currently_Operational">Y</SimpleData>
+            <SimpleData name="Platform_Funder">NOAA-NWS/NERACOOS</SimpleData>
+            <SimpleData name="RA_Funded">Yf</SimpleData>
+            <SimpleData name="Platform_Operator">Charybdis Group LLC</SimpleData>
+            <SimpleData name="Operator_Sector">industry</SimpleData>
+            <SimpleData name="Platform_Maintainer">Charybdis Group LLC</SimpleData>
+            <SimpleData name="Data_Manager">Charybdis Group LLC/GMRI</SimpleData>
+            <SimpleData name="Variable_Names">depth_below_MLLW</SimpleData>
+            <SimpleData name="file">NERACOOS.xlsx</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.660576,42.61026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="combined_raw_inventory.825">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
             <SimpleData name="Station_ID">AWS-HIMB</SimpleData>
             <SimpleData name="Station_Long_Name">Coconut Island Weather Station</SimpleData>
@@ -22579,7 +23384,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.799">
+      <Placemark id="combined_raw_inventory.826">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22608,7 +23413,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.800">
+      <Placemark id="combined_raw_inventory.827">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22637,7 +23442,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.801">
+      <Placemark id="combined_raw_inventory.828">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22666,7 +23471,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.802">
+      <Placemark id="combined_raw_inventory.829">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22695,7 +23500,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.803">
+      <Placemark id="combined_raw_inventory.830">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22724,7 +23529,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.804">
+      <Placemark id="combined_raw_inventory.831">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22753,7 +23558,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.805">
+      <Placemark id="combined_raw_inventory.832">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22783,7 +23588,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.806">
+      <Placemark id="combined_raw_inventory.833">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22813,7 +23618,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.807">
+      <Placemark id="combined_raw_inventory.834">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22843,7 +23648,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.808">
+      <Placemark id="combined_raw_inventory.835">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22873,7 +23678,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.809">
+      <Placemark id="combined_raw_inventory.836">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22902,7 +23707,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.810">
+      <Placemark id="combined_raw_inventory.837">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22931,7 +23736,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.811">
+      <Placemark id="combined_raw_inventory.838">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22960,7 +23765,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.812">
+      <Placemark id="combined_raw_inventory.839">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -22989,7 +23794,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.813">
+      <Placemark id="combined_raw_inventory.840">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23018,7 +23823,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.814">
+      <Placemark id="combined_raw_inventory.841">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23047,7 +23852,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.815">
+      <Placemark id="combined_raw_inventory.842">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23076,7 +23881,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.816">
+      <Placemark id="combined_raw_inventory.843">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23106,7 +23911,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.817">
+      <Placemark id="combined_raw_inventory.844">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23135,7 +23940,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.818">
+      <Placemark id="combined_raw_inventory.845">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23164,7 +23969,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.819">
+      <Placemark id="combined_raw_inventory.846">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23193,7 +23998,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.820">
+      <Placemark id="combined_raw_inventory.847">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23222,7 +24027,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.821">
+      <Placemark id="combined_raw_inventory.848">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23251,7 +24056,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.822">
+      <Placemark id="combined_raw_inventory.849">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23280,7 +24085,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.823">
+      <Placemark id="combined_raw_inventory.850">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23309,7 +24114,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.824">
+      <Placemark id="combined_raw_inventory.851">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23338,7 +24143,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.825">
+      <Placemark id="combined_raw_inventory.852">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23367,7 +24172,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.826">
+      <Placemark id="combined_raw_inventory.853">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23396,7 +24201,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.827">
+      <Placemark id="combined_raw_inventory.854">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23425,7 +24230,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.828">
+      <Placemark id="combined_raw_inventory.855">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23454,7 +24259,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.829">
+      <Placemark id="combined_raw_inventory.856">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23483,7 +24288,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.830">
+      <Placemark id="combined_raw_inventory.857">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23512,7 +24317,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.831">
+      <Placemark id="combined_raw_inventory.858">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23541,7 +24346,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.832">
+      <Placemark id="combined_raw_inventory.859">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23570,7 +24375,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.833">
+      <Placemark id="combined_raw_inventory.860">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23599,7 +24404,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.834">
+      <Placemark id="combined_raw_inventory.861">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23628,7 +24433,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.835">
+      <Placemark id="combined_raw_inventory.862">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23657,7 +24462,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.836">
+      <Placemark id="combined_raw_inventory.863">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23686,7 +24491,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.837">
+      <Placemark id="combined_raw_inventory.864">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23716,7 +24521,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.838">
+      <Placemark id="combined_raw_inventory.865">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23746,7 +24551,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.839">
+      <Placemark id="combined_raw_inventory.866">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23775,7 +24580,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.840">
+      <Placemark id="combined_raw_inventory.867">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23804,7 +24609,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.841">
+      <Placemark id="combined_raw_inventory.868">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23833,7 +24638,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.842">
+      <Placemark id="combined_raw_inventory.869">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">PACIOOS</SimpleData>
@@ -23862,7 +24667,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.843">
+      <Placemark id="combined_raw_inventory.870">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23891,7 +24696,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.844">
+      <Placemark id="combined_raw_inventory.871">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23920,7 +24725,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.845">
+      <Placemark id="combined_raw_inventory.872">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23950,7 +24755,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.846">
+      <Placemark id="combined_raw_inventory.873">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -23979,7 +24784,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.847">
+      <Placemark id="combined_raw_inventory.874">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24008,7 +24813,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.848">
+      <Placemark id="combined_raw_inventory.875">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24037,7 +24842,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.849">
+      <Placemark id="combined_raw_inventory.876">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24067,7 +24872,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.850">
+      <Placemark id="combined_raw_inventory.877">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24097,7 +24902,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.851">
+      <Placemark id="combined_raw_inventory.878">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24127,7 +24932,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.852">
+      <Placemark id="combined_raw_inventory.879">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24157,7 +24962,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.853">
+      <Placemark id="combined_raw_inventory.880">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24186,7 +24991,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.854">
+      <Placemark id="combined_raw_inventory.881">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24215,7 +25020,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.855">
+      <Placemark id="combined_raw_inventory.882">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24245,7 +25050,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.856">
+      <Placemark id="combined_raw_inventory.883">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24274,7 +25079,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.857">
+      <Placemark id="combined_raw_inventory.884">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24302,7 +25107,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.858">
+      <Placemark id="combined_raw_inventory.885">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24330,7 +25135,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.859">
+      <Placemark id="combined_raw_inventory.886">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24359,7 +25164,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.860">
+      <Placemark id="combined_raw_inventory.887">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24388,7 +25193,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.861">
+      <Placemark id="combined_raw_inventory.888">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24417,7 +25222,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.862">
+      <Placemark id="combined_raw_inventory.889">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24447,7 +25252,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.863">
+      <Placemark id="combined_raw_inventory.890">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24476,7 +25281,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.864">
+      <Placemark id="combined_raw_inventory.891">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24506,7 +25311,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.865">
+      <Placemark id="combined_raw_inventory.892">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24536,7 +25341,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.866">
+      <Placemark id="combined_raw_inventory.893">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24565,7 +25370,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.867">
+      <Placemark id="combined_raw_inventory.894">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24594,7 +25399,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.868">
+      <Placemark id="combined_raw_inventory.895">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24623,7 +25428,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.869">
+      <Placemark id="combined_raw_inventory.896">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24652,7 +25457,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.870">
+      <Placemark id="combined_raw_inventory.897">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24680,7 +25485,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.871">
+      <Placemark id="combined_raw_inventory.898">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24709,7 +25514,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.872">
+      <Placemark id="combined_raw_inventory.899">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24738,7 +25543,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.873">
+      <Placemark id="combined_raw_inventory.900">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24767,7 +25572,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.874">
+      <Placemark id="combined_raw_inventory.901">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24797,7 +25602,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.875">
+      <Placemark id="combined_raw_inventory.902">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24827,7 +25632,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.876">
+      <Placemark id="combined_raw_inventory.903">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24857,7 +25662,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.877">
+      <Placemark id="combined_raw_inventory.904">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24887,7 +25692,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.878">
+      <Placemark id="combined_raw_inventory.905">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24916,7 +25721,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.879">
+      <Placemark id="combined_raw_inventory.906">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24945,7 +25750,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.880">
+      <Placemark id="combined_raw_inventory.907">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -24974,7 +25779,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.881">
+      <Placemark id="combined_raw_inventory.908">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25003,7 +25808,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.882">
+      <Placemark id="combined_raw_inventory.909">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25032,7 +25837,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.883">
+      <Placemark id="combined_raw_inventory.910">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25061,7 +25866,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.884">
+      <Placemark id="combined_raw_inventory.911">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25090,7 +25895,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.885">
+      <Placemark id="combined_raw_inventory.912">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25119,7 +25924,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.886">
+      <Placemark id="combined_raw_inventory.913">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25148,7 +25953,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.887">
+      <Placemark id="combined_raw_inventory.914">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25177,7 +25982,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.888">
+      <Placemark id="combined_raw_inventory.915">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25205,7 +26010,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.889">
+      <Placemark id="combined_raw_inventory.916">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25233,7 +26038,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.890">
+      <Placemark id="combined_raw_inventory.917">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25261,7 +26066,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.891">
+      <Placemark id="combined_raw_inventory.918">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25289,7 +26094,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.892">
+      <Placemark id="combined_raw_inventory.919">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25317,7 +26122,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.893">
+      <Placemark id="combined_raw_inventory.920">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25345,7 +26150,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.894">
+      <Placemark id="combined_raw_inventory.921">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25373,7 +26178,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.895">
+      <Placemark id="combined_raw_inventory.922">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25401,7 +26206,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.896">
+      <Placemark id="combined_raw_inventory.923">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25429,7 +26234,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.897">
+      <Placemark id="combined_raw_inventory.924">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25457,7 +26262,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.898">
+      <Placemark id="combined_raw_inventory.925">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25485,7 +26290,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.899">
+      <Placemark id="combined_raw_inventory.926">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25513,7 +26318,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.900">
+      <Placemark id="combined_raw_inventory.927">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25541,7 +26346,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.901">
+      <Placemark id="combined_raw_inventory.928">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25569,7 +26374,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.902">
+      <Placemark id="combined_raw_inventory.929">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25597,7 +26402,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.903">
+      <Placemark id="combined_raw_inventory.930">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25625,7 +26430,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.904">
+      <Placemark id="combined_raw_inventory.931">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25654,7 +26459,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.905">
+      <Placemark id="combined_raw_inventory.932">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25682,7 +26487,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.906">
+      <Placemark id="combined_raw_inventory.933">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25711,7 +26516,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.907">
+      <Placemark id="combined_raw_inventory.934">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25740,7 +26545,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.908">
+      <Placemark id="combined_raw_inventory.935">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25769,7 +26574,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.909">
+      <Placemark id="combined_raw_inventory.936">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25798,7 +26603,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.910">
+      <Placemark id="combined_raw_inventory.937">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25827,7 +26632,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.911">
+      <Placemark id="combined_raw_inventory.938">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25856,7 +26661,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.912">
+      <Placemark id="combined_raw_inventory.939">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25885,7 +26690,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.913">
+      <Placemark id="combined_raw_inventory.940">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25914,7 +26719,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.914">
+      <Placemark id="combined_raw_inventory.941">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25943,7 +26748,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.915">
+      <Placemark id="combined_raw_inventory.942">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -25972,7 +26777,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.916">
+      <Placemark id="combined_raw_inventory.943">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26001,7 +26806,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.917">
+      <Placemark id="combined_raw_inventory.944">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26030,7 +26835,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.918">
+      <Placemark id="combined_raw_inventory.945">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26059,7 +26864,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.919">
+      <Placemark id="combined_raw_inventory.946">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26088,7 +26893,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.920">
+      <Placemark id="combined_raw_inventory.947">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26117,7 +26922,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.921">
+      <Placemark id="combined_raw_inventory.948">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26146,7 +26951,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.922">
+      <Placemark id="combined_raw_inventory.949">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26175,7 +26980,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.923">
+      <Placemark id="combined_raw_inventory.950">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26204,7 +27009,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.924">
+      <Placemark id="combined_raw_inventory.951">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26233,7 +27038,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.925">
+      <Placemark id="combined_raw_inventory.952">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26262,7 +27067,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.926">
+      <Placemark id="combined_raw_inventory.953">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26291,7 +27096,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.927">
+      <Placemark id="combined_raw_inventory.954">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26320,7 +27125,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.928">
+      <Placemark id="combined_raw_inventory.955">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26349,7 +27154,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.929">
+      <Placemark id="combined_raw_inventory.956">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26378,7 +27183,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.930">
+      <Placemark id="combined_raw_inventory.957">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26407,7 +27212,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.931">
+      <Placemark id="combined_raw_inventory.958">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26436,7 +27241,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.932">
+      <Placemark id="combined_raw_inventory.959">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26465,7 +27270,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.933">
+      <Placemark id="combined_raw_inventory.960">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26494,7 +27299,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.934">
+      <Placemark id="combined_raw_inventory.961">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26523,7 +27328,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.935">
+      <Placemark id="combined_raw_inventory.962">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26552,7 +27357,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.936">
+      <Placemark id="combined_raw_inventory.963">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26581,7 +27386,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.937">
+      <Placemark id="combined_raw_inventory.964">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26610,7 +27415,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.938">
+      <Placemark id="combined_raw_inventory.965">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26639,7 +27444,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.939">
+      <Placemark id="combined_raw_inventory.966">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26668,7 +27473,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.940">
+      <Placemark id="combined_raw_inventory.967">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26697,7 +27502,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.941">
+      <Placemark id="combined_raw_inventory.968">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26726,7 +27531,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.942">
+      <Placemark id="combined_raw_inventory.969">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26755,7 +27560,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.943">
+      <Placemark id="combined_raw_inventory.970">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26784,7 +27589,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.944">
+      <Placemark id="combined_raw_inventory.971">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26813,7 +27618,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.945">
+      <Placemark id="combined_raw_inventory.972">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26842,7 +27647,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.946">
+      <Placemark id="combined_raw_inventory.973">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26871,7 +27676,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.947">
+      <Placemark id="combined_raw_inventory.974">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26900,7 +27705,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.948">
+      <Placemark id="combined_raw_inventory.975">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26929,7 +27734,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.949">
+      <Placemark id="combined_raw_inventory.976">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26958,7 +27763,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.950">
+      <Placemark id="combined_raw_inventory.977">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -26987,7 +27792,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.951">
+      <Placemark id="combined_raw_inventory.978">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
@@ -27016,7 +27821,7 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="combined_raw_inventory.952">
+      <Placemark id="combined_raw_inventory.979">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
             <SimpleData name="RA">SECOORA</SimpleData>
