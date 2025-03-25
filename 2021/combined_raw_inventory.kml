@@ -281,6 +281,32 @@
       <SimpleField name="Unnamed: 15" type="string"/>
       <SimpleField name="Unnamed: 18" type="string"/>
     </Schema>
+    <Schema id="combined_raw_inventory.schema">
+      <SimpleField name="RA" type="string"/>
+      <SimpleField name="Station_ID" type="string"/>
+      <SimpleField name="WMO_CMAN_ID" type="string"/>
+      <SimpleField name="Station_Long_Name" type="string"/>
+      <SimpleField name="Station_Description" type="string"/>
+      <SimpleField name="Latitude" type="float"/>
+      <SimpleField name="Longitude" type="float"/>
+      <SimpleField name="Platform_Type" type="string"/>
+      <SimpleField name="Station_Deployment" type="string"/>
+      <SimpleField name="Currently_Operational" type="string"/>
+      <SimpleField name="Platform_Funder" type="string"/>
+      <SimpleField name="RA_Funded" type="string"/>
+      <SimpleField name="Platform_Operator" type="string"/>
+      <SimpleField name="Operator_Sector" type="string"/>
+      <SimpleField name="Platform_Maintainer" type="string"/>
+      <SimpleField name="Data_Manager" type="string"/>
+      <SimpleField name="Variable_Names" type="string"/>
+      <SimpleField name="Additional_notes" type="string"/>
+      <SimpleField name="file" type="string"/>
+      <SimpleField name="CARICOOS Contact (Name and Email)" type="string"/>
+      <SimpleField name="RA/Federal Affiliation" type="string"/>
+      <SimpleField name="Dataset ID" type="string"/>
+      <SimpleField name="Unnamed: 15" type="string"/>
+      <SimpleField name="Unnamed: 18" type="string"/>
+    </Schema>
     <Document id="combined_raw_inventory">
       <name>combined_raw_inventory</name>
       <Placemark id="combined_raw_inventory.1">
@@ -3645,7 +3671,7 @@
       <Placemark id="combined_raw_inventory.115">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Trinidad</SimpleData>
             <SimpleData name="WMO_CMAN_ID">TDPC1</SimpleData>
             <SimpleData name="Station_Long_Name">Trinidad Pier</SimpleData>
@@ -3675,7 +3701,7 @@
       <Placemark id="combined_raw_inventory.116">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Humboldt</SimpleData>
             <SimpleData name="WMO_CMAN_ID">HBXC1</SimpleData>
             <SimpleData name="Station_Long_Name">Humboldt Bay: Chevron Dock</SimpleData>
@@ -3704,7 +3730,7 @@
       <Placemark id="combined_raw_inventory.117">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Bodega  </SimpleData>
             <SimpleData name="WMO_CMAN_ID">BDXC1</SimpleData>
             <SimpleData name="Station_Long_Name">Bodega BDXC1</SimpleData>
@@ -3733,7 +3759,7 @@
       <Placemark id="combined_raw_inventory.118">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Tomales Bay</SimpleData>
             <SimpleData name="Station_Long_Name">Tomales Bay</SimpleData>
             <SimpleData name="Station_Description">Tomales Bay Buoy</SimpleData>
@@ -3761,7 +3787,7 @@
       <Placemark id="combined_raw_inventory.119">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Hog Island</SimpleData>
             <SimpleData name="Station_Long_Name">Hog Island</SimpleData>
             <SimpleData name="Station_Description">Hog Island Hatchery</SimpleData>
@@ -3789,7 +3815,7 @@
       <Placemark id="combined_raw_inventory.120">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Carquinez</SimpleData>
             <SimpleData name="WMO_CMAN_ID">CQU1</SimpleData>
             <SimpleData name="Station_Long_Name">Carquinez</SimpleData>
@@ -3818,7 +3844,7 @@
       <Placemark id="combined_raw_inventory.121">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Tiburon</SimpleData>
             <SimpleData name="WMO_CMAN_ID">TIBC1</SimpleData>
             <SimpleData name="Station_Long_Name">Tiburon</SimpleData>
@@ -3847,7 +3873,7 @@
       <Placemark id="combined_raw_inventory.122">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Fort Point</SimpleData>
             <SimpleData name="WMO_CMAN_ID">FPXC1</SimpleData>
             <SimpleData name="Station_Long_Name">Fort Point</SimpleData>
@@ -3876,7 +3902,7 @@
       <Placemark id="combined_raw_inventory.123">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Exploratorium</SimpleData>
             <SimpleData name="Station_Long_Name">Exploritorium</SimpleData>
             <SimpleData name="Station_Description">Exploritorium</SimpleData>
@@ -3903,7 +3929,7 @@
       <Placemark id="combined_raw_inventory.124">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">IFCB San Francisco Pier 17</SimpleData>
             <SimpleData name="Station_Long_Name">San Francisco Pier 17 IFCB</SimpleData>
             <SimpleData name="Station_Description">San Francisco Pier 17 IFCB</SimpleData>
@@ -3930,7 +3956,7 @@
       <Placemark id="combined_raw_inventory.125">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Santa Cruz Wharf</SimpleData>
             <SimpleData name="Station_Long_Name">Santa Cruz Wharf</SimpleData>
             <SimpleData name="Station_Description">Santa Cruz Wharf</SimpleData>
@@ -3958,7 +3984,7 @@
       <Placemark id="combined_raw_inventory.126">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">IFCB Santa Cruz</SimpleData>
             <SimpleData name="Station_Long_Name">Santa Cruz Municipal Wharf IFCB</SimpleData>
             <SimpleData name="Station_Description">Santa Cruz Municipal Wharf IFCB</SimpleData>
@@ -3985,7 +4011,7 @@
       <Placemark id="combined_raw_inventory.127">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Moss Landing Marine Lab</SimpleData>
             <SimpleData name="WMO_CMAN_ID">MLSC1</SimpleData>
             <SimpleData name="Station_Long_Name">Moss Landing</SimpleData>
@@ -4014,7 +4040,7 @@
       <Placemark id="combined_raw_inventory.128">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">M1</SimpleData>
             <SimpleData name="WMO_CMAN_ID">46092</SimpleData>
             <SimpleData name="Station_Long_Name">M1</SimpleData>
@@ -4043,7 +4069,7 @@
       <Placemark id="combined_raw_inventory.129">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Monterey Bay Aquarium Seawater Intake</SimpleData>
             <SimpleData name="Station_Long_Name">Monterey Bay Aquarium Seawater Intake</SimpleData>
             <SimpleData name="Station_Description">Monterey Bay Aquarium Seawater Intake</SimpleData>
@@ -4071,7 +4097,7 @@
       <Placemark id="combined_raw_inventory.130">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Morro Bay</SimpleData>
             <SimpleData name="WMO_CMAN_ID">MBXC1</SimpleData>
             <SimpleData name="Station_Long_Name">Morro Bay</SimpleData>
@@ -4100,7 +4126,7 @@
       <Placemark id="combined_raw_inventory.131">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">Morro Back Bay</SimpleData>
             <SimpleData name="WMO_CMAN_ID">N/A recent station </SimpleData>
             <SimpleData name="Station_Long_Name">Morro Back Bay BS1</SimpleData>
@@ -4128,7 +4154,7 @@
       <Placemark id="combined_raw_inventory.132">
         <ExtendedData>
           <SchemaData schemaUrl="#combined_raw_inventory.schema">
-            <SimpleData name="RA">CeNCOOS</SimpleData>
+            <SimpleData name="RA">CENCOOS</SimpleData>
             <SimpleData name="Station_ID">San Luis Pier</SimpleData>
             <SimpleData name="WMO_CMAN_ID">CPXC1</SimpleData>
             <SimpleData name="Station_Long_Name">San Luis Bay</SimpleData>
