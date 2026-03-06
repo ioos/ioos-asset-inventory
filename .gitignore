@@ -3,4 +3,7 @@
 /workspace.xml
 .idea/*
 .ipynb_checkpoints/*
-*__pycache__*
+*__pycache__*# pixi environments
+.pixi/*
+!.pixi/config.toml
+pixi.lock
