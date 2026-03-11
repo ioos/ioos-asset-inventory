@@ -2,17 +2,19 @@ name: ioos-asset-inventory
 channels:
   - conda-forge
 dependencies:
-  - cfunits==3.2.9
+  - cfunits
   - ckanapi
   - erddapy
   - fiona
   - geopandas
+  - geoplot
   - html5lib
   - jupyter
-  - matplotlib
+  - lxml
+  - matplotlib-base
   - netcdf4
   - openpyxl
   - pandas
-  - python=3.8
+  - python=3.14
   - xarray
   - xlrd
